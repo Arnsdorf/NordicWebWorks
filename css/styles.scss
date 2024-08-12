@@ -18,9 +18,48 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+// Global
+.top-25{
+	top: 25% !important;
+}
+.top-30{
+	top: 30% !important;
+}
+.top-35{
+	top: 35% !important;
+}
+.top-40{
+	top: 40% !important;
+}
+.top-45{
+	top: 45% !important;
+}
+.top-55{
+	top: 55% !important;
+}
+.top-60{
+	top: 60% !important;
+}
+.top-65{
+	top: 65% !important;
+}
+.top-70{
+	top: 70% !important;
+}
+.top-75{
+	top: 75% !important;
+}
 
 // Chr-styling her
-
+.bg-front{
+	background: #1C1C1C;
+	height: 100vh;
+}
+.btn-f{
+	height: 2.5rem;
+	width: 7rem;
+	border: #fff7ff solid;
+}
 
 // Sigurd-styling her
 .navbar-toggler {
