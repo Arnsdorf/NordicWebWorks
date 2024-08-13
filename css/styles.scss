@@ -49,6 +49,27 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .top-75{
 	top: 75% !important;
 }
+.ms-6{
+	margin-left: 6%;
+}
+.ms-7{
+	margin-left: 7%;
+}
+.ms-8{
+	margin-left: 8%;
+}
+.ms-9{
+	margin-left: 9%;
+}
+.ms-10{
+	margin-left: 10%;
+}
+.ms-13{
+	margin-left: 13%;
+}
+.ms-15{
+	margin-left: 15%;
+}
 
 // Chr-styling her
 .bg-front{
@@ -59,6 +80,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	height: 2.5rem;
 	width: 7rem;
 	border: #fff7ff solid;
+}
+.btn-f:hover{
+	background: #fff7ff;
+	transition: 200ms;
+}
+.font-front-s{
+font-size: 0.8rem;
+}
+.front-font-b{
+	font-size: 3rem;
 }
 
 // Sigurd-styling her
