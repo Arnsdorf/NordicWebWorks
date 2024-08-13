@@ -74,5 +74,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .bg-nav{
-	background-color: #343a40;
+	background-color: #24272d;
+}
+
+.border-bottom-gray {
+	border-bottom: 1px solid #838383; /* #ccc er en lysegrå farve */
 }
