@@ -13,7 +13,7 @@
                 <div class="btn-f d-inline-flex justify-content-center align-items-center text-center m-0">
                     <span>Cases</span></div>
             </div>
-            <!-------Tablet and pc size---------------------------->
+            <!-------Tablet and pc size------------------------------>
             <div class="ms-13">
                 <div class="w-43 text-md-start ">
                     <h5 class="d-none d-md-block d-flex" style="color: #636363;">━━  Velkommen til Nordic Webworks ━━━━━</h5>
