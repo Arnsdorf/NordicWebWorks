@@ -17,6 +17,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
 
+body{
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
 // 5. Du kan lave styling her...
 // Global
 .top-25{
