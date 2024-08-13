@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<!-- Dummy Content Section 1 -->
+<!-- Dummy Content Section 1 --->
 <div class="container my-5">
     <div class="row">
         <div class="col-md-6">
