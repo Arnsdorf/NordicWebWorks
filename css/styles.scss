@@ -183,3 +183,20 @@ font-size: 0.8rem;
 .border-bottom-gray {
 	border-bottom: 1px solid #838383; /* #ccc er en lysegrå farve */
 }
+.navbar {
+	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	opacity: 1;
+}
+
+/* Navbar hidden state */
+.navbar.hidden {
+	opacity: 0;
+	top: -60px; /* Juster højden afhængigt af din navbar's højde */
+}
+
+
+
+

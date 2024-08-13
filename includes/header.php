@@ -28,26 +28,27 @@ require "settings/init.php";
 
 <body>
 
+
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md bg-nav border-bottom-gray z-1">
     <div class="container-fluid">
-        <a class="text-white fw-bold ms-md-4 d-flex align-items-center" href="index.html">NordicWebWorks<i class="ms-2 text-white"></i></a>
+        <a class="text-white fw-bold ms-md-4 d-flex align-items-center" href="index.php">NordicWebWorks<i class="ms-2 text-white"></i></a>
         <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center mx-4">
                 <li class="nav-item">
-                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>HJEM</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold">HJEM</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>SERVICES</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold">SERVICES</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>MØD HOLDET</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold">MØD HOLDET</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>KONTAKT</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold">KONTAKT</span></a>
                 </li>
             </ul>
         </div>
