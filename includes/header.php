@@ -7,7 +7,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>lolz</title>
+    <title>NWW</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -21,25 +21,25 @@ require "settings/init.php";
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md navbar-light bg-nav">
+<nav class="navbar navbar-expand-md bg-nav border-bottom-gray z-1">
     <div class="container-fluid">
-        <a class="text-white fw-bold ms-md-2 d-flex align-items-center" href="index.html">NordicWebWorks<i class="ms-2 text-white gg-terminal"></i></a>
+        <a class="text-white fw-bold ms-md-4 d-flex align-items-center" href="index.html">NordicWebWorks<i class="ms-2 text-white"></i></a>
         <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center bg-opacity-75" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-center">
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center mx-4">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href=""><span class="fw-bold"></span>Forside</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>HJEM</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href=""><span class="fw-bold"></span>Service</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href=""><span class="fw-bold"></span>Om os</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>MØD HOLDET</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href=""><span class="fw-bold"></span>Kontakt os</a>
+                    <a class="nav-link text-white mx-2" href=""><span class="fw-bold"></span>KONTAKT</a>
                 </li>
             </ul>
         </div>
