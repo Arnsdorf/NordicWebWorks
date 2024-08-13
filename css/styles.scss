@@ -76,6 +76,9 @@ body{
 .ms-15{
 	margin-left: 15%;
 }
+.w-43{
+	width: 43%;
+}
 
 // Chr-styling her
 .bg-front{
@@ -83,19 +86,30 @@ body{
 	height: 100vh;
 }
 .btn-f{
-	height: 2.5rem;
-	width: 7rem;
+	height: 2.3rem;
+	width: 9rem;
 	border: #fff7ff solid;
+	color: #fff7ff;
 }
 .btn-f:hover{
 	background: #fff7ff;
 	transition: 200ms;
+	color: #1c1c1c;
 }
 .font-front-s{
 font-size: 0.8rem;
 }
 .front-font-b{
 	font-size: 3rem;
+}
+.font-type{
+	font-family: Montserrat;
+}
+.drip{
+	color: #1C1C1C;
+	border: none;
+	background: rgb(218,54,212);
+	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgba(209,22,89,1) 100%);
 }
 
 // Sigurd-styling her
