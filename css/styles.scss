@@ -18,7 +18,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 body{
-	background-color: #2d2d2d;
+	background-color: #1c1c1c;
 }
 
 // 5. Du kan lave styling her...
@@ -176,9 +176,7 @@ font-size: 0.8rem;
 	height: 30px;
 }
 
-.bg-nav{
-	background-color: #1c1c1c;
-}
+
 
 .border-bottom-gray {
 	border-bottom: 1px solid #838383; /* #ccc er en lysegrå farve */
@@ -187,10 +185,12 @@ font-size: 0.8rem;
 	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
 	position: sticky;
 	top: 0;
-	z-index: 1;
 	opacity: 1;
 	font-family: "Montserrat", sans-serif;
+	backdrop-filter: blur(10px);
+	z-index: 4;
 }
+
 
 /* Navbar hidden state */
 .navbar.hidden {
@@ -198,12 +198,40 @@ font-size: 0.8rem;
 	top: -60px; /* Juster højden afhængigt af din navbar's højde */
 }
 
-.navbar-blur {
-	backdrop-filter: blur(10px); /* Apply the blur effect */
-	-webkit-backdrop-filter: blur(10px); /* For Safari */
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adds a subtle border for better visibility */
+.nav-link{
+	font-size: 14px;
 }
 
 
+.nav-link {
+	position: relative;
+	color: white; /* Default text color */
+	z-index: 1; /* Ensure the text is above the background */
+	overflow: hidden; /* Ensure background doesn't spill out */
+	display: inline-block; /* Needed for the clip-path effect */
+	transition: color 300ms ease; /* Transition for text color */
+}
+
+.nav-link::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff7ff; /* Hover background color */
+	z-index: -1; /* Place the background behind the text */
+	clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); /* Start off-screen */
+	transition: clip-path 300ms ease; /* Transition for background */
+}
+
+.nav-link:hover::after {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Expand to cover the full element */
+}
+
+.nav-link:hover {
+	color: #1c1c1c !important; /* Change the text color to black on hover */
+	transition-delay: 0s; /* Optional: synchronize color change with background */
+}
 
 
