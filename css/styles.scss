@@ -77,6 +77,9 @@ body{
 .w-43{
 	width: 43%;
 }
+.w-51{
+	width: 51%;
+}
 
 // Chr-styling her
 .bg-front{
@@ -96,6 +99,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	cursor: pointer;
 }
 
 .btn-f::before {
@@ -126,7 +130,7 @@ body{
 
 
 .font-front-s{
-font-size: 0.8rem;
+	font-size: 0.8rem;
 	color: #636363;
 }
 .front-font-b{
@@ -143,6 +147,17 @@ font-size: 0.8rem;
 	background-size: 200% 200%;
 	box-shadow: 0 0 10px rgba(218,54,212,0.5); /* Initial glow */
 }
+.font-drip{
+	color: transparent;
+	border: none;
+	background: rgb(218,54,212);
+	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgba(209,22,89,1) 100%);
+	animation: colorChange 2s linear infinite;
+	background-size: 200% 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-shadow: 0 0 1.5px #d836d2, 0 0 1.5px #cf1658;
+}
 
 @keyframes colorChange {
 	0% {
@@ -153,6 +168,7 @@ font-size: 0.8rem;
 	}
 	100% {
 		background-position: 0% 50%;
+
 	}
 }
 @keyframes glow {
