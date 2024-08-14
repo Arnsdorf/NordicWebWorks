@@ -18,7 +18,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 body{
-
+	background-color: #2d2d2d;
 }
 
 // 5. Du kan lave styling her...
@@ -177,7 +177,7 @@ font-size: 0.8rem;
 }
 
 .bg-nav{
-	background-color: #24272d;
+	background-color: #1c1c1c;
 }
 
 .border-bottom-gray {
@@ -189,12 +189,19 @@ font-size: 0.8rem;
 	top: 0;
 	z-index: 1;
 	opacity: 1;
+	font-family: "Montserrat", sans-serif;
 }
 
 /* Navbar hidden state */
 .navbar.hidden {
 	opacity: 0;
 	top: -60px; /* Juster højden afhængigt af din navbar's højde */
+}
+
+.navbar-blur {
+	backdrop-filter: blur(10px); /* Apply the blur effect */
+	-webkit-backdrop-filter: blur(10px); /* For Safari */
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional: adds a subtle border for better visibility */
 }
 
 
