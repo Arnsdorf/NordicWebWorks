@@ -4,20 +4,22 @@
 <div class="container-fluid bg-front net-grid">
     <div class="row">
         
-        
-        
+        <div class="d-flex justify-content-end bottom-15 position-absolute col-10 pe-5">
+            <div class="box-front"></div>
+        </div>
+            
         <div class="position-absolute bottom-0 m-0 p-0 d-none d-md-block">
             <div class="row justify-content-end m-0 p-0">
-                <div class="dot-grid"></div>
+                <div class=""></div>
             </div>
         </div>
         
         <div class="position-absolute bottom-0 pb-3 ps-3">
                 <div class="box-s position-absolute bottom-60 ms-5"></div>
-                <div class="box-b "></div>
+                <div class="box-b"></div>
         </div>
 
-        <div class="text-center position-absolute top-30">
+        <div class="text-center position-absolute top-25">
                 <h6 class="font-front-s d-md-none">━━     Velkommen til Nordic Webworks ━━━━━</h6>
                 <h1 class="text-white fw-bold d-md-none font-type">Har <span class="font-drip">din
                     </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
@@ -30,7 +32,7 @@
         </div>
 
 
-        <!-------Tablet and pc size-------------------------------->
+        <!-------Tablet and pc size---------------------------------->
         <div class="ms-13">
         <!-----TABLET------>
             <div class="w-51 text-md-start d-none d-md-block d-xl-none">
@@ -60,5 +62,7 @@
         
     </div>
 </div>
+
+
     <script src="js/show.js"></script>
 <?php include "includes/footer.php" ?>

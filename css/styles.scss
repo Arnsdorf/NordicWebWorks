@@ -21,8 +21,8 @@ body{
 	background-color: #1c1c1c;
 }
 
-// 5. Du kan lave styling her...
-// Global
+
+/* Global */
 .top-25{
 	top: 25% !important;
 }
@@ -55,6 +55,12 @@ body{
 }
 .bottom-60{
 	bottom: 60% !important;
+}
+.bottom-15{
+	bottom: 15% !important;
+}
+.bottom-20{
+	bottom: 20% !important;
 }
 .ms-6{
 	margin-left: 6%;
@@ -96,17 +102,16 @@ body{
 	width: 51%;
 }
 
-
-// Chr-styling her
+/* char-styling here */
 .bg-front{
 	background: #1C1C1C;
-	height: 100vh;
-	inset: 0;
+	height: 93vh;
 }
+
 .btn-f {
 	height: 2.3rem;
 	width: 9rem;
-	border: #fff7ff solid;
+	border: #fff7ff solid 1px;
 	color: #fff7ff;
 	background: #1c1c1c; /* Default dark background color */
 	position: relative;
@@ -118,7 +123,6 @@ body{
 	text-align: center;
 	cursor: pointer;
 }
-
 .btn-f::before {
 	content: '';
 	position: absolute;
@@ -131,7 +135,6 @@ body{
 	transition: transform 200ms ease;
 	transform: translateX(-100%); /* Start off-screen to the left */
 }
-
 .btn-f:hover::before {
 	transform: translateX(0); /* Slide in from the left on hover */
 }
@@ -139,7 +142,6 @@ body{
 .btn-f:hover {
 	color: #1c1c1c; /* Change the text color on hover */
 }
-
 .btn-f > span {
 	position: relative;
 	z-index: 2; /* Keep text above the white background */
@@ -173,6 +175,9 @@ body{
 	-webkit-background-clip: text;
 	text-shadow: 0 0 1.5px #d836d2, 0 0 1.5px #cf1658;
 }
+.box-container{
+	bottom: 0rem;
+}
 .box-s{
 	height: 4rem;
 	width: 4rem;
@@ -183,14 +188,16 @@ body{
 	width: 5rem;
 	border: #683690 solid 2px;
 }
-.box-container{
-	bottom: 0rem;
+.box-front{
+	height: 15rem;
+	width: 15rem;
+	border: #683690 solid 2px;
 }
 .dot-grid{
 	z-index: 1;
 	inset: 0;
-	height: 50vh;
-	width: 25vw;
+	height: 100vh;
+	width: 5vw;
 	background-image: radial-gradient(#90368d 3px, transparent 4px);
 	background-size: 25px 25px;
 	background-position: 0%;
@@ -201,8 +208,10 @@ body{
 	background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
 	linear-gradient(to bottom, #80808012 1px, transparent 1px);
 	background-size: 24px 24px;
-
+	box-shadow: #236db7 ;
 }
+
+/* animations here */
 
 @keyframes colorChange {
 	0% {
