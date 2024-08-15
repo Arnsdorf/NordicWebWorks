@@ -21,11 +21,14 @@ require "settings/init.php";
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md bg-nav border-bottom-gray navbar-blur">
     <div class="container-fluid">
-        <a class="text-white fw-bold ms-md-4 d-flex mt-2 mb-2 align-items-center" href="index.php">NordicWebWorks<i class="ms-3 text-white"></i></a>
+        <a class="text-white fw-bold ms-md-4 d-flex mt-2 mb-2 align-items-center" href="index.php">
+            NordicWebWorks
+            <i class="ms-3 text-white"></i>
+        </a>
         <button class="navbar-toggler p-0 mx-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse  text-center align-items-center justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse text-center align-items-center justify-content-end" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center mx-md-4 mt-1">
                 <li class="nav-item">
                     <a class="nav-link text-white mt-1 mx-3" href="index.php"><span class="">HJEM</span></a>
