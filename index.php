@@ -40,7 +40,7 @@
                 <h1 class="text-white d-none d-md-block front-font-b d-flex font-type">Har <span class="font-drip">din
                     </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
             </div>
-        <!-----PC------>
+        <!-----PC--------->
             <div class="w-43 text-md-start d-md-none d-xl-block">
                 <h5 class="d-none d-md-block d-flex" style="color: #636363;">━━  Velkommen til Nordic Webworks ━━━━━</h5>
                 <h1 class="text-white d-none d-md-block front-font-b d-flex font-type">Har <span class="font-drip">din</span>
