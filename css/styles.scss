@@ -180,23 +180,66 @@ body{
 	}
 }
 
-// Sigurd-styling her
+/* Sigurd-styling her */
 .navbar-toggler {
 	border: none;
 	outline: none;
 	box-shadow: none;
-}
-.navbar-toggler-icon {
-	background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255, 255, 255, 1)" stroke-width="4" stroke-linecap="butt" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
 	width: 30px;
 	height: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 }
 
+.navbar-toggler-icon {
+	position: relative;
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	transition: background-color 0.3s ease-in-out;
+}
 
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+}
 
+.navbar-toggler-icon::before {
+	top: -8px;
+}
+
+.navbar-toggler-icon::after {
+	top: 8px;
+}
+
+/* Animation når menuen er åben */
+.navbar-toggler.collapsed .navbar-toggler-icon {
+	background-color: transparent;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon::before {
+	transform: rotate(45deg);
+	top: 0;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon::after {
+	transform: rotate(-45deg);
+	top: 0;
+}
+
+/* Øvrige styling */
 .border-bottom-gray {
-	border-bottom: 1px solid #838383; /* #ccc er en lysegrå farve */
+	border-bottom: 1px solid #5A5A5A; /* #ccc er en lysegrå farve */
 }
+
 .navbar {
 	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
 	position: sticky;
@@ -207,19 +250,14 @@ body{
 	z-index: 4;
 }
 
-
 /* Navbar hidden state */
 .navbar.hidden {
 	opacity: 0;
 	top: -60px; /* Juster højden afhængigt af din navbar's højde */
 }
 
-.nav-link{
-	font-size: 14px;
-}
-
-
 .nav-link {
+	font-size: 14px;
 	position: relative;
 	color: white; /* Default text color */
 	z-index: 1; /* Ensure the text is above the background */
@@ -231,10 +269,10 @@ body{
 .nav-link::after {
 	content: '';
 	position: absolute;
-	top: 0;
+	top: 3.5px;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	background: #fff7ff; /* Hover background color */
 	z-index: -1; /* Place the background behind the text */
 	clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); /* Start off-screen */
@@ -247,7 +285,6 @@ body{
 
 .nav-link:hover {
 	color: #1c1c1c !important; /* Change the text color to black on hover */
-	transition-delay: 0s; /* Optional: synchronize color change with background */
+	transition-delay: 0.1s; /* Optional: synchronize color change with background */
 }
-
 
