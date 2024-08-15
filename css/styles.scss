@@ -248,6 +248,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	z-index: 10; /* Ensure it's on top of other elements */
 }
 
 .navbar-toggler-icon {
@@ -256,6 +257,8 @@ body{
 	height: 2px;
 	background-color: white;
 	transition: background-color 0.3s ease-in-out;
+	z-index: 11; /* Ensure this layer is above any potential overlaps */
+	background-image: none;
 }
 
 .navbar-toggler-icon::before,
@@ -266,6 +269,7 @@ body{
 	height: 2px;
 	background-color: white;
 	transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+	z-index: 11; /* Ensure these lines are also above any potential overlaps */
 }
 
 .navbar-toggler-icon::before {
@@ -344,3 +348,9 @@ body{
 	transition-delay: 0.1s; /* Optional: synchronize color change with background */
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
