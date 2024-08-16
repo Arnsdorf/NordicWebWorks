@@ -21,8 +21,8 @@ body{
 	background-color: #1c1c1c;
 }
 
-// 5. Du kan lave styling her...
-// Global
+
+/* Global */
 .top-25{
 	top: 25% !important;
 }
@@ -55,6 +55,12 @@ body{
 }
 .bottom-60{
 	bottom: 60% !important;
+}
+.bottom-15{
+	bottom: 15% !important;
+}
+.bottom-20{
+	bottom: 20% !important;
 }
 .ms-6{
 	margin-left: 6%;
@@ -96,16 +102,16 @@ body{
 	width: 51%;
 }
 
-
-// Chr-styling her
+/* char-styling here */
 .bg-front{
 	background: #1C1C1C;
-	height: 96vh;
+	height: 93vh;
 }
+
 .btn-f {
 	height: 2.3rem;
 	width: 9rem;
-	border: #fff7ff solid;
+	border: #fff7ff solid 1px;
 	color: #fff7ff;
 	background: #1c1c1c; /* Default dark background color */
 	position: relative;
@@ -117,7 +123,6 @@ body{
 	text-align: center;
 	cursor: pointer;
 }
-
 .btn-f::before {
 	content: '';
 	position: absolute;
@@ -130,7 +135,6 @@ body{
 	transition: transform 200ms ease;
 	transform: translateX(-100%); /* Start off-screen to the left */
 }
-
 .btn-f:hover::before {
 	transform: translateX(0); /* Slide in from the left on hover */
 }
@@ -138,7 +142,6 @@ body{
 .btn-f:hover {
 	color: #1c1c1c; /* Change the text color on hover */
 }
-
 .btn-f > span {
 	position: relative;
 	z-index: 2; /* Keep text above the white background */
@@ -172,19 +175,42 @@ body{
 	-webkit-background-clip: text;
 	text-shadow: 0 0 1.5px #d836d2, 0 0 1.5px #cf1658;
 }
+.box-container{
+	bottom: 0rem;
+}
 .box-s{
 	height: 4rem;
 	width: 4rem;
-	border: #683690 solid;
+	border: #683690 solid 2px;
 }
 .box-b{
 	height: 5rem;
 	width: 5rem;
-	border: #683690 solid;
+	border: #683690 solid 2px;
 }
-.box-container{
-	bottom: 0rem;
+.box-front{
+	height: 15rem;
+	width: 15rem;
+	border: #683690 solid 2px;
 }
+.dot-grid{
+	z-index: 1;
+	inset: 0;
+	height: 100vh;
+	width: 5vw;
+	background-image: radial-gradient(#90368d 3px, transparent 4px);
+	background-size: 25px 25px;
+	background-position: 0%;
+	animation: grid 4s linear infinite;
+}
+.net-grid{
+	position: absolute;
+	background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+	linear-gradient(to bottom, #80808012 1px, transparent 1px);
+	background-size: 24px 24px;
+}
+
+/* animations here */
 
 @keyframes colorChange {
 	0% {
@@ -198,23 +224,81 @@ body{
 
 	}
 }
-// Sigurd-styling her
+@keyframes grid {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	100% {
+		background-position: -25px -25px; /* Adjust this to match your grid size */
+	}
+}
+
+/* Sigurd-styling her */
+
 .navbar-toggler {
 	border: none;
 	outline: none;
 	box-shadow: none;
-}
-.navbar-toggler-icon {
-	background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255, 255, 255, 1)" stroke-width="4" stroke-linecap="butt" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
 	width: 30px;
 	height: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 10; /* Ensure it's on top of other elements */
 }
 
+.navbar-toggler-icon {
+	position: relative;
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	transition: background-color 0.3s ease-in-out;
+	z-index: 11; /* Ensure this layer is above any potential overlaps */
+	background-image: none;
+}
 
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+	z-index: 11; /* Ensure these lines are also above any potential overlaps */
+}
 
+.navbar-toggler-icon::before {
+	top: -8px;
+}
+
+.navbar-toggler-icon::after {
+	top: 8px;
+}
+
+/* Animation når menuen er åben */
+.navbar-toggler.collapsed .navbar-toggler-icon {
+	background-color: transparent;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon::before {
+	transform: rotate(45deg);
+	top: 0;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon::after {
+	transform: rotate(-45deg);
+	top: 0;
+}
+
+/* Øvrige styling */
 .border-bottom-gray {
-	border-bottom: 1px solid #838383; /* #ccc er en lysegrå farve */
+	border-bottom: 1px solid #5A5A5A; /* #ccc er en lysegrå farve */
 }
+
 .navbar {
 	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
 	position: sticky;
@@ -225,19 +309,14 @@ body{
 	z-index: 4;
 }
 
-
 /* Navbar hidden state */
 .navbar.hidden {
 	opacity: 0;
 	top: -60px; /* Juster højden afhængigt af din navbar's højde */
 }
 
-.nav-link{
-	font-size: 14px;
-}
-
-
 .nav-link {
+	font-size: 14px;
 	position: relative;
 	color: white; /* Default text color */
 	z-index: 1; /* Ensure the text is above the background */
@@ -249,10 +328,10 @@ body{
 .nav-link::after {
 	content: '';
 	position: absolute;
-	top: 0;
+	top: 3.5px;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	background: #fff7ff; /* Hover background color */
 	z-index: -1; /* Place the background behind the text */
 	clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); /* Start off-screen */
@@ -265,7 +344,12 @@ body{
 
 .nav-link:hover {
 	color: #1c1c1c !important; /* Change the text color to black on hover */
-	transition-delay: 0s; /* Optional: synchronize color change with background */
+	transition-delay: 0.1s; /* Optional: synchronize color change with background */
 }
 
-
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
