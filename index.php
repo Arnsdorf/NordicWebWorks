@@ -32,7 +32,7 @@
         </div>
 
 
-        <!-------Tablet and pc size---------------------------------->
+        <!-------Tablet and pc size----------------------------------->
         <div class="ms-13">
         <!-----TABLET------>
             <div class="w-51 text-md-start d-none d-md-block d-xl-none">
