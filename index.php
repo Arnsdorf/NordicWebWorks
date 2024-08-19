@@ -40,35 +40,75 @@
 
         <!-------Tablet and pc size----------------------------------->
         <div class="ms-13">
-        <!-----TABLET------>
+            <!-----TABLET------>
             <div class="w-51 text-md-start d-none d-md-block d-xl-none">
                 <h6 class="d-none d-md-block d-flex" style="color: #636363;">━━  Velkommen til Nordic Webworks ━━━━━</h6>
                 <h1 class="text-white d-none d-md-block front-font-b d-flex font-type">Har <span class="font-drip">din
                     </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
             </div>
-        <!-----PC--------->
+            <!-----PC--------->
             <div class="w-43 text-md-start d-md-none d-xl-block">
                 <h5 class="d-none d-md-block d-flex" style="color: #636363;">━━  Velkommen til Nordic Webworks ━━━━━</h5>
                 <h1 class="text-white d-none d-md-block front-font-b d-flex font-type">Har <span class="font-drip">din</span>
                     virksomhed brug for en løsning<span class="font-drip">?</span></h1>
             </div>
 
-                <div class="mt-4 text-md-start ms-md-8 d-none d-md-block">
-                    <div class="me-3 btn-f d-inline-flex justify-content-center align-items-center text-center m-0 drip">
-                        <span>Kontakt os</span>
-                    </div>
-                    <div class="btn-f d-inline-flex justify-content-center align-items-center text-center m-0">
-                        <span>Cases</span></div>
+            <div class="mt-4 text-md-start ms-md-8 d-none d-md-block">
+                <div class="me-3 btn-f d-inline-flex justify-content-center align-items-center text-center m-0 drip">
+                    <span>Kontakt os</span>
+                </div>
+                <div class="btn-f d-inline-flex justify-content-center align-items-center text-center m-0">
+                    <span>Cases</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+
+    <div class="container-fluid bg-cases">
+        <div class="row p-0 m-0">
+
+        <div class="col-12 d-flex case-bg align-items-center p-0">
+
+            <div class="box position-relative p-0 col-2">
+                <img class="img-box position-absolute" src="uploads/1396x2500-px-alleyway-artwork-city-cityscape-digital-art-1346043-wallhere.com.jpg" alt="a balloon">
+                <div class="hover-box position-absolute">
+                    <h2 class="font-custom font-box pt-3 ps-2 case-font">BuildMate</h2>
+                </div>
+            </div>
+
+            <div class="box position-relative p-0 ms-1">
+                <img class="img-box position-absolute" src="uploads/ff8201d6aea4092207b503cf9cbc0df0.jpg" alt="a balloon">
+                <div class="hover-box position-absolute">
+                    <h2 class="font-custom font-box pt-3 ps-2 case-font">BuildMate</h2>
+                </div>
+            </div>
+
+            <div class="box position-relative p-0 ms-1">
+                <img class="img-box position-absolute" src="uploads/il_570xN.5283973056_77vu.webp" alt="a balloon">
+                <div class="hover-box position-absolute">
+                    <h2 class="font-custom font-box pt-3 ps-2 case-font">BuildMate</h2>
+                </div>
+            </div>
+
+            <div class="box position-relative p-0 ms-1">
+                <img class="img-box position-absolute" src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="a balloon">
+                <div class="hover-box position-absolute">
+                    <h2 class="font-custom font-box pt-3 ps-2 case-font">BuildMate</h2>
+                </div>
+            </div>
+
+            <div class="box position-relative p-0 ms-1" style="width: 15vw;">
+                <img class="img-box position-absolute" src="uploads/1396x2500-px-alleyway-artwork-city-cityscape-digital-art-1346043-wallhere.com.jpg" alt="a balloon">
+                <div class="hover-box position-absolute">
+                    <h2 class="text-black font-box pt-3 ps-2 case-font">BuildMate</h2>
                 </div>
             </div>
 
         </div>
 
-    </div>
-</div>
-
-<div class="container-fluid bg-cases">
-    <div class="row">
 
     </div>
 </div>
