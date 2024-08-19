@@ -3,22 +3,28 @@
 
 <div class="container-fluid bg-front net-grid">
     <div class="row">
-        
-        <div class="d-flex justify-content-end bottom-15 position-absolute col-10 pe-5">
-            <div class="box-front"></div>
+
+        <!-------Boxes-and-socials--------------->
+        <div class="position-absolute bottom-0 ps-4 d-md-none">
+            <div class=""><i class="bi bi-instagram text-white social" style="font-size: 1.2rem"></i></div>
+            <div class="mt-2"><i class="bi bi-linkedin text-white social" style="font-size: 1.2rem"></i></div>
+            <div class="mt-2"><i class="bi bi-twitter text-white social" style="font-size: 1.2rem"></i></div>
+            <div class="mt-2 mb-2"><i class="bi bi-facebook text-white social" style="font-size: 1.2rem"></i></div>
         </div>
-            
-        <div class="position-absolute bottom-0 m-0 p-0 d-none d-md-block">
-            <div class="row justify-content-end m-0 p-0">
-                <div class=""></div>
-            </div>
-        </div>
-        
+
+
+        <div class="position-absolute bottom-0 ps-4 d-none d-md-block">
+                <div class=""><i class="bi bi-instagram social" style="font-size: 1.4rem"></i></div>
+                <div class="mt-3"><i class="bi bi-linkedin social" style="font-size: 1.4rem"></i></div>
+                <div class="mt-3"><i class="bi bi-twitter social" style="font-size: 1.4rem"></i></div>
+                <div class="mt-3 mb-3"><i class="bi bi-facebook social" style="font-size: 1.4rem"></i></div>
+        </div>z
+
         <div class="position-absolute bottom-0 pb-3 ps-3">
                 <div class="box-s position-absolute bottom-60 ms-5"></div>
                 <div class="box-b"></div>
         </div>
-
+        <!-------Tlf-frontpage----------->
         <div class="text-center position-absolute top-25">
                 <h6 class="font-front-s d-md-none">━━     Velkommen til Nordic Webworks ━━━━━</h6>
                 <h1 class="text-white fw-bold d-md-none font-type">Har <span class="font-drip">din
@@ -55,11 +61,15 @@
                         <span>Cases</span></div>
                 </div>
             </div>
-            
-            
+
         </div>
-        
-        
+
+    </div>
+</div>
+
+<div class="container-fluid bg-cases">
+    <div class="row">
+
     </div>
 </div>
 
