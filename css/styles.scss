@@ -413,7 +413,7 @@ body{
 .row-full-height {
 	height: 100%;
 }
-.box {
+.container-box {
 	overflow: hidden;
 	transition: transform 0.3s ease;
 }
@@ -421,20 +421,21 @@ body{
 .img-fluid{
 	object-fit: cover !important;
 	height: 400px;
+
 }
 
 .overlay {
 	position: absolute;
 	bottom: -100%; /* Start positionen lige uden for bunden */
 	left: 0;
-	width: auto;
+	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	opacity: 0;
 	transition: all 0.5s ease;
 }
 
-.box:hover .overlay {
+.container-box:hover .overlay {
 	bottom: 0; /* Flyt overlayen op til at dække hele boksen */
 	opacity: 1;
 }
