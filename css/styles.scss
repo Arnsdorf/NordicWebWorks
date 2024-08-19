@@ -7,6 +7,7 @@ $link-decoration: none;
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 // 4. Include any default map overrides here
 $custom-colors: (
@@ -108,7 +109,18 @@ body{
 	background: #1C1C1C;
 	height: 93vh;
 }
-
+.bg-cases{
+	background: #1C1C1C;
+	height: 100vh;
+}
+.social{
+	color: #ffffff;
+	z-index: 2;
+}
+.social:hover{
+	transition: 100ms;
+	color: #0d6efd;
+}
 .btn-f {
 	height: 2.3rem;
 	width: 9rem;
@@ -194,18 +206,7 @@ body{
 	width: 15rem;
 	border: #683690 solid 2px;
 }
-.dot-grid{
-	z-index: 1;
-	inset: 0;
-	height: 100vh;
-	width: 5vw;
-	background-image: radial-gradient(#90368d 3px, transparent 4px);
-	background-size: 25px 25px;
-	background-position: 0%;
-	animation: grid 4s linear infinite;
-}
 .net-grid{
-	position: absolute;
 	background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
 	linear-gradient(to bottom, #80808012 1px, transparent 1px);
 	background-size: 24px 24px;
