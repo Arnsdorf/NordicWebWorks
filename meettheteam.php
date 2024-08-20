@@ -46,7 +46,7 @@
                 <img src="uploads/loay_meet.png" alt="Billede 1" class="img-fluid shadow">
                 <div class="overlay overlay-1 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="display-7">Loay Brooklyn Haijo</h2>
-                    <h5 class="text-blue mb-3 fw-bold fst-italic">Fullstack Dev</h5>
+                    <h5 class="text-blue small mb-3 fw-bold fst-italic">Fullstack Dev</h5>
                     <p class="small mb-0">Loay er en erfaren Fullstack udvikler med ekspertise i
                         både FrontEnd og BackEnd. Han har en særlig styrke i PHP og databaser
                         som MySQL, samt solid erfaring med Wordpress og React.</p>
@@ -54,11 +54,11 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
-            <div class="container-box position-relative m-0 image-container" data-images='["uploads/CrewGoodFellas.jpg", "uploads/loay_meet.png", "uploads/sigurd_meet.png  "]'>
-                <img src="uploads/CrewGoodFellas.jpg" alt="Billede 2" class="img-fluid shadow">
+            <div class="container-box position-relative m-0 image-container" data-images='["uploads/sigu_meet.png", "uploads/loay_meet.png", "uploads/sigurd_meet.png  "]'>
+                <img src="uploads/sigu_meet.png" alt="Billede 2" class="img-fluid shadow">
                 <div class="overlay overlay-2 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="display-7">Sigurd Dam</h2>
-                    <h5 class="text-blue mb-3 fw-bold fst-italic">Medstifter & Dev</h5>
+                    <h5 class="text-red small mb-3 fw-bold fst-italic">Medstifter & Dev</h5>
                     <p class="small mb-0">Sigurd, medstifter og nøgleperson i webudvikling, har ansvar for frontend
                         og deltager i backend-arbejde. Han kombinerer kreativitet og teknisk ekspertise for at
                         udvikle brugervenlige, innovative løsninger sammen med teamet.</p>
@@ -66,11 +66,11 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
-            <div class="container-box position-relative m-0 image-container" data-images='["uploads/chris.jpg", "uploads/chr2.jpg", "uploads/chr3.jpg"]'>
+            <div class="container-box position-relative m-0 image-container" data-images='["uploads/chris.jpg", "uploads/chr_meet.png", "uploads/chr3.jpg"]'>
                 <img src="uploads/chris.jpg" alt="Billede 3" class="img-fluid shadow">
                 <div class="overlay overlay-3 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="display-7">Christian Tobias Rasmussen</h2>
-                    <h5 class="text-blue mb-3 fw-bold fst-italic">Medstifter & Creative Direktor</h5>
+                    <h5 class="text-purple small mb-3 fw-bold fst-italic">Medstifter & Creative Direktor</h5>
                     <p class="small mb-0">Christian, medstifter og Creative Director, styrer UX/UI og sikrer brugervenlige,
                         visuelt stærke løsninger. Han bidrager også som Fullstack-udvikler og
                         tilfører dynamik med sin baggrund i motion design.</p>
@@ -78,16 +78,37 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
-            <div class="container-box position-relative m-0 image-container" data-images='["uploads/CrewGoodFellas.jpg", "uploads/loay_meet.png", "uploads/chris.jpg"]'>
-                <img src="uploads/CrewGoodFellas.jpg" alt="Billede 4" class="img-fluid shadow">
+            <div class="container-box position-relative m-0 image-container"  data-images='["uploads/CrewGoodFellas.jpg", "uploads/loay_meet.png", "uploads/chris.jpg"]'>
+                <img src="uploads/CrewGoodFellas.jpg" loading="lazy" alt="Billede 4" class="img-fluid shadow">
                 <div class="overlay overlay-4 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="display-7">Mikkel Lebedev</h2>
-                    <h5 class="text-blue mb-3 fw-bold fst-italic">Fullstack Dev</h5>
-                    <p class="small mb-0">Loay er en erfaren Fullstack udvikler med ekspertise i både FrontEnd og BackEnd. Han har en særlig styrke i PHP og databaser som MySQL, samt solid erfaring med Wordpress og React.</p>
+                    <h5 class="text-green small mb-3 fw-bold fst-italic">FrontEnd Dev</h5>
+                    <p class="small mb-0">Mikkel har et skarpt øje for design og er ekspert i UX/UI.
+                        Han spiller en afgørende rolle i de fleste cases, hvor han kombinerer æstetik med funktionalitet
+                        for at skabe brugervenlige og visuelt tiltalende løsninger.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<section style="background: #b100ff; background: linear-gradient(270deg, #da36d4, #b154ff);" class="pt-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-10 col-lg-8 mb-4 pb-3 d-flex justify-content-center align-items-center px-4 text-center">
+                <p class="text-white fw-bold mb-0">
+                    Har du brug for en løsning? Vi er kun en e-mail væk.
+                </p>
+
+                <div class="btn-f bg-transparent d-inline-flex fw-bold justify-content-center mx-3 align-items-center text-center">
+                    <span class="small">KONTAKT</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <?php include "includes/footer.php" ?>
