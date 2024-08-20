@@ -117,7 +117,7 @@ body{
 }
 .social{
 	color: #ffffff;
-	z-index: 2;
+	z-index: 1000;
 }
 .social:hover{
 	transition: 100ms;
@@ -197,17 +197,28 @@ body{
 	height: 4rem;
 	width: 4rem;
 	border: #683690 solid 2px;
+	pointer-events: none;
 }
 .box-b{
 	height: 5rem;
 	width: 5rem;
 	border: #683690 solid 2px;
+	pointer-events: none;
 }
 .box-front{
 	height: 15rem;
 	width: 15rem;
 	border: #683690 solid 2px;
 }
+
+.box-s,
+.box-b {
+	position: absolute;
+	pointer-events: none;
+	bottom: 20px;
+}
+
+
 .net-grid{
 	background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
 	linear-gradient(to bottom, #80808012 1px, transparent 1px);
@@ -283,7 +294,15 @@ body{
 }
 
 .text-purple{
-    color: #9D2B69;
+    color: #f1108e;
+}
+
+.text-red{
+	color: #c10014;
+}
+
+.text-green{
+	color: #48c500;
 }
 
 .navbar-toggler {
@@ -439,3 +458,15 @@ body{
 	bottom: 0; /* Flyt overlayen op til at dække hele boksen */
 	opacity: 1;
 }
+
+.card {
+	min-height: 300px;
+	max-width: 300px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-10px) scale(1.05); /* Hopper lidt op og udvider sig */
+	box-shadow: 0 8px 16px rgba(96, 96, 96, 0.25); /* Tilføjer en let skygge for dybde */
+}
+
