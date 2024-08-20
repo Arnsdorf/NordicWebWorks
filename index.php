@@ -67,37 +67,40 @@
     </div>
 </div>
 
-    <div class="container-fluid vh-100 p-0 m-0">
-        <div class="row p-0 m-0">
-            <div class="carousel-container position-relative w-100 m-0 p-0">
-
-                <div class="project-card" id="project1" style="left: 12%; transform: scale(0.8);">
-                    <img src="uploads/1396x2500-px-alleyway-artwork-city-cityscape-digital-art-1346043-wallhere.com.jpg" alt="Project 1" class="img-fluid">
+    <div class="container-fluid vh-100 p-0 m-0 d-flex justify-content-center align-items-center p-0 m-0">
+        <div class="carousel-wrapper position-relative d-flex justify-content-center p-0 m-0">
+            
+            <div class="carousel-container position-relative p-0 m-0">
+                
+                <div class="project-card" id="project1" style="left: 5%; transform: scale(0.8);">
+                    <div class="bg-white" style="height: 80%"></div>
                     <div class="project-info">
-                        <h2 class="project-title">KEET CAFE</h2>
-                        <p class="project-description">Homemade baking, Tasty Drinks</p>
+                        <h2 class="project-title text-white mt-3">KEET CAFE</h2>
+                        <p class="project-description text-white">Homemade baking, Tasty Drinks</p>
                     </div>
                 </div>
 
                 <div class="project-card active" id="project2" style="left: 25%; transform: scale(1);">
-                    <img src="uploads/ff8201d6aea4092207b503cf9cbc0df0.jpg" alt="Project 2" class="img-fluid">
+                    <div class="bg-white" style="height: 80%"></div>
                     <div class="project-info">
-                        <h2 class="project-title">Project 2</h2>
-                        <p class="project-description">Project 2 Description</p>
+                        <h2 class="project-title text-white mt-3">Project 2</h2>
+                        <p class="project-description text-white">Project 2 Description</p>
                     </div>
                 </div>
 
-                <div class="project-card" id="project3" style="left: 38%; transform: scale(0.8);">
-                    <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="Project 3" class="img-fluid">
+                <div class="project-card" id="project3" style="left: 46%; transform: scale(0.8);">
+                    <div class="bg-white" style="height: 80%"></div>
                     <div class="project-info">
-                        <h2 class="project-title">Project 3</h2>
-                        <p class="project-description">Project 3 Description</p>
+                        <h2 class="project-title text-white mt-3">Project 3</h2>
+                        <p class="project-description text-white">Project 3 Description</p>
                     </div>
                 </div>
-
+                
             </div>
+            
         </div>
     </div>
+
 
 
 

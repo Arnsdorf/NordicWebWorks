@@ -167,15 +167,6 @@ body{
 	font-family: Montserrat;
 	font-weight: bold;
 }
-.drip{
-	color: #1C1C1C;
-	border: none;
-	background: rgb(218,54,212);
-	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgba(209,22,89,1) 100%);
-	animation: colorChange 4s linear infinite;
-	background-size: 200% 200%;
-	box-shadow: 0 0 10px rgba(218,54,212,0.5); /* Initial glow */
-}
 .font-drip{
 	color: transparent;
 	border: none;
@@ -186,6 +177,15 @@ body{
 	background-clip: text;
 	-webkit-background-clip: text;
 	text-shadow: 0 0 1.5px #d836d2, 0 0 1.5px #cf1658;
+}
+.drip{
+	color: #1C1C1C;
+	border: none;
+	background: rgb(218,54,212);
+	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgba(209,22,89,1) 100%);
+	animation: colorChange 4s linear infinite;
+	background-size: 200% 200%;
+	box-shadow: 0 0 10px rgba(218,54,212,0.5); /* Initial glow */
 }
 .box-container{
 	bottom: 0rem;
@@ -211,31 +211,27 @@ body{
 	background-size: 24px 24px;
 }
 /* Cases here */
-
-body {
-	background-color: #1e1e1e;
-	color: white;
-	font-family: Arial, sans-serif;
+.carousel-wrapper {
+	width: 92%;  /* Adjust this value based on how wide you want the carousel to be */
+	position: relative;
+	transform: translateX(-50%);
+	left: 50%;
 }
 
 .carousel-container {
 	height: 500px;  /* Adjust height to allow space for text */
-	left: 12%;
+	width: 100%;  /* Keep the container width to 100% of the wrapper */
+	position: relative; /* Ensure the positioning context for absolute children */
 }
 
 .project-card {
 	position: absolute;
-	width: 20%;  /* Width of each card */
-	height: 100%;  /* Full height to contain image and text */
+	width: 35%;  /* Width of each card */
+	height: 170%;  /* Full height to contain image and text */
 	transition: all 0.5s ease;
 	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-start;  /* Align items to start to make space for text at the bottom */
 	opacity: 0.5;
 }
-
 .project-card.active {
 	opacity: 1;
 	transform: scale(1.1);  /* Enlarge active card */
@@ -252,21 +248,11 @@ body {
 .project-info {
 	text-align: center;
 	display: none;  /* Hide text by default */
-	width: 100%;  /* Ensure text container spans the entire card width */
-	padding-top: 5px;  /* Space between image and text */
-	overflow: hidden;  /* Hide overflow to maintain neat appearance */
 }
 
 .project-card.active .project-info {
 	display: block;  /* Show text when card is active */
 }
-
-.project-title, .project-description {
-	margin-top: 5px;
-}
-
-
-
 
 /* animations here */
 
