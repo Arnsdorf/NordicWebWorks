@@ -67,40 +67,26 @@
     </div>
 </div>
 
-    <div class="container-fluid vh-100 p-0 m-0 d-flex justify-content-center align-items-center p-0 m-0">
-        <div class="carousel-wrapper position-relative d-flex justify-content-center p-0 m-0">
-            
-            <div class="carousel-container position-relative p-0 m-0">
-                
-                <div class="project-card" id="project1" style="left: 5%; transform: scale(0.8);">
-                    <div class="bg-white" style="height: 80%"></div>
-                    <div class="project-info">
-                        <h2 class="project-title text-white mt-3">KEET CAFE</h2>
-                        <p class="project-description text-white">Homemade baking, Tasty Drinks</p>
-                    </div>
-                </div>
+  <div class="container-fluid bg-warning m-0 p-0">
+      <div class="row p-0 m-0 ms-5">
+          
+          <div class="bg-white col-7 mt-5" style="height: 13rem"></div>
+          
+        <div class="p-0 m-0 mt-2 d-flex">
+            <div class="bg-white col-3 " style="height: 40rem"></div>
+            <div class="bg-white col-2 ms-2" style="height: 40rem"></div>
 
-                <div class="project-card active" id="project2" style="left: 25%; transform: scale(1);">
-                    <div class="bg-white" style="height: 80%"></div>
-                    <div class="project-info">
-                        <h2 class="project-title text-white mt-3">Project 2</h2>
-                        <p class="project-description text-white">Project 2 Description</p>
-                    </div>
-                </div>
-
-                <div class="project-card" id="project3" style="left: 46%; transform: scale(0.8);">
-                    <div class="bg-white" style="height: 80%"></div>
-                    <div class="project-info">
-                        <h2 class="project-title text-white mt-3">Project 3</h2>
-                        <p class="project-description text-white">Project 3 Description</p>
-                    </div>
-                </div>
-                
+            <div class="col">
+                <div class="bg-white col-3 ms-2" style="height: 20rem"></div>
+                <div class="bg-white col-3 ms-2 mt-2" style="height: 19.5rem"></div>
             </div>
             
         </div>
-    </div>
-
+        
+          
+          
+      </div>
+  </div>
 
 
 

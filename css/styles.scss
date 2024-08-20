@@ -211,47 +211,14 @@ body{
 	background-size: 24px 24px;
 }
 /* Cases here */
-.carousel-wrapper {
-	width: 92%;  /* Adjust this value based on how wide you want the carousel to be */
-	position: relative;
-	transform: translateX(-50%);
-	left: 50%;
+
+
+.bg-secondary {
+	background-color: #c0c0c0; /* Adjust color as needed */
 }
 
-.carousel-container {
-	height: 500px;  /* Adjust height to allow space for text */
-	width: 100%;  /* Keep the container width to 100% of the wrapper */
-	position: relative; /* Ensure the positioning context for absolute children */
-}
-
-.project-card {
-	position: absolute;
-	width: 35%;  /* Width of each card */
-	height: 170%;  /* Full height to contain image and text */
-	transition: all 0.5s ease;
-	cursor: pointer;
-	opacity: 0.5;
-}
-.project-card.active {
-	opacity: 1;
-	transform: scale(1.1);  /* Enlarge active card */
-	z-index: 2;
-}
-
-.project-card img {
-	width: 100%;
-	max-height: 80%;  /* Limit image height to leave room for text */
-	object-fit: cover;  /* Ensure image covers the area well without distortion */
-	border-radius: 5px;
-}
-
-.project-info {
-	text-align: center;
-	display: none;  /* Hide text by default */
-}
-
-.project-card.active .project-info {
-	display: block;  /* Show text when card is active */
+.mb-2 {
+	margin-bottom: 8px; /* Adjust for spacing between rows */
 }
 
 /* animations here */
