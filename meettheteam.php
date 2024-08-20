@@ -54,8 +54,8 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
-            <div class="container-box position-relative m-0 image-container" data-images='["uploads/CrewGoodFellas.jpg", "uploads/loay_meet.png", "uploads/sigurd_meet.png  "]'>
-                <img src="uploads/CrewGoodFellas.jpg" alt="Billede 2" class="img-fluid shadow">
+            <div class="container-box position-relative m-0 image-container" data-images='["uploads/sigu_meet.png", "uploads/loay_meet.png", "uploads/sigurd_meet.png  "]'>
+                <img src="uploads/sigu_meet.png" alt="Billede 2" class="img-fluid shadow">
                 <div class="overlay overlay-2 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="display-7">Sigurd Dam</h2>
                     <h5 class="text-red small mb-3 fw-bold fst-italic">Medstifter & Dev</h5>
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
-            <div class="container-box position-relative m-0 image-container" data-images='["uploads/chris.jpg", "uploads/chr2.jpg", "uploads/chr3.jpg"]'>
+            <div class="container-box position-relative m-0 image-container" data-images='["uploads/chris.jpg", "uploads/chr_meet.png", "uploads/chr3.jpg"]'>
                 <img src="uploads/chris.jpg" alt="Billede 3" class="img-fluid shadow">
                 <div class="overlay overlay-3 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="display-7">Christian Tobias Rasmussen</h2>

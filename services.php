@@ -81,7 +81,7 @@
                     <div class="card bg-cases h-100">
 
                         <div class="card-body text-white d-flex justify-content-end flex-column">
-                            <h5 class="card-title"> API Integration</h5>
+                            <h5 class="card-title fw-bold"> API Integration</h5>
                             <p class="card-text fw-bold small text-white-50">
                                 API Endpoint • RESTful • API Nøgle
                             </p>
