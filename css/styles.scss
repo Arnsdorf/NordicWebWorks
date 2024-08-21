@@ -119,7 +119,7 @@ body{
 }
 .social{
 	color: #ffffff;
-	z-index: 2;
+	z-index: 1000;
 }
 .social:hover{
 	transition: 100ms;
@@ -204,17 +204,30 @@ body{
 	height: 4rem;
 	width: 4rem;
 	border: #683690 solid 2px;
+	pointer-events: none;
 }
 .box-b{
 	height: 5rem;
 	width: 5rem;
 	border: #683690 solid 2px;
+	pointer-events: none;
 }
 .box-front{
 	height: 15rem;
 	width: 15rem;
 	border: #683690 solid 2px;
 }
+
+
+.box-s,
+.box-b {
+	position: absolute;
+	pointer-events: none;
+	bottom: 20px;
+}
+
+
+
 /* Cases here */
 .mason-drip{
 	transition: 200ms ease-in-out;
@@ -261,7 +274,15 @@ body{
 }
 
 .text-purple{
-    color: #9D2B69;
+    color: #f1108e;
+}
+
+.text-red{
+	color: #c10014;
+}
+
+.text-green{
+	color: #48c500;
 }
 
 .navbar-toggler {
@@ -381,3 +402,88 @@ body{
 	outline: none;
 	box-shadow: none;
 }
+
+.display-7 {
+	font-size: 1.5rem; /* Størrelse mindre end display-6 */
+	font-weight: 300; /* Lettere skriftvægt */
+	line-height: 1.2;
+}
+
+.row-full-height {
+	height: 100%;
+}
+.container-box {
+	overflow: hidden;
+	transition: transform 0.3s ease;
+}
+
+.img-fluid{
+	object-fit: cover !important;
+	height: 400px;
+
+}
+
+.overlay {
+	position: absolute;
+	bottom: -100%; /* Start positionen lige uden for bunden */
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.container-box:hover .overlay {
+	bottom: 0; /* Flyt overlayen op til at dække hele boksen */
+	opacity: 1;
+}
+
+.card {
+	border-radius: 0;
+	min-height: 300px;
+	max-width: 300px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	position: relative; /* Tilføjet for at sikre, at pseudo-elementerne er relativt placeret */
+	overflow: hidden; /* Sikrer, at indholdet forbliver indenfor kortets grænser */
+}
+
+.card:hover {
+	transform: translateY(-10px) scale(1.05); /* Hopper lidt op og udvider sig */
+	box-shadow: 0 8px 16px rgba(96, 96, 96, 0.25); /* Tilføjer en let skygge for dybde */
+}
+
+.card::before,
+.card::after {
+	content: '';
+	position: absolute;
+	transition: all 0.4s ease;
+	z-index: 1;
+}
+
+.card::before {
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.card::after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.card:hover::before {
+	width: 100%;
+}
+
+.card:hover::after {
+	height: 100%;
+}
+
