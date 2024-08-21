@@ -10,9 +10,14 @@ $link-decoration: none;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 // 4. Include any default map overrides here
+$custom-dark: #1c1c1c;
+
 $custom-colors: (
 	"farve": $cyan-400,
+	"custom-dark": $custom-dark
 );
+
+
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
@@ -167,6 +172,11 @@ body{
 	font-family: Montserrat;
 	font-weight: bold;
 }
+.font-case{
+	font-size: 2.5rem;
+	font-family: Montserrat;
+	font-weight: bold;
+}
 .font-drip{
 	color: transparent;
 	border: none;
@@ -205,24 +215,23 @@ body{
 	width: 15rem;
 	border: #683690 solid 2px;
 }
-.net-grid{
-	background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
-	linear-gradient(to bottom, #80808012 1px, transparent 1px);
-	background-size: 24px 24px;
-}
 /* Cases here */
-
-
-.bg-secondary {
-	background-color: #c0c0c0; /* Adjust color as needed */
+.mason-drip{
+	transition: 200ms ease-in-out;
+}
+.mason-drip:hover{
+	transform: scale(1.1);
+	transition: 200ms ease-in-out;
+	animation: border 1s ease-in-out;
+}
+.img-box{
+	object-fit: cover;
+	min-height: 80%;
+	width: 100%;
 }
 
-.mb-2 {
-	margin-bottom: 8px; /* Adjust for spacing between rows */
-}
 
 /* animations here */
-
 @keyframes colorChange {
 	0% {
 		background-position: 0% 50%;

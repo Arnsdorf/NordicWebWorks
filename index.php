@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
 
-<div class="container-fluid bg-front net-grid">
+<div class="container-fluid bg-front">
     <div class="row">
 
         <!-------Boxes-and-socials--------------->
@@ -67,41 +67,49 @@
     </div>
 </div>
 
-  <div class="container-fluid bg-warning m-0 p-0">
-      <div class="row p-0 m-0 ms-5">
-          
-          <div class="bg-white col-7 mt-5" style="height: 13rem"></div>
-          
-        <div class="p-0 m-0 mt-2 d-flex">
-            <div class="bg-white col-3 " style="height: 40rem"></div>
-            <div class="bg-white col-2 ms-2" style="height: 40rem"></div>
+  <div class="container-fluid m-0 p-0">
+      <div class="row p-0 m-0 justify-content-center">
 
-            <div class="col">
-                <div class="bg-white col-3 ms-2" style="height: 20rem"></div>
-                <div class="bg-white col-3 ms-2 mt-2" style="height: 19.5rem"></div>
-            </div>
-            
-        </div>
-        
-          
-          
+          <h1 class="text-white text-center mt-5 mb-5 font-case">Cases</h1>
+
+          <div class="col-5 col-md-3 col-lg-2 p-0 mt-2 ">
+              <div class="">
+                  <div class="bg-white mt-2 mason-drip" style="height: 25rem"></div>
+                  <img src="uploads/1396x2500-px-alleyway-artwork-city-cityscape-digital-art-1346043-wallhere.com.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 25rem"></img>
+             </div>
+              <div>
+                  <div class="bg-white mt-2 mason-drip" style="height: 24rem"></div>
+                  <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="#" class="img-box mt-2  p-0 mason-drip d-none" style="height: 24rem"></img>
+              </div>
+          </div>
+
+          <div class="col-5 col-md-3 col-lg-2 p-0 ms-2 me-2 mt-2 mb-5">
+              <div>
+                  <div class="bg-white mt-2 mason-drip" style="height: 32rem"></div>
+                  <img src="uploads/ff8201d6aea4092207b503cf9cbc0df0.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 27rem"></img>
+              </div>
+              <div>
+                  <div class="bg-white mt-2 mason-drip" style="height: 17rem"></div>
+                  <img src="uploads/il_570xN.5283973056_77vu.webp" alt="#" class="img-box mt-2  p-0 mason-drip d-none" style="height: 22rem"></img>
+              </div>
+          </div>
+
+          <div class="col-2 col-md-3 col-lg-2 p-0 mt-2 d-none d-md-block">
+              <div>
+                  <div class="bg-white mt-2 mason-drip" style="height: 15rem"></div>
+                  <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 15rem"></img>
+              </div>
+              <div>
+                  <div class="bg-white mt-2 mason-drip" style="height: 34rem"></div>
+                  <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 34rem"></img>
+              </div>
+          </div>
+
+
+
+
       </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
