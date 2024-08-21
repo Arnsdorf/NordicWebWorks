@@ -6,7 +6,7 @@
     <div class="row">
     
             <!-------Boxes-and-socials--------------->
-            <div class="position-absolute bottom-0 ps-4 d-md-none">
+            <div class="position-absolute bottom-0 ps-4 d-md-none mb-3" style="z-index: 3">
                 <div class=""><i class="bi bi-instagram text-white social" style="font-size: 1.2rem"></i></div>
                 <div class="mt-2"><i class="bi bi-linkedin text-white social" style="font-size: 1.2rem"></i></div>
                 <div class="mt-2"><i class="bi bi-twitter text-white social" style="font-size: 1.2rem"></i></div>
@@ -27,7 +27,7 @@
             </div>
 
             <!-------Tlf-frontpage----------->
-            <div class="text-center position-absolute top-25">
+            <div class="text-center position-absolute top-30">
                     <h6 class="font-front-s d-md-none">━━     Velkommen til Nordic Webworks ━━━━━</h6>
                     <h1 class="text-white fw-bold d-md-none font-type">Har <span class="font-drip">din
                         </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
@@ -78,40 +78,37 @@
 
           <div class="col-5 col-md-3 col-lg-2 p-0 mt-2 ">
               <div class="">
-                  <div class="bg-white mt-2 mason-drip" style="height: 25rem"></div>
+                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 25rem"></div></a>
                   <img src="uploads/1396x2500-px-alleyway-artwork-city-cityscape-digital-art-1346043-wallhere.com.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 25rem"></img>
              </div>
               <div>
-                  <div class="bg-white mt-2 mason-drip" style="height: 24rem"></div>
+                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 24rem"></div></a>
                   <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="#" class="img-box mt-2  p-0 mason-drip d-none" style="height: 24rem"></img>
               </div>
           </div>
 
           <div class="col-5 col-md-3 col-lg-2 p-0 ms-2 me-2 mt-2 mb-5">
               <div>
-                  <div class="bg-white mt-2 mason-drip" style="height: 32rem"></div>
+                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 32rem"></div></a>
                   <img src="uploads/ff8201d6aea4092207b503cf9cbc0df0.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 27rem"></img>
               </div>
               <div>
-                  <div class="bg-white mt-2 mason-drip" style="height: 17rem"></div>
+                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 17rem"></div></a>
                   <img src="uploads/il_570xN.5283973056_77vu.webp" alt="#" class="img-box mt-2  p-0 mason-drip d-none" style="height: 22rem"></img>
               </div>
           </div>
 
           <div class="col-2 col-md-3 col-lg-2 p-0 mt-2 d-none d-md-block">
               <div>
-                  <div class="bg-white mt-2 mason-drip" style="height: 15rem"></div>
+                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 15rem"></div></a>
                   <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 15rem"></img>
               </div>
               <div>
-                  <div class="bg-white mt-2 mason-drip" style="height: 34rem"></div>
+                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 34rem"></div></a>
                   <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 34rem"></img>
               </div>
           </div>
-
-
-
-
+          
       </div>
   </div>
 
