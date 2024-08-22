@@ -22,12 +22,12 @@
             </div>
             <!-------Boxes--------------->
             <div class="position-absolute bottom-0 pb-3 ps-3">
-                <div class="box-s position-absolute bottom-60 ms-5" style="pointer-events: none;"></div>
+                <div class="box-s position-absolute ms-5" style="pointer-events: none;"></div>
                 <div class="box-b" style="pointer-events: none;"></div>
             </div>
 
             <!-------Tlf-frontpage----------->
-            <div class="text-center position-absolute top-30">
+            <div class="text-center position-absolute top-25">
                     <h6 class="font-front-s d-md-none">━━     Velkommen til Nordic Webworks ━━━━━</h6>
                     <h1 class="text-white fw-bold d-md-none font-type">Har <span class="font-drip">din
                         </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
@@ -35,7 +35,7 @@
             <div class="mt-4 d-md-none">
                 <div class="me-3 btn-f fw-bold small d-inline-flex justify-content-center align-items-center text-center m-0 drip">
                     <span>KONTAKT</div>
-                <div class="btn-f fw-bold small d-inline-flex justify-content-center align-items-center text-center m-0">
+                <div class="btn-f  small d-inline-flex justify-content-center align-items-center text-center m-0">
                     <span>CASES</span></div>
             </div>
 
@@ -59,58 +59,98 @@
                     <div class="me-3 fw-bold small btn-f d-inline-flex justify-content-center align-items-center text-center m-0 drip">
                         <span>KONTAKT</span>
                     </div>
-                    <div class="btn-f fw-bold small d-inline-flex justify-content-center align-items-center text-center m-0">
+                    <div class="btn-f small d-inline-flex justify-content-center align-items-center text-center m-0">
                         <span>CASES</span></div>
                 </div>
             </div>
 
         </div>
 
-
-
     </div>
 </div>
+    <!------------Cases-------------->
+    <div class="container-fluid m-0 p-0">
+        <div class="row p-0 m-0 justify-content-center">
+            <div class="row mt-5">
+                <h1 class="text-white mt-5 mb-5 font-case col-5 ms-23 d-none d-md-block" style="font-size: 2.7rem"> <span class="fw-light" style="font-size: 1.2rem">Intreasseret i vores erfaringer?</span> <br> Tjek vores tidligere projekter ud!</h1>
+                <h2 class="text-white mt-5 mb-5 font-case col-12 d-md-none" style="font-size: 2rem"> <br> Tjek vores tidligere projekter ud!</h2>
+            </div>
 
-  <div class="container-fluid m-0 p-0">
-      <div class="row p-0 m-0 justify-content-center">
+            <div class="col-5 col-md-3 col-lg-2 p-0 mt-2">
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0" style="height: 25rem">
+                    <div class="custom-overlay d-flex">
+                        <div class="overlay-content">
+                            <div class="project-name">Buildmate</div>
+                            <div class="project-date">2024-08-20</div>
+                        </div>
+                    </div>
+                </div></a>
 
-          <h1 class="text-white text-center mt-5 mb-5 font-case">Cases</h1>
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                    <div class="bg-white mt-2 mason-drip d-none" style="height: 24rem"></div>
+                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0" style="height: 24rem">
+                    <div class="custom-overlay d-flex">
+                        <div class="overlay-content">
+                            <div class="project-name">Nature Project 2</div>
+                            <div class="project-date">2024-08-21</div>
+                        </div>
+                    </div>
+                </div></a>
+            </div>
 
-          <div class="col-5 col-md-3 col-lg-2 p-0 mt-2 ">
-              <div class="">
-                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 25rem"></div></a>
-                  <img src="uploads/1396x2500-px-alleyway-artwork-city-cityscape-digital-art-1346043-wallhere.com.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 25rem"></img>
-             </div>
-              <div>
-                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 24rem"></div></a>
-                  <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="#" class="img-box mt-2  p-0 mason-drip d-none" style="height: 24rem"></img>
-              </div>
-          </div>
+            <div class="col-5 col-md-3 col-lg-2 p-0 ms-2 me-2 mt-2 mb-5">
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                    <div class="bg-white mt-2 mason-drip d-none" style="height: 32rem"></div>
+                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 27rem">
+                    <div class="custom-overlay d-flex">
+                        <div class="overlay-content">
+                            <div class="project-name">City Landscape</div>
+                            <div class="project-date">2023-07-15</div>
+                        </div>
+                    </div>
+                </div></a>
 
-          <div class="col-5 col-md-3 col-lg-2 p-0 ms-2 me-2 mt-2 mb-5">
-              <div>
-                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 32rem"></div></a>
-                  <img src="uploads/ff8201d6aea4092207b503cf9cbc0df0.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 27rem"></img>
-              </div>
-              <div>
-                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 17rem"></div></a>
-                  <img src="uploads/il_570xN.5283973056_77vu.webp" alt="#" class="img-box mt-2  p-0 mason-drip d-none" style="height: 22rem"></img>
-              </div>
-          </div>
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                    <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
+                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 22rem">
+                    <div class="custom-overlay d-flex">
+                        <div class="overlay-content">
+                            <div class="project-name">Abstract Art</div>
+                            <div class="project-date">2022-05-12</div>
+                        </div>
+                    </div>
+                </div></a>
+            </div>
 
-          <div class="col-2 col-md-3 col-lg-2 p-0 mt-2 d-none d-md-block">
-              <div>
-                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 15rem"></div></a>
-                  <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 15rem"></img>
-              </div>
-              <div>
-                  <a href="caseinfo.php"><div class="bg-white mt-2 mason-drip" style="height: 34rem"></div></a>
-                  <img src="uploads/cyberpunk-market-set-in-ancient-ruins-4k-hc-1125x2436.jpg" alt="#" class="img-box mt-2 p-0 mason-drip d-none" style="height: 34rem"></img>
-              </div>
-          </div>
-          
-      </div>
-  </div>
+            <div class="col-2 col-md-3 col-lg-2 p-0 mt-2 d-none d-md-block">
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                    <div class="bg-white mt-2 mason-drip d-none" style="height: 15rem"></div>
+                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 15rem">
+                    <div class="custom-overlay d-flex">
+                        <div class="overlay-content">
+                            <div class="project-name">Miniature Nature</div>
+                            <div class="project-date">2024-03-18</div>
+                        </div>
+                    </div>
+                </div></a>
+
+                <a class="" href="caseinfo.php"> <div class="position-relative img-box">
+                    <div class="bg-white mt-2 mason-drip d-flex d-none" style="height: 34rem"></div>
+                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 34rem">
+                    <div class="custom-overlay d-flex">
+                        <div class="overlay-content">
+                            <div class="project-name">Cyberpunk Ruins</div>
+                            <div class="project-date">2022-11-10</div>
+                        </div>
+                    </div>
+                </div></a>
+
+            </div>
+        </div>
+    </div>
+
+
 
 
 
