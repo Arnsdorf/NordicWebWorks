@@ -27,7 +27,7 @@
             </div>
 
             <!-------Tlf-frontpage----------->
-            <div class="text-center position-absolute top-25">
+            <div class="text-center position-absolute top-30">
                     <h6 class="font-front-s d-md-none">━━     Velkommen til Nordic Webworks ━━━━━</h6>
                     <h1 class="text-white fw-bold d-md-none font-type">Har <span class="font-drip">din
                         </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
@@ -150,11 +150,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
 
     <script src="js/click..js"></script>
