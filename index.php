@@ -76,6 +76,7 @@
                 <h2 class="text-white mt-5 mb-5 font-case col-12 d-md-none" style="font-size: 2rem"> <br> Tjek vores tidligere projekter ud!</h2>
             </div>
 
+
             <div class="col-5 col-md-3 col-lg-2 p-0 mt-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
                     <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0" style="height: 25rem">

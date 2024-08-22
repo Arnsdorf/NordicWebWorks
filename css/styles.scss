@@ -16,9 +16,6 @@ $custom-colors: (
 	"farve": $cyan-400,
 	"custom-dark": $custom-dark
 );
-
-
-
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
@@ -107,6 +104,9 @@ body{
 }
 .mt-15{
 	margin-top: 15%;
+}
+.mt-20{
+	margin-top:20%;
 }
 .w-43{
 	width: 43%;
@@ -278,7 +278,6 @@ body{
 	width: 100%;
 	height: 100%;
 }
-
 
 /* animations here */
 @keyframes colorChange {
