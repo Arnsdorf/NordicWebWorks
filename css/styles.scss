@@ -90,6 +90,12 @@ body{
 .ms-15{
 	margin-left: 15%;
 }
+.ms-20{
+	margin-left: 20%;
+}
+.ms-23{
+	margin-left: 23%;
+}
 .mt-8{
 	margin-top: 8%;
 }
@@ -217,8 +223,6 @@ body{
 	width: 15rem;
 	border: #683690 solid 2px;
 }
-
-
 .box-s,
 .box-b {
 	position: absolute;
@@ -226,21 +230,53 @@ body{
 	bottom: 20px;
 }
 
-
-
 /* Cases here */
-.mason-drip{
-	transition: 200ms ease-in-out;
-}
-.mason-drip:hover{
-	transform: scale(1.1);
-	transition: 200ms ease-in-out;
-	animation: border 1s ease-in-out;
-}
-.img-box{
+.img-box {
 	object-fit: cover;
-	min-height: 80%;
 	width: 100%;
+	opacity: 0.8;
+	transition: transform 200ms ease-in-out, opacity 200ms ease-in-out, z-index 0s 200ms;
+	z-index: 1;
+	position: relative; /* Ensure it is positioned relative for the overlay */
+}
+.img-box:hover {
+	transform: scale(1.1);
+	z-index: 10; /* Higher z-index on hover */
+	opacity: 1;
+	transition: transform 200ms ease-in-out, opacity 200ms ease-in-out, z-index 0s;
+}
+.custom-overlay {
+	position: absolute; /* Ensure overlay is absolutely positioned */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	align-items: center;
+	justify-content: flex-start;
+	transition: opacity 200ms ease-in-out;
+	z-index: 11; /* Ensure the overlay is above the image */
+	padding-left: 10px;
+}
+.custom-overlay:hover {
+	opacity: 1;
+}
+.overlay-content {
+	color: white;
+	text-transform: uppercase;
+	writing-mode: vertical-rl; /* Makes text vertical */
+	text-orientation: mixed;
+	font-size: 1.2rem; /* Slightly larger font size for visibility */
+}
+.project-name,
+.project-date {
+	margin: 0;
+}
+/* Cases-info-here */
+.case-info-img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -450,7 +486,7 @@ body{
 
 .card:hover {
 	transform: translateY(-10px) scale(1.05); /* Hopper lidt op og udvider sig */
-	box-shadow: 0 8px 16px rgba(96, 96, 96, 0.25); /* Tilføjer en let skygge for dybde */
+
 }
 
 .card::before,
