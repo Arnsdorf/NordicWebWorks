@@ -70,7 +70,7 @@
 
 
 <!-------services---------------------------------->
-<section class="pt-5 mt-2">
+<section class="pt-5 mt-2" style="background-color: #252525">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 col-lg-6 text-center">
@@ -85,7 +85,7 @@
     </div>
 </section>
 
-<section class="services-cards py-md-5">
+<section class="services-cards py-md-5" style="background-color: #252525">
     <div class="container">
         <div class="row">
             <!-- Card 1 -->
