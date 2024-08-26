@@ -527,3 +527,33 @@ body{
 	max-width: 500px;
 }
 
+footer{
+	border-top: 1px solid #5A5A5A;
+}
+
+.link-hover {
+	position: relative;
+	color: inherit;
+	transition: color 0.3s ease-in-out;
+}
+
+.link-hover::before {
+	content: '';
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #f1108e;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.2s ease-in-out;
+}
+
+.link-hover:hover {
+	color: #D65472;
+}
+
+.link-hover:hover::before {
+	transform: scaleX(1);
+}

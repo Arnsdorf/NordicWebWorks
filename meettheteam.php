@@ -5,8 +5,8 @@
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 col-lg-8 mb-4 px-4">
-                <p class="text-white fw-medium mb-1">
-                    Vi er <span style="color: #DA009D">holdet</span> bag
+                <p class="text-white mb-1">
+                    Vi er <span class="fw-bold" style="color: #DA009D">holdet</span> bag
                 </p>
                 <h1 class="text-white display-6 fw-bold">Nordic Web Works</h1>
             </div>
