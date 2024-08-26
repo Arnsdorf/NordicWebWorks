@@ -61,7 +61,7 @@
 
             <!-- Column 4: Follow Us -->
             <div class="col-md-3 mb-4">
-                <h5 class="text-uppercase mb-2 fw-bold">Følg os</h5>
+                <h5 class="text-uppercase mb-2 fw-bold">Følg med</h5>
                 <div class="d-flex">
                     <a href="#" class="text-white me-4 link-hover">
                         <i class="bi bi-facebook" style="font-size: 1.4rem"></i>

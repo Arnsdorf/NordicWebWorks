@@ -41,10 +41,10 @@ require "settings/init.php";
                     <a class="nav-link text-white mt-1 mx-3" href="index.php"><span class="">HJEM</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href=""><span class="">SERVICES</span></a>
+                    <a class="nav-link text-white mt-1 mx-3" href="index.php#services"><span class="">SERVICES</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href="meettheteam.php"><span class="">MØD HOLDET</span></a>
+                    <a class="nav-link text-white mt-1 mx-3" href="meettheteam.php#meet"><span class="">MØD HOLDET</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white mt-1 mx-3" href=""><span class="">KONTAKT</span></a>
