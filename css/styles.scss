@@ -460,7 +460,7 @@ body{
 
 .img-fluid{
 	object-fit: cover !important;
-	height: 400px;
+	max-height: 500px;
 
 }
 
@@ -482,7 +482,7 @@ body{
 
 .card {
 	border-radius: 0;
-	min-height: 300px;
+	min-height: 320px;
 	max-width: 300px;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	position: relative; /* Tilføjet for at sikre, at pseudo-elementerne er relativt placeret */
@@ -526,5 +526,9 @@ body{
 
 .card:hover::after {
 	height: 100%;
+}
+
+.max-w{
+	max-width: 500px;
 }
 
