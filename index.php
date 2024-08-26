@@ -197,7 +197,7 @@
 
             <div class="col-lg-3 col-4 p-0 mt-2 me-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
-                    <img src="uploads/chr/bernd-dittrich-1Ef7qRWgqVg-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                    <img src="uploads/chr/case1.webp" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                     <div class="custom-overlay d-flex">
                         <div class="overlay-content">
                             <div class="project-name">Buildmate</div>
@@ -210,7 +210,7 @@
             <div class="col-lg-6 col-6 p-0 mt-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
                     <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
-                    <img src="uploads/chr/mockuuups-yky_7O8sdUI-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                    <img src="uploads/chr/case2.webp" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                     <div class="custom-overlay d-flex">
                         <div class="overlay-content">
                             <div class="project-name">Nature Project 2</div>
@@ -223,7 +223,7 @@
             <div class="col-lg-5 col-7 p-0 me-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
                         <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
-                        <img src="uploads/chr/esteban-bonilla-OczHGE0Xs3c-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <img src="uploads/chr/case3.webp" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                         <div class="custom-overlay d-flex">
                             <div class="overlay-content">
                                 <div class="project-name">Nature Project 2</div>
@@ -236,7 +236,7 @@
             <div class="col-lg-4 col-3 p-0">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
                         <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
-                        <img src="uploads/chr/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <img src="uploads/chr/case4.webp" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                         <div class="custom-overlay d-flex">
                             <div class="overlay-content">
                                 <div class="project-name">Nature Project 2</div>
@@ -249,7 +249,7 @@
             <div class="col-lg-4 col-4 p-0 me-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
                         <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
-                        <img src="uploads/chr/nat-hwcMLF374mY-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <img src="uploads/chr/case5.webp" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                         <div class="custom-overlay d-flex">
                             <div class="overlay-content">
                                 <div class="project-name">Nature Project 2</div>
@@ -262,7 +262,7 @@
             <div class="col-lg-5 col-6 p-0">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
                         <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
-                        <img src="uploads/chr/luca-bravo-9l_326FISzk-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <img src="uploads/chr/case6.webp" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                         <div class="custom-overlay d-flex">
                             <div class="overlay-content">
                                 <div class="project-name">Nature Project 2</div>
