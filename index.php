@@ -187,16 +187,17 @@
 
 
     <!------------Cases-------------->
-    <div class="container-fluid m-0 p-0">
+    <div class="container-fluid m-0 p-0 mb-5">
         <div class="row p-0 m-0 justify-content-center">
-            <div class="row mt-5">
-                <h1 class="text-white mt-5 mb-5 font-case col-5 ms-23 d-none d-md-block" style="font-size: 2.7rem"> <span class="fw-light" style="font-size: 1.2rem">Intreasseret i vores erfaringer?</span> <br> Tjek vores tidligere projekter ud!</h1>
+            <div class="row mt-5 ">
+                <h1 class="text-white mt-5 mb-5 font-case col-5 ms-11 d-none d-md-block" style="font-size: 2.7rem"> <span class="fw-light" style="font-size: 1.2rem">Intreasseret i vores erfaringer?</span> <br> Tjek vores tidligere projekter ud!</h1>
                 <h2 class="text-white mt-5 mb-5 font-case col-12 d-md-none" style="font-size: 2rem"> <br> Tjek vores tidligere projekter ud!</h2>
             </div>
 
-            <div class="col-5 col-md-3 col-lg-2 p-0 mt-2">
+
+            <div class="col-lg-3 col-4 p-0 mt-2 me-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
-                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0" style="height: 25rem">
+                    <img src="uploads/chr/bernd-dittrich-1Ef7qRWgqVg-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                     <div class="custom-overlay d-flex">
                         <div class="overlay-content">
                             <div class="project-name">Buildmate</div>
@@ -204,10 +205,12 @@
                         </div>
                     </div>
                 </div></a>
+            </div>
 
+            <div class="col-lg-6 col-6 p-0 mt-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
-                    <div class="bg-white mt-2 mason-drip d-none" style="height: 24rem"></div>
-                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0" style="height: 24rem">
+                    <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
+                    <img src="uploads/chr/mockuuups-yky_7O8sdUI-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
                     <div class="custom-overlay d-flex">
                         <div class="overlay-content">
                             <div class="project-name">Nature Project 2</div>
@@ -217,54 +220,59 @@
                 </div></a>
             </div>
 
-            <div class="col-5 col-md-3 col-lg-2 p-0 ms-2 me-2 mt-2 mb-5">
+            <div class="col-lg-5 col-7 p-0 me-2">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
-                    <div class="bg-white mt-2 mason-drip d-none" style="height: 32rem"></div>
-                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 27rem">
-                    <div class="custom-overlay d-flex">
-                        <div class="overlay-content">
-                            <div class="project-name">City Landscape</div>
-                            <div class="project-date">2023-07-15</div>
+                        <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
+                        <img src="uploads/chr/esteban-bonilla-OczHGE0Xs3c-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <div class="custom-overlay d-flex">
+                            <div class="overlay-content">
+                                <div class="project-name">Nature Project 2</div>
+                                <div class="project-date">2024-08-21</div>
+                            </div>
                         </div>
-                    </div>
-                </div></a>
-
-                <a class="" href="caseinfo.php"><div class="position-relative img-box">
-                    <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
-                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 22rem">
-                    <div class="custom-overlay d-flex">
-                        <div class="overlay-content">
-                            <div class="project-name">Abstract Art</div>
-                            <div class="project-date">2022-05-12</div>
-                        </div>
-                    </div>
-                </div></a>
+                    </div></a>
             </div>
 
-            <div class="col-2 col-md-3 col-lg-2 p-0 mt-2 d-none d-md-block">
+            <div class="col-lg-4 col-3 p-0">
                 <a class="" href="caseinfo.php"><div class="position-relative img-box">
-                    <div class="bg-white mt-2 mason-drip d-none" style="height: 15rem"></div>
-                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 15rem">
-                    <div class="custom-overlay d-flex">
-                        <div class="overlay-content">
-                            <div class="project-name">Miniature Nature</div>
-                            <div class="project-date">2024-03-18</div>
+                        <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
+                        <img src="uploads/chr/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <div class="custom-overlay d-flex">
+                            <div class="overlay-content">
+                                <div class="project-name">Nature Project 2</div>
+                                <div class="project-date">2024-08-21</div>
+                            </div>
                         </div>
-                    </div>
-                </div></a>
-
-                <a class="" href="caseinfo.php"> <div class="position-relative img-box">
-                    <div class="bg-white mt-2 mason-drip d-flex d-none" style="height: 34rem"></div>
-                    <img src="uploads/nature-vertical-yefjvpp5yr2mwqjq.jpg" alt="#" class="img-box mt-2 p-0 mason-drip" style="height: 34rem">
-                    <div class="custom-overlay d-flex">
-                        <div class="overlay-content">
-                            <div class="project-name">Cyberpunk Ruins</div>
-                            <div class="project-date">2022-11-10</div>
-                        </div>
-                    </div>
-                </div></a>
-
+                    </div></a>
             </div>
+
+            <div class="col-lg-4 col-4 p-0 me-2">
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                        <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
+                        <img src="uploads/chr/nat-hwcMLF374mY-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <div class="custom-overlay d-flex">
+                            <div class="overlay-content">
+                                <div class="project-name">Nature Project 2</div>
+                                <div class="project-date">2024-08-21</div>
+                            </div>
+                        </div>
+                    </div></a>
+            </div>
+
+            <div class="col-lg-5 col-6 p-0">
+                <a class="" href="caseinfo.php"><div class="position-relative img-box">
+                        <div class="bg-white mt-2 mason-drip d-none" style="height: 17rem"></div>
+                        <img src="uploads/chr/luca-bravo-9l_326FISzk-unsplash.jpg" alt="#" class="img-box mt-2 p-0" style="height: 15rem">
+                        <div class="custom-overlay d-flex">
+                            <div class="overlay-content">
+                                <div class="project-name">Nature Project 2</div>
+                                <div class="project-date">2024-08-21</div>
+                            </div>
+                        </div>
+                    </div></a>
+            </div>
+
+
         </div>
     </div>
 
