@@ -494,10 +494,14 @@ body{
 	transition: transform 0.3s ease;
 }
 
-.img-fluid{
-	object-fit: cover !important;
-	max-height: 500px;
+.img-fluid {
+	width: 100%; /* Sørg for, at billedet dækker hele bredden af containeren */
+	height: 500px; /* Fast højde */
+	object-fit: cover; /* Sørg for, at billedet bevarer sine proportioner, mens det dækker hele containeren */
+}
 
+.container-box {
+	height: 500px; /* Match containerens højde med billedets højde */
 }
 
 .overlay {
@@ -506,7 +510,7 @@ body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
 	opacity: 0;
 	transition: all 0.5s ease;
 }
@@ -515,6 +519,7 @@ body{
 	bottom: 0; /* Flyt overlayen op til at dække hele boksen */
 	opacity: 1;
 }
+
 
 .card {
 	border-radius: 0;
@@ -568,3 +573,37 @@ body{
 	max-width: 500px;
 }
 
+.max-w-1{
+	max-width: 450px;
+}
+
+footer{
+	border-top: 1px solid #5A5A5A;
+}
+
+.link-hover {
+	position: relative;
+	color: inherit;
+	transition: color 0.3s ease-in-out;
+}
+
+.link-hover::before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #f1108e;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.2s ease-in-out;
+}
+
+.link-hover:hover {
+	color: #D65472;
+}
+
+.link-hover:hover::before {
+	transform: scaleX(1);
+}
