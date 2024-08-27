@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
 
-<section class="team-intro pt-5 mt-2">
+<section class="pt-5 mt-2">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 col-lg-8 mb-4 px-4">
@@ -32,7 +32,7 @@
 
 
 
-<div class="container-fluid h-100">
+<div class="container-fluid m-0 p-0">
     <div class="row g-0"> <!-- Added g-0 class to remove gutters for a cleaner layout -->
         <div class="col-12 col-sm-6 col-md-6 p-0"> <!-- col-md-6 retained as the largest size -->
             <div class="container-box position-relative m-0 image-container" data-images='["uploads/loay_meet.png", "uploads/loay_meet.png", "uploads/chris.jpg"]'>
@@ -91,24 +91,49 @@
 <section style="background-color:#242424;">
     <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-            <div class="bg-danger col-md-4 d-flex align-items-center justify-content-center" style="height: 600px;">
-                <h3 class="text-center display-5 text-white">Vores Visioner, Mål og Drivkraft bag
+            <div class="col-md-4 d-flex align-items-center justify-content-center" style=" background-color: #DA009D; background-image: linear-gradient(19deg, #7e005a 0%, #B721FF 100%);
+">
+                <h3 class="max-w-1 p-3 pt-4 mt-8 mb-5 pb-4 fw-semibold display-6 text-white">Vores Visioner, Mål og Drivkraft bag
                     <span class="w-100 d-block">Nordic Web Works</span>
                 </h3>
             </div>
             <div class="col-md-8">
-                <div class="container-box position-relative m-0 image-container">
-                    <div class="d-flex flex-column justify-content-end text-white p-4">
-                        <h2 class="h5">Mikkel Lebedev</h2>
-                        <h5 class="text-green small mb-3 fw-bold fst-italic">FrontEnd Dev</h5>
-                        <p class="small max-w mb-0"></p>
-                        <p class="small fst-italic">"Det går lige i pikken."</p>
+                <div class="m-0">
+                    <div class="row text-white d-flex justify-content-center align-items-center mt-md-4 mb-md-4 p-4">
+                        <div class="col-md-6">
+                            <div class="p-3">
+                                <h2 class="h5">Kreative</h2>
+                                <p class="small max-w mb-0">Vi bringer fantasi til virkelighed med unikke løsninger, der skiller sig ud fra mængden.</p>
+                            </div>
+                            <div class="p-3">
+                                <h2 class="h5">Tekniske</h2>
+                                <p class="small max-w mb-0">Vi mestrer de mest avancerede værktøjer og teknikker for at levere løsninger, der virker.</p>
+                            </div>
+                            <div class="p-3">
+                                <h2 class="h5">Kvalitetsbevidste</h2>
+                                <p class="small max-w mb-0">Hver detalje tæller. Vi leverer kun det bedste og sætter en ære i høj kvalitet.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3">
+                                <h2 class="h5">Innovative</h2>
+                                <p class="small max-w mb-0">Altid på forkant med de nyeste teknologier for at skabe fremtidens digitale oplevelser.</p>
+                            </div>
+                            <div class="p-3">
+                                <h2 class="h5">Samarbejdsvillige</h2>
+                                <p class="small max-w mb-0">Sammen skaber vi resultater. Vi lytter, tilpasser os og arbejder tæt sammen med dig for at opnå succes.</p>
+                            </div>
+                            <div class="p-3">
+                                <h2 class="h5">Bygger for Fremtiden</h2>
+                                <p class="small text-white max-w mb-0">Vi tænker langsigtet og skaber løsninger, der ikke kun opfylder nutidens behov, men også sikrer fremtidig vækst og udvikling.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
 </section>
+
 
 
 <section style="background: #b100ff; background: linear-gradient(270deg, #da36d4, #b154ff);" class="pt-5">
