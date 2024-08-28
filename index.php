@@ -59,7 +59,8 @@
                         <span>KONTAKT</span>
                     </div>
                     <div class="btn-f small d-inline-flex justify-content-center align-items-center text-center m-0">
-                        <span>CASES</span></div>
+                        <span>CASES</span>
+                    </div>
                 </div>
             </div>
 
