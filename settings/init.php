@@ -17,7 +17,7 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED & ~E_STRICT);
  * Når filen er uploadet retter du igen til define("CONFIG_LIVE", "0"); så det virker lokalt igen
  * På den måde kan du både have lokale oplysninger og webhotel oplysninger liggende
  */
-define("CONFIG_LIVE", "0"); // 0: Test enviroment || 1: Live enviroment
+define("CONFIG_LIVE", "1"); // 0: Test enviroment || 1: Live enviroment
 
 if(CONFIG_LIVE == 0){
     $DB_SERVER = "localhost";
@@ -25,10 +25,10 @@ if(CONFIG_LIVE == 0){
     $DB_USER = "root";
     $DB_PASS = "";
 }else{
-    $DB_SERVER = "";
-    $DB_NAME = "";
-    $DB_USER = "";
-    $DB_PASS = "";
+    $DB_SERVER = "mysql91.unoeuro.com";
+    $DB_NAME = "nordicwebworks_dk_db";
+    $DB_USER = "nordicwebworks_dk";
+    $DB_PASS = "23zbgah9txypFwGeARDn";
 }
 
 $db = new db($DB_SERVER, $DB_NAME, $DB_USER, $DB_PASS);
