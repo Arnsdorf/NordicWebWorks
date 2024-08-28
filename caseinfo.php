@@ -132,6 +132,7 @@ require "settings/init.php";
 
                         <!-- Case Information Container (larger screens) -->
                         <div id="case-container-md" class="pt-17 ms-5 text-white mt-1">
+                            <!-- Case 1 -->
                             <div class="case-info active">
                                 <img src="uploads/chr/luca-bravo-9l_326FISzk-unsplash.jpg" alt="Case 1 Image" class="case-image d-none">
                                 <div class="tech-tags d-none">
@@ -145,8 +146,9 @@ require "settings/init.php";
                                     En digital løsning blev kreaeret af denne folk mennesker, i håber om at alle en dag skulle kunne nyde den digitale verden
                                     uden bekymring for om deres udstyr holder dem tilbage.</h6>
                             </div>
+                            <!-- Case 2 -->
                             <div class="case-info">
-                                <img src="uploads/another-image.jpg" alt="Case 2 Image" class="case-image d-none">
+                                <img src="uploads/chr3.jpg" alt="Case 2 Image" class="case-image d-none">
                                 <div class="tech-tags d-none">
                                     <h6 class="fw-light col">.Html</h6>
                                     <h6 class="fw-light ms-5 me-5 col">.CSS</h6>
@@ -156,8 +158,9 @@ require "settings/init.php";
                                 <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem;color: #7c7c7c">Another project.</h6>
                                 <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem">This is a description of another project that focuses on a different aspect of web development...</h6>
                             </div>
+                            <!-- Case 3 -->
                             <div class="case-info">
-                                <img src="uploads/yet-another-image.jpg" alt="Case 3 Image" class="case-image d-none">
+                                <img src="uploads/chr/muhmed-alaa-el-bank-tkSqiW0qFJU-unsplash.jpg" alt="Case 3 Image" class="case-image d-none">
                                 <div class="tech-tags d-none">
                                     <h6 class="fw-light col">.Python</h6>
                                     <h6 class="fw-light ms-5 me-5 col">.Django</h6>
@@ -167,7 +170,20 @@ require "settings/init.php";
                                 <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem;color: #7c7c7c">Yet another project.</h6>
                                 <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem">Description of yet another case that showcases your skills...</h6>
                             </div>
+
+                            <div class="case-info">
+                                <img src="uploads/chr/nat-hwcMLF374mY-unsplash.jpg" alt="Case 3 Image" class="case-image d-none">
+                                <div class="tech-tags d-none">
+                                    <h6 class="fw-light col">.Python</h6>
+                                    <h6 class="fw-light ms-5 me-5 col">.Django</h6>
+                                    <h6 class="fw-light col">.SQL</h6>
+                                </div>
+                                <h1 class="fw-bold" style="font-size: 4rem">Case 5</h1>
+                                <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem;color: #7c7c7c">Yet another project.</h6>
+                                <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem">Description of yet another case that showcases your skills...</h6>
+                            </div>
                             <!-- Add more cases as needed -->
+
                         </div>
 
                         <!-- Navigation Buttons -->
