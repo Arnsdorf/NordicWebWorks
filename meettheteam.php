@@ -91,11 +91,16 @@
 <section style="background-color:#242424;">
     <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-4 d-flex align-items-center justify-content-center" style=" background-color: #DA009D; background-image: linear-gradient(19deg, #7e005a 0%, #B721FF 100%);
+            <div class="col-md-4 d-flex align-items-center flex-column justify-content-center" style=" background-color: #DA009D; background-image: linear-gradient(19deg, #7e005a 0%, #B721FF 100%);
 ">
-                <h3 class="max-w-1 p-3 pt-4 mt-8 mb-5 pb-4 fw-semibold display-6 text-white">Vores Visioner, Mål og Drivkraft bag
+                <h3 style="font-size: 1.8rem" class="max-w-1 ms-md-4 px-3 pt-4 mt-8 fw-medium display-6 text-white">
+                    Vores Visioner, Mål og Drivkraft bag
                     <span class="w-100 d-block">Nordic Web Works</span>
+
                 </h3>
+                <p class="px-3 ms-md-4 text-white fw-light">
+                    Hos Nordic Web Works er vi drevet af vores kerneværdier.
+                </p>
             </div>
             <div class="col-md-8">
                 <div class="m-0">
@@ -103,29 +108,29 @@
                         <div class="col-md-6">
                             <div class="p-3">
                                 <h2 class="h5">Kreative</h2>
-                                <p class="small max-w mb-0">Vi bringer fantasi til virkelighed med unikke løsninger, der skiller sig ud fra mængden.</p>
+                                <p class="small max-w fw-light mb-0">Vi bringer fantasi til virkelighed med unikke løsninger, der skiller sig ud fra mængden.</p>
                             </div>
                             <div class="p-3">
                                 <h2 class="h5">Tekniske</h2>
-                                <p class="small max-w mb-0">Vi mestrer de mest avancerede værktøjer og teknikker for at levere løsninger, der virker.</p>
+                                <p class="small max-w fw-light mb-0">Vi mestrer de mest avancerede værktøjer og teknikker for at levere løsninger, der virker.</p>
                             </div>
                             <div class="p-3">
                                 <h2 class="h5">Kvalitetsbevidste</h2>
-                                <p class="small max-w mb-0">Hver detalje tæller. Vi leverer kun det bedste og sætter en ære i høj kvalitet.</p>
+                                <p class="small max-w fw-light mb-0">Hver detalje tæller. Vi leverer kun det bedste og sætter en ære i høj kvalitet.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="p-3">
                                 <h2 class="h5">Innovative</h2>
-                                <p class="small max-w mb-0">Altid på forkant med de nyeste teknologier for at skabe fremtidens digitale oplevelser.</p>
+                                <p class="small max-w fw-light mb-0">Altid på forkant med de nyeste teknologier for at skabe fremtidens digitale oplevelser.</p>
                             </div>
                             <div class="p-3">
                                 <h2 class="h5">Samarbejdsvillige</h2>
-                                <p class="small max-w mb-0">Sammen skaber vi resultater. Vi lytter, tilpasser os og arbejder tæt sammen med dig for at opnå succes.</p>
+                                <p class="small max-w fw-light mb-0">Sammen skaber vi resultater. Vi lytter, tilpasser os og arbejder tæt sammen med dig for at opnå succes.</p>
                             </div>
                             <div class="p-3">
                                 <h2 class="h5">Bygger for Fremtiden</h2>
-                                <p class="small text-white max-w mb-0">Vi tænker langsigtet og skaber løsninger, der ikke kun opfylder nutidens behov, men også sikrer fremtidig vækst og udvikling.</p>
+                                <p class="small text-white fw-light max-w mb-0">Vi tænker langsigtet og skaber løsninger, der ikke kun opfylder nutidens behov, men også sikrer fremtidig vækst og udvikling.</p>
                             </div>
                         </div>
                     </div>

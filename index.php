@@ -89,7 +89,7 @@
     <div class="container">
         <div class="row">
             <!-- Card 1 -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                 <div class="card border-0 card-hover bg-cases h-100">
                     <div class="card-body text-white d-flex flex-column">
                         <div>
@@ -135,7 +135,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                 <div class="card border-0 card-hover bg-cases h-100">
                     <div class="card-body text-white d-flex flex-column">
                         <div>
@@ -158,7 +158,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
                 <div class="card border-0 card-hover bg-cases h-100">
                     <div class="card-body text-white d-flex flex-column">
                         <div>

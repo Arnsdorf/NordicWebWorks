@@ -47,7 +47,7 @@ require "settings/init.php";
                     <a class="nav-link text-white mt-1 mx-3" href="meettheteam.php#meet"><span class="">MØD HOLDET</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href=""><span class="">KONTAKT</span></a>
+                    <a class="nav-link text-white mt-1 mx-3" href="contact.php"><span class="">KONTAKT</span></a>
                 </li>
             </ul>
         </div>
