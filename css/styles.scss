@@ -25,6 +25,10 @@ body{
 	font-family: "Montserrat", sans-serif;
 }
 
+/* demo */
+.scroll-animate {
+	transition: transform 0.2s ease-out;
+}
 
 /* Global */
 .top-25{
@@ -220,24 +224,61 @@ body{
 	color: transparent;
 	border: none;
 	background: rgb(218,54,212);
-	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgba(209,22,89,1) 100%);
-	animation: colorChange 2s linear infinite;
-	background-size: 200% 200%;
+	background: linear-gradient(90deg, rgb(234, 109, 229) 0%, rgba(209,22,89,1) 100%);
+	animation: colorChange 100ms linear infinite;
+	background-size: 500% 500%;
 	background-clip: text;
 	-webkit-background-clip: text;
-	text-shadow: 0 0 1.5px #d836d2, 0 0 1.5px #cf1658;
+	text-shadow: 0 0 1.5px #d54ed0, 0 0 1.5px #cf1658;
 }
 .drip{
 	color: #1C1C1C;
 	border: none;
 	background: rgb(218,54,212);
-	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgba(209,22,89,1) 100%);
+	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgb(255, 0, 68) 100%);
 	animation: colorChange 4s linear infinite;
 	background-size: 200% 200%;
 	box-shadow: 0 0 10px rgba(218,54,212,0.5); /* Initial glow */
 }
 .box-container{
 	bottom: 0rem;
+}
+.arrow-box {
+	height: 2.5rem;
+	width: 2.5rem;
+	border: #858585 solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 12px solid #858585;
+	transition: border-top-color 0.2s ease; /* Smooth transition for color change */
+}
+
+.arrow-box:hover {
+	border: #ffffff solid 1px;
+}
+
+.arrow-box:hover .arrow {
+	border-top-color: #ffffff; /* Change arrow color to white on hover */
+	animation: pew 0.5s ease-in-out infinite; /* Create a pulsing effect on hover */
+}
+@keyframes pew {
+	0% {
+        transform: translateY(-8px);
+		opacity: 0;
+    }
+    100% {
+        transform: translateY(8px);
+		opacity: 1;
+    }
+
 }
 .box-s{
 	height: 4rem;
@@ -274,7 +315,7 @@ body{
 }
 .img-box:hover {
 	transform: scale(1.1);
-	z-index: 10; /* Higher z-index on hover */
+	z-index: 12; /* Higher z-index on hover */
 	opacity: 1;
 	transition: transform 200ms ease-in-out, opacity 200ms ease-in-out, z-index 0s;
 }
@@ -373,7 +414,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	z-index: 10; /* Ensure it's on top of other elements */
+	z-index: 1000; /* Ensure it's on top of other elements */
 }
 
 .navbar-toggler-icon {
