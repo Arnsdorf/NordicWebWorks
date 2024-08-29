@@ -23,6 +23,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 body{
 	background-color: #1c1c1c;
 	font-family: "Montserrat", sans-serif;
+
 }
 
 
@@ -613,16 +614,16 @@ footer{
 	position: relative;
 	padding: 15px 0 0;
 	margin-top: 10px;
-	width: 50%;
+
 }
 
 .form__field {
 	font-family: inherit;
 	width: 100%;
 	border: 0;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid white;
 	outline: 0;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	color: white;
 	padding: 7px 0;
 	background: transparent;
@@ -639,13 +640,17 @@ footer{
 	}
 }
 
+.form__field:placeholder-shown~.form__label{
+	font-size: 1rem;
+}
+
 .form__label {
 	position: absolute;
 	top: 0;
 	display: block;
 	transition: 0.2s;
 	font-size: 1rem;
-	color: gray;
+	color: white;
 }
 
 .form__field:focus {
@@ -654,14 +659,14 @@ footer{
 		top: 0;
 		display: block;
 		transition: 0.2s;
-		font-size: 1rem;
-		color: blue;
+		font-size: .8rem;
+		color: #DA009D;
 		font-weight: 700;
 	}
 	padding-bottom: 6px;
 	font-weight: 700;
 	border-width: 3px;
-	border-image: linear-gradient(to right, blue, lightblue);
+	border-image: linear-gradient(to right, #DA009D, #1C1C1C);
 	border-image-slice: 1;
 }
 
@@ -669,4 +674,8 @@ footer{
 .form__field:required,
 .form__field:invalid {
 	box-shadow: none;
+}
+
+.tis{
+	line-height: 1.8rem;
 }
