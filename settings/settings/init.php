@@ -26,8 +26,8 @@ if(CONFIG_LIVE == 0){
     $DB_PASS = "";
 }else{
     $DB_SERVER = "mysql91.unoeuro.com";
-    $DB_NAME = "nordicwebworks_dk_db";
-    $DB_USER = "nordicwebworks_dk";
+    $DB_NAME = "nordicwebworks_dk";
+    $DB_USER = "nordicwebworks_dk_db";
     $DB_PASS = "23zbgah9txypFwGeARDn";
 }
 
