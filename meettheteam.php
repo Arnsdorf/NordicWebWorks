@@ -14,12 +14,12 @@
     </div>
 </section>
 
-<section class="team-description py-4" style="background-color:#f1f2f9;">
+<section class="team-description py-4" style="background-color:#2c2c2c;">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8 col-md-10 px-4 p-md-4">
 
-                <p class="text-black">
+                <p class="text-white">
                     Nordic Web Works er et dedikeret team, der forener kreativitet og teknisk dygtighed for at udvikle brugervenlige, visuelt engagerende løsninger. Vi værdsætter samarbejde, kvalitet og skaber stærke brugeroplevelser, der inspirerer og leverer. Holdet er altid klar til nye udfordringer.
                 </p>
                 <p style="color: #DA009D" class="fw-bold">
@@ -79,7 +79,6 @@
                     <p class="small max-w mb-0">Mikkel har et skarpt øje for design og er ekspert i UX/UI.
                         Han spiller en afgørende rolle i de fleste cases, hvor han kombinerer æstetik med funktionalitet
                         for at skabe brugervenlige og visuelt tiltalende løsninger.</p>
-                    <p class="small fst-italic">"Det går lige i pikken."</p>
 
                 </div>
 
@@ -98,7 +97,7 @@
                     <span class="w-100 d-block">Nordic Web Works</span>
 
                 </h3>
-                <p class="px-3 ms-md-4 text-white fw-light">
+                <p class="px-3 ms-md-4 max-w-1 text-white fw-light">
                     Hos Nordic Web Works er vi drevet af vores kerneværdier.
                 </p>
             </div>
