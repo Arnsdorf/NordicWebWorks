@@ -1,4 +1,7 @@
-<footer class="bg-cases text-white pt-5">
+
+
+<div class="background-strips col-12" style="height: 4vh"></div>
+<footer class="text-white pt-5">
     <div class="container">
         <div class="row">
             <!-- Column 1: Company Info -->
