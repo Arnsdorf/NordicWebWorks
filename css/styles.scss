@@ -854,7 +854,11 @@ font {
 .glitch-btn{
 	border: 1px solid #ffffff;
 	height: 2.6rem;
-
+	background: none;
+	transition: 300ms ease-in-out;
+}
+.case-btn-font{
+	color: #e0e0dc;
 }
 @keyframes loading {
 	0%{

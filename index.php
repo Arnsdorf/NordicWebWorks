@@ -212,43 +212,69 @@
             </div>
 
           
-                 <div class="col-7 m-0 p-0">
-                     <!------------Cases-cards-------------->
+                 <div class="col-7 m-0 p-0 ">
+                     <!------------Cases-cards 1-------------->
                      <div class="col-12 case-g mt-2" style="height: 25vh">
                          <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
                              <div class="col-6 me-1 case-extra justify-content-start" style="height: 3vh;width: 1.5vw"></div>
                          </div>
                          <div class="text-white justify-content-center d-flex font-glitch">
-                             <h1 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">ERROR</h1>
+                             <h1 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h1>
                          </div>
                          <div class="text-white justify-content-center d-flex">
                              <h1 class="" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'; font-weight: lighter">Loading</h1>
                          </div>
                          <div class="ms-5 me-5 " style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
                      </div>
-                     <!------------Cases-cards-------------->
+                     <!------------Cases-cards 2-------------->
                      <div class="col-12 case mt-2" style="height: 25vh">
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 3vh;width: 1.5vw"></div>
                          </div>
 
-                            <div class="glitch-btn d-flex position-absolute d-flex mt-5">
-                             <div class="align-items-center ps-5 pe-5 pt-2 pb-2"><p class="text-white">Næste</p></div>
-                            </div>
+                         <div class="col-12 d-flex m-0 p-0">
+                           <div class="pt-2 pb-2 ps-2 pe-2 m-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.8rem;"></div>
+                             <h3 class="ms-2 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+                         </div>
+    
+                         <div class=" col-12 p-0 m-0 d-flex">
+                             <div class="col-9 bg-light">
+                                 <h5 class="ps-5 ">Projekt-info</h5>
+                                 <p class="ps-5">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
+                                 for at se om dette virker angående spacing på kortet.</p>
+                             </div>
+                             
+                             <div class="d-flex justify-content-end my-auto pe-3 col-3 bg-warning">
+                                 <div class="btn-f"><span class="">< / Næste ></span></div>
+                             </div>
+                         </div>
 
                      </div>
-                     <!------------Cases-cards-------------->
+                     <!------------Cases-cards 3-------------->
                      <div class="col-12 case mt-2" style="height: 25vh">
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
-                             <div class="mt-3 ps-5 col-12"><p class="">Case.exe</p></div>
+                             <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 3vh;width: 1.5vw"></div>
                          </div>
+
+                         <div class="col-12 d-flex">
+                             <div class="pt-2 pb-2 ps-2 pe-2 m-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.8rem;"></div>
+                             <h3 class="ms-2 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+                         </div>
+
+                         <div class="col-12">
+                             <div class="d-flex justify-content-end pt-3 pe-3">
+                                 <div class="btn-f"><span class="">< / Næste ></span></div>
+                             </div>
+                         </div>
+
                      </div>
                      
+                     
                  </div>
-                    <!------------Cases-cards-------------->
+                    <!------------Cases-cards 4-------------->
             <div class="col-3 case m-0 p-0 ms-2 mt-2">
                 <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                     <div class="mt-3 ps-5 col-12"><p class="">Info.exe</p></div>
@@ -274,4 +300,21 @@
 
 
 
+<div class="col-12 case mt-2" style="height: 25vh">
+    <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
+        <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
+        <div class="col-6 me-1 case-extra" style="height: 3vh;width: 1.5vw"></div>
+    </div>
 
+    <div class="d-flex p-0 m-0 mt-4 ms-4">
+        <div class="cases-box" style="border: #ffffff solid 1px"><img class="ms-3 me-3 mt-0 mb-0 p-0 text-white" src="uploads/folder2.svg" alt="" style="height: 4rem;width: 3rem"> </div>
+        <h3 class="ms-2 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+    </div>
+
+    <span class="text-white ms-4" style="font-size: 1rem">< / Case ></span>
+
+    <div class="d-flex justify-content-end mt-4 me-3">
+        <div class="btn-f"><span class="">< / Næste ></span></div>
+    </div>
+
+</div>
