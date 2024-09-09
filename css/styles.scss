@@ -347,12 +347,15 @@ body{
 
 /* Sigurd-styling her */
 
+
+/* Sigurd-styling her */
+
 .text-blue{
 	color: #2B589D;
 }
 
 .text-purple{
-    color: #f1108e;
+	color: #f1108e;
 }
 
 .text-red{
@@ -432,14 +435,14 @@ body{
 	display: block; /* Sørg for, at billedet bliver vist som blok-element */
 }
 
-
 .navbar {
 	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
 	position: sticky;
 	top: 0;
 	opacity: 1;
 	font-family: "Montserrat", sans-serif;
-	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
 	z-index: 1000;
 }
 
@@ -529,7 +532,6 @@ body{
 	opacity: 1;
 }
 
-
 .card {
 	border-radius: 0;
 	min-height: 320px;
@@ -541,7 +543,6 @@ body{
 
 .card:hover {
 	transform: translateY(-10px) scale(1.05); /* Hopper lidt op og udvider sig */
-
 }
 
 .card::before,
@@ -617,7 +618,6 @@ footer{
 	transform: scaleX(1);
 }
 
-
 .form__group {
 	position: relative;
 	padding: 15px 0 0;
@@ -683,7 +683,81 @@ footer{
 	box-shadow: none;
 }
 
-
 .tis{
 	line-height: 1.8rem;
+}
+
+@media (min-width: 768px) {
+	.translate-md-up {
+		transform: translateY(-25%);
+	}
+}
+
+/* Standard navbar styling */
+.navbar-collapse {
+	transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-collapse {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #333; /* Baggrundsfarve */
+		background-image: url('/uploads/bg/flat-mountains.svg'); /* Tilføj SVG som baggrund */
+		background-repeat: no-repeat;
+		background-size: cover; /* Dækker hele baggrunden */
+		background-position: center center;
+		z-index: 1000;
+		transform: translateY(-100%); /* Start udenfor skærmen, skjult */
+		overflow-y: auto;
+		padding-top: 1rem;
+	}
+
+	.navbar-collapse.show {
+		transform: translateY(0); /* Glider ned fra toppen */
+	}
+
+	.navbar-nav {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+
+	.nav-link {
+		text-align: center;
+		width: 100%;
+		color: white;
+		margin-bottom: 3rem;
+		font-size: xx-large;
+	}
+
+	.navbar-toggler {
+		z-index: 1001;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.navbar-collapse {
+		transform: none !important;
+		position: relative;
+		height: auto;
+		background-color: transparent;
+	}
+
+	.navbar-nav {
+		flex-direction: row;
+		justify-content: flex-end; /* Flyt elementerne til højre */
+		align-items: center;
+		margin-left: auto; /* Skub elementerne væk fra logoet */
+	}
+
+	.nav-link {
+		width: auto;
+		color: white;
+	}
 }

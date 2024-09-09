@@ -87,7 +87,7 @@
 </section>
 
 <section id="services" class="services-cards py-md-5" style="background-color: #252525">
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <!-- Card 1 -->
             <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
