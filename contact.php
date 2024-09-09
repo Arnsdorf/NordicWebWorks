@@ -83,5 +83,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </div>
 
-
+<script src="js/map.js"></script>
 <?php include "includes/footer.php" ?>

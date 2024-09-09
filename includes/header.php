@@ -36,24 +36,26 @@ require "settings/init.php";
         <button class="navbar-toggler p-0 mx-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center align-items-center justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-center mx-md-4 mt-1">
-                <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href="index.php"><span>HJEM</span></a>
+        <div class="collapse navbar-collapse d-flex justify-content-center justify-content-md-end" id="navbarNav">
+            <ul class="navbar-nav mx-4 mt-2 align-items-center">
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="index.php">HJEM</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href="index.php#services"><span>SERVICES</span></a>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="index.php#services">SERVICES</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href="meettheteam.php#meet"><span>MØD HOLDET</span></a>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="meettheteam.php#meet">MØD HOLDET</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white mt-1 mx-3" href="contact.php"><span>KONTAKT</span></a>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="contact.php">KONTAKT</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+
 
 </body>
 </html>
