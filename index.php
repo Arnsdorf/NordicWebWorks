@@ -287,9 +287,7 @@
     </div>
 
 
-<!---------demo-land-------------->
-<h1 class="hero glitch layers ms-5 text-white d-none" data-text="近設計">近設計</h1>
-<!---------demo-land-end---------->
+
 
 
 
@@ -297,24 +295,3 @@
 <script src="js/click..js"></script>
 <script src="js/scroll.js"></script>
 <?php include "includes/footer.php" ?>
-
-
-
-<div class="col-12 case mt-2" style="height: 25vh">
-    <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
-        <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
-        <div class="col-6 me-1 case-extra" style="height: 3vh;width: 1.5vw"></div>
-    </div>
-
-    <div class="d-flex p-0 m-0 mt-4 ms-4">
-        <div class="cases-box" style="border: #ffffff solid 1px"><img class="ms-3 me-3 mt-0 mb-0 p-0 text-white" src="uploads/folder2.svg" alt="" style="height: 4rem;width: 3rem"> </div>
-        <h3 class="ms-2 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
-    </div>
-
-    <span class="text-white ms-4" style="font-size: 1rem">< / Case ></span>
-
-    <div class="d-flex justify-content-end mt-4 me-3">
-        <div class="btn-f"><span class="">< / Næste ></span></div>
-    </div>
-
-</div>

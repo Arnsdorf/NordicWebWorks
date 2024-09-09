@@ -14,12 +14,12 @@
     </div>
 </section>
 
-<section class="team-description py-4" style="background-color:#f1f2f9;">
+<section class="team-description py-4" style="background-color:#2c2c2c;">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8 col-md-10 px-4 p-md-4">
 
-                <p class="text-black">
+                <p class="text-white">
                     Nordic Web Works er et dedikeret team, der forener kreativitet og teknisk dygtighed for at udvikle brugervenlige, visuelt engagerende løsninger. Vi værdsætter samarbejde, kvalitet og skaber stærke brugeroplevelser, der inspirerer og leverer. Holdet er altid klar til nye udfordringer.
                 </p>
                 <p style="color: #DA009D" class="fw-bold">
@@ -79,7 +79,6 @@
                     <p class="small max-w mb-0">Mikkel har et skarpt øje for design og er ekspert i UX/UI.
                         Han spiller en afgørende rolle i de fleste cases, hvor han kombinerer æstetik med funktionalitet
                         for at skabe brugervenlige og visuelt tiltalende løsninger.</p>
-                    <p class="small fst-italic">"Det går lige i pikken."</p>
 
                 </div>
 
@@ -88,56 +87,104 @@
     </div>
 </div>
 
-<section style="background-color:#242424;">
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-4 d-flex align-items-center flex-column justify-content-center" style=" background-color: #DA009D; background-image: linear-gradient(19deg, #7e005a 0%, #B721FF 100%);
-">
-                <h3 style="font-size: 1.8rem" class="max-w-1 ms-md-4 px-3 pt-4 mt-8 fw-medium display-6 text-white">
-                    Vores Visioner, Mål og Drivkraft bag
-                    <span class="w-100 d-block">Nordic Web Works</span>
 
-                </h3>
-                <p class="px-3 ms-md-4 text-white fw-light">
-                    Hos Nordic Web Works er vi drevet af vores kerneværdier.
+<section class="pt-3 pb-4" style="background-color: #252525">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 text-center">
+                <h2 class="pt-4 mt-8 fw-medium display-6 text-white">
+                    Fra <span class="fst-italic fw-bold"  style="color: #DA009D">visioner</span> til virkelighed.
+                </h2>
+                <p class="mt-4 max-w m-auto text-white fw-light">
+                    Hos Nordic Web Works ser vi ikke bare, hvad der er muligt – vi skaber det. Med en klar vision, målrettede strategier og en ustoppelig drivkraft gør vi drømme til virkelighed.
                 </p>
             </div>
-            <div class="col-md-8">
-                <div class="m-0">
-                    <div class="row text-white d-flex justify-content-center align-items-center mt-md-4 mb-md-4 p-4">
-                        <div class="col-md-6">
-                            <div class="p-3">
-                                <h2 class="h5">Kreative</h2>
-                                <p class="small max-w fw-light mb-0">Vi bringer fantasi til virkelighed med unikke løsninger, der skiller sig ud fra mængden.</p>
-                            </div>
-                            <div class="p-3">
-                                <h2 class="h5">Tekniske</h2>
-                                <p class="small max-w fw-light mb-0">Vi mestrer de mest avancerede værktøjer og teknikker for at levere løsninger, der virker.</p>
-                            </div>
-                            <div class="p-3">
-                                <h2 class="h5">Kvalitetsbevidste</h2>
-                                <p class="small max-w fw-light mb-0">Hver detalje tæller. Vi leverer kun det bedste og sætter en ære i høj kvalitet.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3">
-                                <h2 class="h5">Innovative</h2>
-                                <p class="small max-w fw-light mb-0">Altid på forkant med de nyeste teknologier for at skabe fremtidens digitale oplevelser.</p>
-                            </div>
-                            <div class="p-3">
-                                <h2 class="h5">Samarbejdsvillige</h2>
-                                <p class="small max-w fw-light mb-0">Sammen skaber vi resultater. Vi lytter, tilpasser os og arbejder tæt sammen med dig for at opnå succes.</p>
-                            </div>
-                            <div class="p-3">
-                                <h2 class="h5">Bygger for Fremtiden</h2>
-                                <p class="small text-white fw-light max-w mb-0">Vi tænker langsigtet og skaber løsninger, der ikke kun opfylder nutidens behov, men også sikrer fremtidig vækst og udvikling.</p>
-                            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section id="vision" class="services-cards pt-5 pb-5 py-md-5" style="background-color: #252525">
+    <div class="container">
+        <div class="row flex-row-reverse g-4 g-md-5">
+            <!-- Card 1 -->
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+                <div class="p-4 cut-corner text-white bg-cases border-0 h-100" style="max-width: 400px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="card-title pb-3">Kreativitet</h4>
+                            <p class="card-text small fw-light">Vi omdanner idéer til virkelighed med innovative løsninger, der inspirerer og engagerer.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Card 2 -->
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                <div class="p-4 cut-corner translate-md-up text-white bg-cases border-0 h-100" style="max-width: 400px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="card-title pb-3">Innovation</h4>
+                            <p class="card-text small fw-light">Vi stræber efter konstant at innovere og udvikle nye løsninger, der baner vejen for fremtiden.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+                <div class="p-4 cut-corner text-white bg-cases border-0 h-100" style="max-width: 400px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="card-title pb-3">Teknisk Ekspertise</h4>
+                            <p class="card-text small fw-light">Vi anvender vores dybe tekniske viden til at skabe robuste og effektive løsninger.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                <div class="p-4 cut-corner translate-md-up text-white bg-cases border-0 h-100" style="max-width: 400px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="card-title pb-3">Samarbejde</h4>
+                            <p class="card-text small fw-light">Gennem tæt samarbejde med vores kunder sikrer vi skræddersyede løsninger, der opfylder deres behov.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+                <div class="p-4 cut-corner text-white bg-cases border-0 h-100" style="max-width: 400px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="card-title pb-3">Kvalitet</h4>
+                            <p class="card-text small fw-light">Vi leverer kun det bedste, med fokus på detaljerne, for at sikre høj kvalitet i alle vores projekter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                <div class="p-4 cut-corner translate-md-up text-white bg-cases border-0 h-100" style="max-width: 400px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="card-title pb-3">Fremtidsvision</h4>
+                            <p class="card-text small fw-light">Vi tænker langsigtet og skaber løsninger, der sikrer bæredygtig vækst og innovation i mange år fremover.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 
 

@@ -6,7 +6,9 @@
         <div class="row">
             <!-- Column 1: Company Info -->
             <div class="col-md-3 mb-4">
-                <h5 class="text-uppercase mb-4 font-weight-bold">Nordic Web Works</h5>
+                <a href="index.php">
+                    <img src="/uploads/logo/nw_logo2.svg" alt="Nordic Web Works Logo" class="mb-3" style="max-width: 140px;">
+                </a>
                 <p>
                     Vi specialiserer os i at levere innovative digitale løsninger. Vores mission er at hjælpe din virksomhed med at nå nye højder gennem effektiv og kreativ digital transformation.
                 </p>
@@ -87,8 +89,8 @@
 
 
 
+
 <script src="js/navbar.js"></script>
-<script src="js/map.js"></script>
 <script src="js/meettheteam.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
