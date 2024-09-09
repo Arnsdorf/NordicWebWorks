@@ -172,7 +172,7 @@
                 </div>
             </div>
 
-            <!-- Card 4 -->
+            <!-- Card 4 ---->
 
             <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
 
