@@ -96,7 +96,7 @@
                     Fra <span class="fst-italic fw-bold"  style="color: #DA009D">visioner</span> til virkelighed.
                 </h2>
                 <p class="mt-4 max-w m-auto text-white fw-light">
-                    Hos Nordic Web Works ser vi ikke bare, hvad der er muligt – vi skaber det. Med en klar vision, målrettede strategier og en ustoppelig drivkraft gør vi drømme til virkelighed.
+                    Hos Nordic Web Works ser vi ikke bare, hvad der er muligt – vi skaber det. Med en klar vision, målrettede strategier og en ustoppelig drivkraft hjælper vi din virksomhed.
                 </p>
             </div>
         </div>
