@@ -39,13 +39,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="row">
         <!-- Venstre kolonne med formen -->
         <div class="col-lg-7 col-md-12 d-flex justify-content-center align-items-center p-4"> <!-- Justering af bredde afhængig af skærmstørrelse -->
-            <div class="w-100" style="max-width: 600px;"> <!-- Begræns bredden af formen -->
-                <h2 class="mb-4 display-6 text-white fw-bold">Kontakt os</h2>
+            <div class="w-100 mt-5" style="max-width: 600px;"> <!-- Begræns bredden af formen -->
+                <h2 class="mb-4 display-6 text-white fw-bold">Lad os finde den <span style="color: #DA009D" class="fst-italic">bedste løsning for dig!</span></h2>
                 <p class="text-white fw-light tis mb-4">
-                    Har du spørgsmål eller brug for hjælp? Vi vil meget gerne høre fra dig!
-                    Vi sætter en ære i at give dig den bedst mulige service, og vi er her for
-                    at besvare dine spørgsmål, uanset om du har brug for support, ønsker at høre
-                    mere om vores produkter og tjenester, eller har generelle forespørgsler.
+                    Har du spørgsmål eller brug for hjælp? Kontakt os! Vi er her for at give dig den bedste service og besvare alle dine henvendelser om support, produkter, tjenester eller generelle forespørgsler.
                 </p>
                 <form method="post">
                     <div class="row">
@@ -70,7 +67,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <textarea class="form__field" id="message" name="message" rows="5" placeholder="Skriv din besked her" required></textarea>
                         <label for="message" class="form__label">Besked</label>
                     </div>
-                    <button type="submit" class="btn-f bg-transparent mt-5 small d-inline-flex fw-medium justify-content-center align-items-center">Send besked</button>
+                    <button type="submit" class="btn-f mt-5 mb-5 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                        <span class="small">Læs Mere</span>
+                    </button>
+
+
                 </form>
             </div>
         </div>
@@ -82,5 +83,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </div>
 
-
+<script src="js/map.js"></script>
 <?php include "includes/footer.php" ?>

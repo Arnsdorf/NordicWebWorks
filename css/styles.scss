@@ -656,12 +656,15 @@ body{
 
 /* Sigurd-styling her */
 
+
+/* Sigurd-styling her */
+
 .text-blue{
 	color: #2B589D;
 }
 
 .text-purple{
-    color: #f1108e;
+	color: #f1108e;
 }
 
 .text-red{
@@ -735,14 +738,21 @@ body{
 	border-bottom: 1px solid #5A5A5A; /* #ccc er en lysegrå farve */
 }
 
+.navbar img {
+	max-width: 200px;
+	height: auto;
+	display: block; /* Sørg for, at billedet bliver vist som blok-element */
+}
+
 .navbar {
 	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
 	position: sticky;
 	top: 0;
 	opacity: 1;
 	font-family: "Montserrat", sans-serif;
-	backdrop-filter: blur(10px);
-	z-index: 4;
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
+	z-index: 1000;
 }
 
 /* Navbar hidden state */
@@ -802,6 +812,7 @@ body{
 .container-box {
 	overflow: hidden;
 	transition: transform 0.3s ease;
+	position: relative; /* Sørg for, at containeren er relativ, så overlayet kan positioneres korrekt */
 }
 
 .img-fluid {
@@ -816,8 +827,8 @@ body{
 
 .overlay {
 	position: absolute;
-	bottom: -100%; /* Start positionen lige uden for bunden */
-	left: 0;
+	top: 0;
+	left: -100%; /* Start positionen lige uden for venstre side */
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -826,10 +837,9 @@ body{
 }
 
 .container-box:hover .overlay {
-	bottom: 0; /* Flyt overlayen op til at dække hele boksen */
+	left: 0; /* Flyt overlayen ind for at dække hele boksen */
 	opacity: 1;
 }
-
 
 .card {
 	border-radius: 0;
@@ -911,6 +921,7 @@ body{
 .link-hover:hover::before {
 	transform: scaleX(1);
 }
+
 .form__group {
 	position: relative;
 	padding: 15px 0 0;
@@ -920,7 +931,7 @@ body{
 	font-family: inherit;
 	width: 100%;
 	border: 0;
-	border-bottom: 2px solid white;
+	border-bottom: 1px solid white; /* Ændret fra 2px til 1px */
 	outline: 0;
 	font-size: 1rem;
 	color: white;
@@ -933,7 +944,7 @@ body{
 	}
 
 	&:placeholder-shown ~ .form__label {
-		font-size: 1.3rem;
+		font-size: 1rem;
 		cursor: text;
 		top: 20px;
 	}
@@ -964,7 +975,7 @@ body{
 	}
 	padding-bottom: 6px;
 	font-weight: 700;
-	border-width: 3px;
+	border-width: 2px; /* Justeret fra 3px til 2px for at matche en smallere kant */
 	border-image: linear-gradient(to right, #DA009D, #1C1C1C);
 	border-image-slice: 1;
 }
@@ -977,4 +988,79 @@ body{
 
 .tis{
 	line-height: 1.8rem;
+}
+
+@media (min-width: 768px) {
+	.translate-md-up {
+		transform: translateY(-25%);
+	}
+}
+
+/* Standard navbar styling */
+.navbar-collapse {
+	transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-collapse {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #333; /* Baggrundsfarve */
+		background-image: url('/uploads/bg/flat-mountains.svg'); /* Tilføj SVG som baggrund */
+		background-repeat: no-repeat;
+		background-size: cover; /* Dækker hele baggrunden */
+		background-position: center center;
+		z-index: 1000;
+		transform: translateY(-100%); /* Start udenfor skærmen, skjult */
+		overflow-y: auto;
+		padding-top: 1rem;
+	}
+
+	.navbar-collapse.show {
+		transform: translateY(0); /* Glider ned fra toppen */
+	}
+
+	.navbar-nav {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+
+	.nav-link {
+		text-align: center;
+		width: 100%;
+		color: white;
+		margin-bottom: 3rem;
+		font-size: xx-large;
+	}
+
+	.navbar-toggler {
+		z-index: 1001;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.navbar-collapse {
+		transform: none !important;
+		position: relative;
+		height: auto;
+		background-color: transparent;
+	}
+
+	.navbar-nav {
+		flex-direction: row;
+		justify-content: flex-end; /* Flyt elementerne til højre */
+		align-items: center;
+		margin-left: auto; /* Skub elementerne væk fra logoet */
+	}
+
+	.nav-link {
+		width: auto;
+		color: white;
+	}
 }
