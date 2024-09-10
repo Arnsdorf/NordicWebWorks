@@ -27,6 +27,14 @@ body{
 }
 /* demo */
 
+#frontpage-link, #service-link, #cases-link {
+	transition: color 0.3s ease;
+}
+
+#frontpage-link.active, #service-link.active, #cases-link.active {
+	color: #ffcc00 !important; /* This forces the color change */
+}
+
 .background-strips {
 	background-image: linear-gradient(135deg, #1c1c1c 25%, #f5f5f5 25%, #f5f5f5 50%, #1c1c1c 50%, #1c1c1c 75%, #f5f5f5 75%, #f5f5f5 100%);
 	background-size: 60px 60px; /* Adjust size to match stripe pattern */
@@ -344,6 +352,9 @@ body{
 	border: #d1d3d6 solid 1px;
 	position: relative;
 }
+.case-info {
+	height: 45vh;
+}
 .case-header{
 	border-bottom: #d1d3d6 solid 1px;
 	transition: 300ms;
@@ -352,6 +363,16 @@ body{
 }
 .case-extra{
 	background: #1c1c1c;
+}
+.caseinfo{
+	transition: 300ms;
+}
+.caseinfo:hover{
+	background: #2f2f2f;
+	transition: 300ms;
+	opacity: 1;
+	cursor: pointer;
+	transform: scale(1.03);
 }
 .case:hover {
 	transform: scale(1.05);
@@ -367,23 +388,15 @@ body{
 	border-radius: 0;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	border: #d1d3d6 solid 1px;
-	animation:short-circuit 1s ease infinite;
 }
 .case-header-g{
 	border-bottom: #d1d3d6 solid 1px;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	background: #d1d3d6;
-	animation:short-circuit 2s ease infinite;
-
-}
-.case-header-g{
-	position: relative;
-	animation:short-circuit-p 2s ease infinite;
 
 }
 .case-header-g{
 	background: #d1d3d6;
-	animation:short-circuit-p 1s infinite;
 	position: relative;
 }
 .font-glitch{

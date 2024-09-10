@@ -1,5 +1,22 @@
 <?php include "includes/header.php" ?>
 
+<div class="d-flex justify-content-end m-0 p-0 position-sticky top-25 z-3">
+    <div class="position-absolute d-none d-md-block">
+        <h6 id="frontpage-link" class="text-white-50 fw-light"
+            style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Frontpage</h6>
+        <h6 id="service-link" class="text-white-50 fw-light mb-5 mt-5"
+            style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Service</h6>
+        <h6 id="cases-link" class="text-white-50 fw-light"
+            style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Cases</h6>
+        <a href="#services">
+            <div class="arrow-box ms-4 mt-5 d-flex align-items-center justify-content-center">
+                <div class="arrow"></div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
 
 <div class="container-fluid bg-front">
     <div class="row">
@@ -48,17 +65,7 @@
                         </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
                 </div>
                 <!-----PC--------->
-                
-                <div class="d-flex justify-content-end m-0 p-0 position-relative">
-                    <div class="position-absolute d-none d-md-block">
-                        <h6 class="text-white-50 fw-light" style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">UX-UI</h6>
-                        <h6 class="text-white-50 fw-light mb-5 mt-5" style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Development</h6>
-                        <h6 class="text-white-50 fw-light " style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Design</h6>
-                     <a href="#services"><div class="arrow-box ms-4 mt-5 d-flex align-items-center justify-content-center"><div class="arrow "></div></div></a>
-                    </div>
-                </div>
-
-                <div class="w-43 text-md-start d-md-none d-xl-block">
+                <div class="w-43 text-md-start d-md-none d-xl-block" id="frontpage">
                     <h5 class="d-none d-md-block d-flex scroll-animate" style="color: #636363;font-family: 'Source Code Pro'">━━  Velkommen til Nordic Webworks ━━━━━</h5>
                     <h1 class="text-white d-none d-md-block front-font-b d-flex font-type scroll-animate">Har <span class="font-drip">din</span>
                         virksomhed brug for en løsning<span class="font-drip">?</span></h1>
@@ -81,7 +88,7 @@
 
 
 <!-------services---------------------------------->
-<section class="pt-5 mt-2 bg-custom-dark" id="services">
+<section class="pt-8 mt-5 bg-custom-dark" id="services">
     <div class="container">
         <div class="row d-flex justify-content-center ">
             <div class="col-md-10 col-lg-6 text-center scroll-animate">
@@ -204,7 +211,7 @@
 
 
     <!------------Cases-------------->
-    <div class="container-fluid m-0 p-0 mb-5 scroll-animate">
+    <div class="container-fluid m-0 p-0 mt-5 pt-5 mb-5 pb-5 scroll-animate" id="cases">
         <div class="row p-0 m-0 justify-content-center">
             <div class="mt-5 ">
                 <h1 class="text-white mt-5 mb-5 font-case col-5 ms-11 d-none d-md-block scroll-animate" style="font-size: 2.7rem"> <span class="fw-light text-white-50" style="font-size: 1.2rem;font-family: 'Source Code Pro'">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="text-purple">tidligere projekter</span> ud!</h1>
@@ -214,7 +221,7 @@
           
                  <div class="col-7 m-0 p-0 ">
                      <!------------Cases-cards 1-------------->
-                     <div class="col-12 case-g mt-2" style="height: 25vh">
+                     <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh">
                          <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
                              <div class="col-6 me-1 case-extra justify-content-start" style="height: 1.2rem;width: 1.2rem"></div>
@@ -228,7 +235,7 @@
                          <div class="ms-5 me-5 " style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
                      </div>
                      <!------------Cases-cards 2-------------->
-                     <div class="col-12 case mt-2" style="">
+                     <div class="col-12 case mt-2 d-none d-md-block" style="">
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
@@ -247,19 +254,20 @@
                          </div>
 
                          <div class="col-12 p-0 m-0 d-flex">
-                             <div class="col-9">
-                                 <h5 class="ps-5 pt-4" style="color: #195fc5">Projekt-info</h5>
+                             <div class="col-md-8 pb-3">
+                                 <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
                                  <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
-                                 for at se om dette virker angående spacing på kortet.</p>
+                                 for at se om dette virker angående spacing på kortet. Nu begynder jeg at skrive ekstra tekst, for at
+                                 forlænge feltet jeg skriver i.</p>
                              </div>
-                             <div class="d-flex justify-content-end my-auto pe-3 col-3">
+                             <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
                                  <div class="btn-f"><span class="">< / Næste ></span></div>
                              </div>
                          </div>
 
                      </div>
                      <!------------Cases-cards 3-------------->
-                     <div class="col-12 case mt-2" style="">
+                     <div class="col-12 case mt-2 d-none d-md-block" style="">
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
@@ -268,7 +276,7 @@
                          <div class="col-12 d-flex m-0 p-0">
                              <div class="col-5 pt-4 d-flex">
                                  <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                                 <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+                                 <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">Case-1</h3>
                              </div>
 
                              <div class="d-flex col justify-content-end">
@@ -278,12 +286,12 @@
                          </div>
 
                          <div class="col-12 p-0 m-0 d-flex">
-                             <div class="col-9">
-                                 <h5 class="ps-5 pt-4" style="color: #195fc5">Projekt-info</h5>
+                             <div class="col-md-8 pb-3">
+                                 <h5 class="ps-5 pt-3 " style="color: #195fc5">Projekt-info</h5>
                                  <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
                                      for at se om dette virker angående spacing på kortet.</p>
                              </div>
-                             <div class="d-flex justify-content-end my-auto pe-3 col-3">
+                             <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
                                  <div class="btn-f"><span class="">< / Næste ></span></div>
                              </div>
                          </div>
@@ -293,13 +301,24 @@
                      
                  </div>
                     <!------------Cases-cards 4-------------->
-            <div class="col-3 case m-0 p-0 ms-2 mt-2">
+            <div class="col-md-3 col-11 case m-0 p-0 ms-md-2 mt-md-2 ">
                 <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                     <div class="mt-3 ps-5 col-12"><p class="">Info.exe</p></div>
                     <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
                 </div>
+
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                        <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
+                        <div class="col-6 my-auto ms-3"><h5 class="text-white">BuildMate <br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 1rem">Computer-Bygning</span></h5></div>
+                </div>
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
+                    <div class="col-6 my-auto ms-3"><h5 class="text-white">Case 1<br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 1rem">Computer-Bygning</span></h5></div>
+                </div>
             </div>
-            
+
 
         </div>
     </div>
@@ -308,7 +327,7 @@
 
 
 
-
+<script src="js/section.js"></script>
 <script src="js/scroll-in.js"></script>
 <script src="js/click..js"></script>
 <script src="js/scroll.js"></script>
