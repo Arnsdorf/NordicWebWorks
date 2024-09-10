@@ -35,7 +35,7 @@
 
             // E-mail indhold
             $mail->isHTML(true);
-            $mail->Subject = 'Ny besked fra kontaktsiden';
+            $mail->Subject = 'Ny besked fra NWW Page';
             $mail->Body    = "Navn: $name $lastname<br>E-mail: $email<br><br>Besked:<br>$message";
 
             // Send beskeden
