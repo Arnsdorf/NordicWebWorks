@@ -1064,3 +1064,58 @@ body{
 		color: white;
 	}
 }
+
+/* Stil modal baggrund */
+.modal-content {
+	border-radius: 15px;
+	border: none;
+	box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Tilføj en gradient til header */
+.modal-header {
+	background: linear-gradient(135deg, #DA009D, #6D0075);
+	color: white;
+	border-bottom: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+/* Close-knap stil */
+.modal-header .btn-close {
+	background: white;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+/* Indholdets stil */
+.modal-body {
+	padding: 20px;
+	font-size: 1rem;
+	color: #333;
+	text-align: center;
+}
+
+/* Moderne knap i footeren */
+.modal-footer .btn {
+	background-color: #DA009D;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+}
+
+/* Knap hover-effekt */
+.modal-footer .btn:hover {
+	background-color: #BA007F;
+}
+
+/* Stil til fejlmodal */
+.modal-footer .btn-secondary {
+	background-color: #6C757D;
+}
+
+.modal-footer .btn-secondary:hover {
+	background-color: #5A6268;
+}

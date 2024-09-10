@@ -1,54 +1,107 @@
-    <?php include "includes/header.php" ?>
-    <?php
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
+<?php
+// Start output-buffering for at undgå header-fejl
+ob_start();
 
-    require 'vendor/phpmailer/phpmailer/src/Exception.php';
-    require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
-    require 'vendor/phpmailer/phpmailer/src/SMTP.php';
+// Inkluder din header-fil, som også starter sessionen
+include "includes/header.php";
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $name = $_POST['name'];
-        $lastname = $_POST['lastname'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
+// Fejlvisning for debugging (fjern i produktion)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-        // Modtagerens e-mailadresse (din e-mailadresse)
-        $to = "sigurddam@nordicwebworks.dk";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-        // PHPMailer-opsætning
-        $mail = new PHPMailer(true);
+require 'vendor/phpmailer/phpmailer/src/Exception.php';
+require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
-        try {
-            // SMTP-server konfiguration
-            $mail->isSMTP();
-            $mail->Host = 'smtp.simply.com';  // Din udgående mailserver
-            $mail->SMTPAuth = true;
-            $mail->Username = 'sigurddam@nordicwebworks.dk';  // Din e-mailadresse (brugernavn)
-            $mail->Password = 'csk34zrc';  // Din adgangskode til e-mailadressen
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Brug STARTTLS-kryptering
-            $mail->Port = 587;  // Udgående serverens port
+// Når formularen bliver sendt
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-            // Afsender og modtager
-            $mail->setFrom('no-reply@nordicwebworks.dk', 'Kontaktformular');
-            $mail->addAddress($to);  // Modtageren af beskeden (din e-mailadresse)
+    $to = "sigurddam@nordicwebworks.dk";  // Modtagerens e-mailadresse
 
-            // E-mail indhold
-            $mail->isHTML(true);
-            $mail->Subject = 'Ny besked fra NWW Page';
-            $mail->Body    = "Navn: $name $lastname<br>E-mail: $email<br><br>Besked:<br>$message";
+    $mail = new PHPMailer(true);
 
-            // Send beskeden
-            $mail->send();
-            echo 'Tak for din besked! Vi vender tilbage snarest.';
-        } catch (Exception $e) {
-            echo "Beskeden kunne ikke sendes. Mailer Error: {$mail->ErrorInfo}";
-        }
+    try {
+        // PHPMailer SMTP-indstillinger
+        $mail->isSMTP();
+        $mail->Host = 'websmtp.simply.com';  // Simply's script SMTP-server
+        $mail->SMTPAuth = true;
+        $mail->Username = 'sigurddam@nordicwebworks.dk';  // Din Simply.com e-mailadresse
+        $mail->Password = 'csk34zrc';  // Adgangskoden til din Simply.com e-mailadresse
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Brug STARTTLS
+        $mail->Port = 587;  // Port 587 til Simply's SMTP-server
+
+        // Debugging (fjern eller indstil til 0 i produktion)
+        $mail->SMTPDebug = 2;  // Vis detaljeret debug-output for fejlsøgning
+        $mail->Debugoutput = 'html';  // Output i HTML-format
+
+        // Afsender og modtager
+        $mail->setFrom('sigurddam@nordicwebworks.dk', 'Kontaktformular');  // Afsenderens e-mailadresse (din e-mail)
+        $mail->addAddress($to);  // Modtagerens e-mailadresse (kan være en anden e-mail)
+
+        // E-mailindhold
+        $mail->isHTML(true);
+        $mail->Subject = 'Ny besked fra NWW Page';
+        $mail->Body = "Navn: $name $lastname<br>E-mail: $email<br><br>Besked:<br>$message";
+
+        // Send e-mail
+        $mail->send();
+
+        // Gem successtatus i session og omdiriger
+        $_SESSION['modal'] = 'success';
+    } catch (Exception $e) {
+        // Hvis fejl, gem modal status som error og log fejlen
+        $_SESSION['modal'] = 'error';
+        error_log("Mailer Error: " . $mail->ErrorInfo);  // Log eventuelle fejl til en serverlog
     }
-    ?>
+
+    // Omdiriger for at undgå gentagelse af POST-forespørgsel
+    header("Location: " . htmlspecialchars($_SERVER['PHP_SELF']));
+    exit();
+}
+
+// Tjek sessionen og vis modal
+if (isset($_SESSION['modal'])) {
+    if ($_SESSION['modal'] == 'success') {
+        echo '<script type="text/javascript">
+            window.onload = function() {
+                const successModal = new bootstrap.Modal(document.getElementById("successModal"));
+                successModal.show();
+                setTimeout(function() {
+                    successModal.hide();
+                }, 5000);
+            }
+          </script>';
+    } elseif ($_SESSION['modal'] == 'error') {
+        echo '<script type="text/javascript">
+            window.onload = function() {
+                const errorModal = new bootstrap.Modal(document.getElementById("errorModal"));
+                errorModal.show();
+                setTimeout(function() {
+                    errorModal.hide();
+                }, 5000);
+            }
+          </script>';
+    }
+    // Fjern modalstatus fra session efter visning
+    unset($_SESSION['modal']);
+}
+
+// Afslut output-buffering og send alt output
+ob_end_flush();
+?>
 
 
-    <div class="container-fluid">
+
+
+<div class="container-fluid">
         <div class="row">
             <!-- Venstre kolonne med formen -->
             <div class="col-lg-7 col-md-12 d-flex justify-content-center align-items-center p-4"> <!-- Justering af bredde afhængig af skærmstørrelse -->
@@ -81,7 +134,7 @@
                             <label for="message" class="form__label">Besked</label>
                         </div>
                         <button type="submit" class="btn-f mt-5 mb-5 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
-                            <span class="small">Læs Mere</span>
+                            <span class="small fw-bold">Send besked</span>
                         </button>
                     </form>
                 </div>
@@ -93,6 +146,42 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Modal for succesbesked -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Besked sendt</h5>
+                    <button type="button" class="btn-close align-items-center d-flex justify-content-center" data-bs-dismiss="modal" aria-label="Close">✖</button>
+                </div>
+                <div class="modal-body">
+
+                    Tak for din besked! Vi vender tilbage snarest.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for fejlbesked -->
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">Fejl ved afsendelse</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Beskeden kunne ikke sendes. Prøv venligst igen senere.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Luk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="js/map.js"></script>
