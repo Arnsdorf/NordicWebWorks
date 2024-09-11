@@ -39,7 +39,7 @@
                 <img src="uploads/loay_meet.png" alt="Billede 1" class="img-fluid shadow">
                 <div class="overlay overlay-1 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="h5">Loay Brooklyn Haijo</h2>
-                    <h5 class="text-blue small mb-3 fw-bold fst-italic">Fullstack Dev</h5>
+                    <h5 class="text-blue small mb-3 fw-bold fst-italic">Fullstack Udvikler</h5>
                     <p class="small max-w mb-0">Loay er en erfaren Fullstack udvikler med ekspertise i
                         både FrontEnd og BackEnd. Han har en særlig styrke i PHP og databaser
                         som MySQL, samt solid erfaring med Wordpress og React.</p>
@@ -51,7 +51,7 @@
                 <img src="uploads/sigu_meet.png" alt="Billede 2" class="img-fluid shadow">
                 <div class="overlay overlay-2 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="h5">Sigurd Dam</h2>
-                    <h5 class="text-red small mb-3 fw-bold fst-italic">Medstifter & Dev</h5>
+                    <h5 class="text-red small mb-3 fw-bold fst-italic">Medstifter & Udvikler</h5>
                     <p class="small max-w mb-0">Sigurd, medstifter og nøgleperson i webudvikling, har ansvar for frontend
                         og deltager i backend-arbejde. Han kombinerer kreativitet og teknisk ekspertise for at
                         udvikle brugervenlige, innovative løsninger sammen med teamet.</p>
@@ -75,7 +75,7 @@
                 <img src="uploads/CrewGoodFellas.jpg" loading="lazy" alt="Billede 4" class="img-fluid shadow">
                 <div class="overlay overlay-4 d-flex flex-column justify-content-end text-white p-4">
                     <h2 class="h5">Mikkel Lebedev</h2>
-                    <h5 class="text-green small mb-3 fw-bold fst-italic">FrontEnd Dev</h5>
+                    <h5 class="text-green small mb-3 fw-bold fst-italic">FrontEnd Udvikler</h5>
                     <p class="small max-w mb-0">Mikkel har et skarpt øje for design og er ekspert i UX/UI.
                         Han spiller en afgørende rolle i de fleste cases, hvor han kombinerer æstetik med funktionalitet
                         for at skabe brugervenlige og visuelt tiltalende løsninger.</p>
@@ -109,7 +109,7 @@
 
 <section id="vision" class="services-cards pt-5 pb-5 py-md-5" style="background-color: #252525">
     <div class="container">
-        <div class="row flex-row-reverse g-4 g-md-5">
+        <div class="row flex-row-reverse g-4 pb-5 g-md-5">
             <!-- Card 1 -->
             <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
                 <div class="p-4 cut-corner text-white bg-cases border-0 h-100" style="max-width: 400px;">
@@ -159,7 +159,7 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+            <div class="col-md-6 mb-4 d-flex justify-content-center justify-content-md-start">
                 <div class="p-4 cut-corner text-white bg-cases border-0 h-100" style="max-width: 400px;">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>

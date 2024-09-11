@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $to = "sigurddam@nordicwebworks.dk";  // Modtagerens e-mailadresse
+    $to = "nordic@nordicwebworks.dk";  // Modtagerens e-mailadresse
 
     $mail = new PHPMailer(true);
 
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'websmtp.simply.com';  // Simply's script SMTP-server
         $mail->SMTPAuth = true;
         $mail->Username = 'sigurddam@nordicwebworks.dk';  // Din Simply.com e-mailadresse
-        $mail->Password = 'csk34zrc';  // Adgangskoden til din Simply.com e-mailadresse
+        $mail->Password = 'nordic2001';  // Adgangskoden til din Simply.com e-mailadresse
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Brug STARTTLS
         $mail->Port = 587;  // Port 587 til Simply's SMTP-server
 
