@@ -1,7 +1,8 @@
 <?php
-
+session_start(); // Start session
 require "settings/init.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -55,7 +56,3 @@ require "settings/init.php";
     </div>
 </nav>
 
-
-
-</body>
-</html>

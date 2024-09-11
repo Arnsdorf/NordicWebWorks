@@ -133,9 +133,10 @@
                             <p class="card-text text-white-50 mt-2 small">
                                 Vi leverer responsiv og dynamisk frontend-udvikling, der sikrer en problemfri oplevelse på tværs af alle enheder.
                             </p>
-                            <div class="btn-f bg-transparent d-inline-flex border-white fw-bold justify-content-center align-items-center text-center">
-                                <span class="small">Læs Mere</span>
-                            </div>
+
+                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -156,9 +157,10 @@
                             <p class="card-text small mt-2 text-white-50">
                                 Vores backend-løsninger sikrer, at din hjemmeside eller applikation fungerer effektivt og sikkert i baggrunden.
                             </p>
-                            <div class="btn-f bg-transparent d-inline-flex border-white fw-bold justify-content-center align-items-center text-center">
-                                <span class="small">Læs Mere</span>
-                            </div>
+
+                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -181,9 +183,10 @@
                             <p class="card-text mt-2 text-white-50 small">
                                 Vi skaber moderne og intuitive webdesigns, der engagerer brugere og konverterer besøgende til kunder.
                             </p>
-                            <div class="btn-f bg-transparent d-inline-flex border-white fw-bold justify-content-center align-items-center text-center">
-                                <span class="small">Læs Mere</span>
-                            </div>
+
+                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -206,9 +209,10 @@
                             <p class="card-text mt-2 text-white-50 small">
                                 Vi integrerer tredjeparts API'er for at forbedre funktionaliteten og effektiviteten af din applikation.
                             </p>
-                            <div class="btn-f bg-transparent d-inline-flex border-white fw-bold justify-content-center align-items-center text-center">
-                                <span class="small">Læs Mere</span>
-                            </div>
+
+                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
                         </div>
                     </div>
                 </div>
