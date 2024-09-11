@@ -1,23 +1,50 @@
 <?php include "includes/header.php" ?>
 
+<div class="d-flex justify-content-end m-0 p-0 position-sticky top-25 z-3">
+    <div class="position-absolute d-none d-md-block">
 
-<div class="container-fluid bg-front">
+        <a href="#frontpage" style="pointer-events: none">
+        <h6 id="frontpage-link" class=" a-hover"
+            style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro';font-size: 0.9rem"><span>Frontpage</span></h6>
+        </a>
+
+        <a href="#services" style="pointer-events: none">
+        <h6 id="service-link" class="mb-5 mt-5 a-hover"
+            style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro';font-size: 0.9rem"><span>Services</span></h6>
+        </a>
+
+        <a class="" href="#cases" style="pointer-events: none">
+        <h6 id="cases-link" class="a-hover"
+            style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro';font-size: 0.9rem"><span>Cases</span></h6>
+        </a>
+
+            <div id="scroll-down" class="arrow-box ms-4 mt-5 d-flex align-items-center justify-content-center">
+                <div class="arrow"></div>
+            </div>
+
+
+    </div>
+</div>
+
+
+
+<div class="container-fluid bg-front" id="frontpage">
     <div class="row">
 
             <!-------Boxes-and-socials--------------->
             <div class="position-absolute bottom-0 ps-4 d-md-none mb-3" style="z-index: 3">
-                <div class="scroll-animate"><i class="bi bi-instagram text-white social" style="font-size: 1.2rem"></i></div>
-                <div class="mt-2 scroll-animate"><i class="bi bi-linkedin text-white social" style="font-size: 1.2rem"></i></div>
-                <div class="mt-2 scroll-animate"><i class="bi bi-twitter text-white social" style="font-size: 1.2rem"></i></div>
-                <div class="mt-2 mb-2 scroll-animate"><i class="bi bi-facebook text-white social" style="font-size: 1.2rem"></i></div>
+                <div class="scroll-animate"><i class="bi bi-instagram text-white social" style="font-size: 1rem"></i></div>
+                <div class="mt-2 scroll-animate"><i class="bi bi-linkedin text-white social" style="font-size: 1rem"></i></div>
+                <div class="mt-2 scroll-animate"><i class="bi bi-twitter text-white social" style="font-size: 1rem"></i></div>
+                <div class="mt-2 mb-2 scroll-animate"><i class="bi bi-facebook text-white social" style="font-size: 1rem"></i></div>
             </div>
        
 
             <div class="position-absolute bottom-0 ps-4 d-none d-md-block ">
-                    <div class=""><i class="bi bi-instagram social " style="font-size: 1.4rem"></i></div>
-                    <div class="mt-3 "><i class="bi bi-linkedin social" style="font-size: 1.4rem"></i></div>
-                    <div class="mt-3 "><i class="bi bi-twitter social" style="font-size: 1.4rem"></i></div>
-                    <div class="mt-3 mb-3"><i class="bi bi-facebook social" style="font-size: 1.4rem"></i></div>
+                    <div class=""><i class="bi bi-instagram social " style="font-size: 1.2rem"></i></div>
+                    <div class="mt-3 "><i class="bi bi-linkedin social" style="font-size: 1.2rem"></i></div>
+                    <div class="mt-3 "><i class="bi bi-twitter social" style="font-size: 1.2rem"></i></div>
+                    <div class="mt-3 mb-3"><i class="bi bi-facebook social" style="font-size: 1.2rem"></i></div>
             </div>
             <!-------Boxes--------------->
             <div class="position-absolute bottom-0 pb-3 ps-3">
@@ -48,18 +75,8 @@
                         </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
                 </div>
                 <!-----PC--------->
-                
-                <div class="d-flex justify-content-end m-0 p-0 position-relative">
-                    <div class="position-absolute d-none d-md-block">
-                        <h6 class="text-white-50 fw-light" style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">UX-UI</h6>
-                        <h6 class="text-white-50 fw-light mb-5 mt-5" style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Development</h6>
-                        <h6 class="text-white-50 fw-light " style="letter-spacing: 0.2rem;writing-mode: vertical-rl;font-family: 'Source Code Pro'">Design</h6>
-                     <a href="#services"><div class="arrow-box ms-4 mt-5 d-flex align-items-center justify-content-center"><div class="arrow "></div></div></a>
-                    </div>
-                </div>
-
-                <div class="w-43 text-md-start d-md-none d-xl-block">
-                    <h5 class="d-none d-md-block d-flex scroll-animate" style="color: #636363;font-family: 'Source Code Pro'">━━  Velkommen til Nordic Webworks ━━━━━</h5>
+                <div class="w-43 text-md-start d-md-none d-xl-block" >
+                    <h6 class="d-none d-md-block d-flex scroll-animate" style="color: #636363;font-family: 'Source Code Pro'">━━  Velkommen til Nordic Webworks ━━━━━</h6>
                     <h1 class="text-white d-none d-md-block front-font-b d-flex font-type scroll-animate">Har <span class="font-drip">din</span>
                         virksomhed brug for en løsning<span class="font-drip">?</span></h1>
                 </div>
@@ -81,11 +98,11 @@
 
 
 <!-------services---------------------------------->
-<section class="pt-5 mt-2 bg-custom-dark" id="services">
+<section class="pt-8 mt-5 bg-custom-dark" id="services">
     <div class="container">
         <div class="row d-flex justify-content-center ">
             <div class="col-md-10 col-lg-6 text-center scroll-animate">
-                <h1 class="text-white display-6 fw-bold"><span class="text-purple">Services</span> & Ydelser</h1>
+                <h1 class="text-white display-6 fw-bold"><span class="" style="color: #0a53be">Services</span> & Ydelser</h1>
                 <p class="text-white-50 small mt-3">
                     Vi tilbyder en bred vifte af ydelser, der er skræddersyet
                     til at imødekomme dine behov. Fra webudvikling til digital strategi,
@@ -96,7 +113,7 @@
     </div>
 </section>
 
-<section id="services" class="services-cards py-md-5 bg-custom-dark">
+<div id="services" class="services-cards py-md-5 bg-custom-dark">
     <div class="container">
         <div class="row">
             <!-- Card 1 -->
@@ -202,29 +219,27 @@
             </div>
         </div>
     </div>
-</section>
-
-
+</div>
 
 
     <!------------Cases-------------->
-    <div class="container-fluid m-0 p-0 mb-5 scroll-animate">
+    <section class="container-fluid m-0 p-0 mt-1 pt-5 mb-5 pb-5 scroll-animate">
         <div class="row p-0 m-0 justify-content-center">
-            <div class="mt-5 ">
-                <h1 class="text-white mt-5 mb-5 font-case col-5 ms-11 d-none d-md-block scroll-animate" style="font-size: 2.7rem"> <span class="fw-light text-white-50" style="font-size: 1.2rem;font-family: 'Source Code Pro'">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="text-purple">tidligere projekter</span> ud!</h1>
-                <h2 class="text-white mt-5 mb-5 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 2rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="text-purple">tidligere projekter</span> ud!</h2>
+            <div class="mt-5 mb-2 d-flex">
+                <h4 class="text-white mt-5 mb-4 ms-12 font-case col-4 d-none d-md-block scroll-animate" style="font-size: 2.4rem"> <span class="fw-light text-white-50" style="font-size: 1.2rem;font-family: 'Source Code Pro'">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
+                <h4 class="text-white mt-1 mb-4 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 2rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
             </div>
 
           
-                 <div class="col-7 m-0 p-0 ">
+                 <div class="col-7 m-0 p-0 scroll-animate" id="cases">
                      <!------------Cases-cards 1-------------->
-                     <div class="col-12 case-g mt-2" style="height: 25vh">
+                     <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh" >
                          <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
                              <div class="col-6 me-1 case-extra justify-content-start" style="height: 1.2rem;width: 1.2rem"></div>
                          </div>
                          <div class="text-white justify-content-center d-flex font-glitch">
-                             <h1 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h1>
+                             <h3 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h3>
                          </div>
                          <div class="text-white justify-content-center d-flex">
                              <h2 class="" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'; font-weight: lighter">Loading</h2>
@@ -232,7 +247,7 @@
                          <div class="ms-5 me-5 " style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
                      </div>
                      <!------------Cases-cards 2-------------->
-                     <div class="col-12 case mt-2" style="">
+                     <div class="col-12 case mt-2 d-none d-md-block" style="" >
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
@@ -251,19 +266,20 @@
                          </div>
 
                          <div class="col-12 p-0 m-0 d-flex">
-                             <div class="col-9">
-                                 <h5 class="ps-5 pt-4" style="color: #195fc5">Projekt-info</h5>
+                             <div class="col-md-8 pb-3">
+                                 <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
                                  <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
-                                 for at se om dette virker angående spacing på kortet.</p>
+                                 for at se om dette virker angående spacing på kortet. Nu begynder jeg at skrive ekstra tekst, for at
+                                 forlænge feltet jeg skriver i.</p>
                              </div>
-                             <div class="d-flex justify-content-end my-auto pe-3 col-3">
+                             <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
                                  <div class="btn-f"><span class="">< / Næste ></span></div>
                              </div>
                          </div>
 
                      </div>
                      <!------------Cases-cards 3-------------->
-                     <div class="col-12 case mt-2" style="">
+                     <div class="col-12 case mt-2 d-none d-md-block">
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                              <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
@@ -272,7 +288,7 @@
                          <div class="col-12 d-flex m-0 p-0">
                              <div class="col-5 pt-4 d-flex">
                                  <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                                 <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+                                 <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">Case-1</h3>
                              </div>
 
                              <div class="d-flex col justify-content-end">
@@ -282,12 +298,12 @@
                          </div>
 
                          <div class="col-12 p-0 m-0 d-flex">
-                             <div class="col-9">
-                                 <h5 class="ps-5 pt-4" style="color: #195fc5">Projekt-info</h5>
+                             <div class="col-md-8 pb-3">
+                                 <h5 class="ps-5 pt-3 " style="color: #195fc5">Projekt-info</h5>
                                  <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
                                      for at se om dette virker angående spacing på kortet.</p>
                              </div>
-                             <div class="d-flex justify-content-end my-auto pe-3 col-3">
+                             <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
                                  <div class="btn-f"><span class="">< / Næste ></span></div>
                              </div>
                          </div>
@@ -297,22 +313,33 @@
                      
                  </div>
                     <!------------Cases-cards 4-------------->
-            <div class="col-3 case m-0 p-0 ms-2 mt-2">
+            <div class="col-md-2 col-11 case m-0 p-0 ms-md-2 mt-md-2">
                 <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
                     <div class="mt-3 ps-5 col-12"><p class="">Info.exe</p></div>
                     <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
                 </div>
+
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                        <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
+                        <div class="col-6 my-auto ms-3"><h6 class="text-white">BuildMate <br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
+                </div>
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
+                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case 1<br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
+                </div>
             </div>
-            
+
 
         </div>
-    </div>
+    </section>
 
 
 
 
-
-
+<script src="js/down.js"></script>
+<script src="js/section.js"></script>
 <script src="js/scroll-in.js"></script>
 <script src="js/click..js"></script>
 <script src="js/scroll.js"></script>
