@@ -72,6 +72,50 @@ body{
 
 
 /* Global */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #1c1c1c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+html {
+	scroll-behavior: smooth;
+}
+.a-hover {
+	position: relative;
+	transition: color 200ms ease;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #797979;
+	pointer-events: auto;
+}
+.a-hover::before {
+	 color: #fff7ff;
+}
+.a-hover:hover::before {
+	transform: translateX(0); /* Slide in from the left on hover */
+}
+
+.a.hover:hover {
+	color: #ffffff; /* Change the text color on hover */
+}
+.a-hover > span {
+	position: relative;
+	z-index: 2; /* Keep text above the white background */
+}
 .top-25{
 	top: 25% !important;
 }
@@ -210,7 +254,7 @@ body{
 	color: #0d6efd;
 }
 .btn-f {
-	height: 2.3rem;
+	height: 2.1rem;
 	width: 9rem;
 	border: #fff7ff solid 1px;
 	color: #fff7ff;
@@ -252,7 +296,6 @@ body{
 	color: #636363;
 }
 .front-font-b{
-	font-size: 3rem;
 	font-family: Montserrat;
 	font-weight: bold;
 }
@@ -264,22 +307,22 @@ body{
 .font-drip{
 	color: transparent;
 	border: none;
-	background: rgb(218,54,212);
-	background: linear-gradient(90deg, rgb(234, 109, 229) 0%, rgba(209,22,89,1) 100%);
-	animation: colorChange 100ms linear infinite;
+	background: rgb(10, 83, 190);
+	background: linear-gradient(90deg, rgb(60, 168, 255) 0%, rgb(5, 7, 173) 100%);
+	animation: colorChange 2s linear infinite;
 	background-size: 500% 500%;
 	background-clip: text;
 	-webkit-background-clip: text;
-	text-shadow: 0 0 1.5px #d54ed0, 0 0 1.5px #cf1658;
+	text-shadow: 0 0 1.5px #117ace, 0 0 1.5px #062793;
 }
 .drip{
 	color: #1C1C1C;
 	border: none;
-	background: rgb(218,54,212);
-	background: linear-gradient(90deg, rgba(218,54,212,1) 0%, rgb(255, 0, 68) 100%);
+	background: rgb(10, 82, 189);
+	background: linear-gradient(90deg, rgb(32, 141, 250) 0%, rgb(6, 46, 178) 100%);
 	animation: colorChange 4s linear infinite;
 	background-size: 200% 200%;
-	box-shadow: 0 0 10px rgba(218,54,212,0.5); /* Initial glow */
+	box-shadow: 0 0 5px rgb(52, 120, 220); /* Initial glow */
 }
 .box-container{
 	bottom: 0rem;
@@ -322,15 +365,15 @@ body{
 
 }
 .box-s{
-	height: 4rem;
-	width: 4rem;
-	border: #683690 solid 2px;
+	height: 3rem;
+	width: 3rem;
+	border: #2b579c solid 2px;
 	pointer-events: none;
 }
 .box-b{
-	height: 5rem;
-	width: 5rem;
-	border: #683690 solid 2px;
+	height: 4rem;
+	width: 4rem;
+	border: #2b579c solid 2px;
 	pointer-events: none;
 }
 .box-front{
@@ -347,10 +390,10 @@ body{
 
 /* Cases here */
 .case {
+	background: #1c1c1c;
 	border-radius: 0;
 	transition: 300ms;
 	border: #d1d3d6 solid 1px;
-	position: relative;
 }
 .case-info {
 	height: 45vh;
@@ -377,7 +420,6 @@ body{
 .case:hover {
 	transform: scale(1.05);
 	z-index: 3;
-	background: #1c1c1c;
 }
 .case:hover .case-header{
 	animation:short-circuit-h 2s ;
