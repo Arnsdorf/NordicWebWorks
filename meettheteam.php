@@ -6,7 +6,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 col-lg-8 mb-4 px-4">
                 <p class="text-white mb-1">
-                    Vi er <span class="fw-bold" style="color: #DA009D">holdet</span> bag . . . . . . .
+                    Vi er <span class="fw-bold" style="color: #0a53be">holdet</span> bag . . . . . . .
                 </p>
                 <h1 class="text-white display-6 fw-bold">Nordic Web Works</h1>
             </div>
@@ -22,7 +22,7 @@
                 <p class="text-white">
                     Nordic Web Works er et dedikeret team, der forener kreativitet og teknisk dygtighed for at udvikle brugervenlige, visuelt engagerende løsninger. Vi værdsætter samarbejde, kvalitet og skaber stærke brugeroplevelser, der inspirerer og leverer. Holdet er altid klar til nye udfordringer.
                 </p>
-                <p style="color: #DA009D" class="fw-bold">
+                <p style="color: #0a53be" class="fw-bold">
                     Kreative, innovative, tekniske, samarbejdsvillige, kvalitetsbevidste.
                 </p>
             </div>
@@ -93,7 +93,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 text-center">
                 <h2 class="pt-4 mt-8 fw-medium display-6 text-white">
-                    Fra <span class="fst-italic fw-bold"  style="color: #DA009D">visioner</span> til virkelighed.
+                    Fra <span class="fst-italic fw-bold"  style="color: #0a53be">visioner</span> til virkelighed.
                 </h2>
                 <p class="mt-4 max-w m-auto text-white fw-light">
                     Hos Nordic Web Works ser vi ikke bare, hvad der er muligt – vi skaber det. Med en klar vision, målrettede strategier og en ustoppelig drivkraft hjælper vi din virksomhed.
@@ -188,7 +188,7 @@
 
 
 
-<section style="background: #b100ff; background: linear-gradient(270deg, #da36d4, #b154ff);" class="pt-5">
+<section style="background: #0a53be; background: linear-gradient(270deg, #736ddc, #0a53be);" class="pt-5">
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-10 col-lg-8 mb-4 pb-3 d-flex justify-content-center align-items-center px-4 text-center">
