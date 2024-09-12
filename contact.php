@@ -106,7 +106,7 @@ ob_end_flush();
             <!-- Venstre kolonne med formen -->
             <div class="col-lg-7 col-md-12 d-flex justify-content-center align-items-center p-4"> <!-- Justering af bredde afhængig af skærmstørrelse -->
                 <div class="w-100 mt-5" style="max-width: 600px;"> <!-- Begræns bredden af formen -->
-                    <h2 class="mb-4 display-6 text-white fw-bold">Lad os finde den <span style="color: #DA009D" class="fst-italic">bedste løsning for dig!</span></h2>
+                    <h2 class="mb-4 display-6 text-white fw-bold">Lad os finde den <span style="color: #0a53be" class="fst-italic">bedste løsning for dig!</span></h2>
                     <p class="text-white fw-light tis mb-4">
                         Har du spørgsmål eller brug for hjælp? Kontakt os! Vi er her for at give dig den bedste service og besvare alle dine henvendelser om support, produkter, tjenester eller generelle forespørgsler.
                     </p>

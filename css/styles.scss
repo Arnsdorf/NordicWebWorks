@@ -962,14 +962,14 @@ html {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background-color: #f1108e;
+	background-color: #0a53be;
 	transform: scaleX(0);
 	transform-origin: left;
 	transition: transform 0.2s ease-in-out;
 }
 
 .link-hover:hover {
-	color: #D65472;
+	color: #0a53be;
 }
 
 .link-hover:hover::before {
@@ -1024,13 +1024,13 @@ html {
 		display: block;
 		transition: 0.2s;
 		font-size: .8rem;
-		color: #DA009D;
+		color: #0a53be;
 		font-weight: 700;
 	}
 	padding-bottom: 6px;
 	font-weight: 700;
 	border-width: 2px; /* Justeret fra 3px til 2px for at matche en smallere kant */
-	border-image: linear-gradient(to right, #DA009D, #1C1C1C);
+	border-image: linear-gradient(to right, #0a53be, #1C1C1C);
 	border-image-slice: 1;
 }
 
@@ -1128,7 +1128,7 @@ html {
 
 /* Tilføj en gradient til header */
 .modal-header {
-	background: linear-gradient(135deg, #DA009D, #6D0075);
+	background: linear-gradient(135deg, #0a53be, #002f78);
 	color: white;
 	border-bottom: none;
 	border-top-left-radius: 15px;
@@ -1152,7 +1152,7 @@ html {
 
 /* Moderne knap i footeren */
 .modal-footer .btn {
-	background-color: #DA009D;
+	background-color: #0a53be;
 	color: white;
 	border: none;
 	border-radius: 30px;
@@ -1162,7 +1162,7 @@ html {
 
 /* Knap hover-effekt */
 .modal-footer .btn:hover {
-	background-color: #BA007F;
+	background-color: #0a53be;
 }
 
 /* Stil til fejlmodal */

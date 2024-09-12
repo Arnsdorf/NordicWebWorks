@@ -227,7 +227,7 @@
         <div class="row p-0 m-0 justify-content-center">
             <div class="mt-5 mb-2 d-flex">
                 <h4 class="text-white mt-5 mb-4 ms-12 font-case col-4 d-none d-md-block scroll-animate" style="font-size: 2.4rem"> <span class="fw-light text-white-50" style="font-size: 1.2rem;font-family: 'Source Code Pro'">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
-                <h4 class="text-white mt-1 mb-4 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 2rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
+                <h4 class="text-white mt-1 mb-4 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 2rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intresseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
             </div>
 
           
