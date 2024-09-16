@@ -22,6 +22,7 @@ require "settings/init.php";
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- Favicon -->
@@ -38,7 +39,7 @@ require "settings/init.php";
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-center justify-content-md-end" id="navbarNav">
-            <ul class="navbar-nav mx-4 mt-2 align-items-center">
+            <ul class="navbar-nav mx-md-4 mt-md-2 align-items-center">
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="index.php">HJEM</a>
                 </li>
