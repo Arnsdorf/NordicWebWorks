@@ -17,54 +17,70 @@ require 'vendor/phpmailer/phpmailer/src/Exception.php';
 require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
-// Når formularen bliver sendt
+// Din Secret Key fra Google reCAPTCHA
+$secretKey = '6LfaxkEqAAAAAFWo14IfpHQ4plmxsKcsFIZDKdHN';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'];
-    $lastname = $_POST['lastname'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+    // Verificer reCAPTCHA
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    $recaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
 
-    $to = "nordic@nordicwebworks.dk";  // Modtagerens e-mailadresse
+    $response = file_get_contents($recaptchaUrl . '?secret=' . $secretKey . '&response=' . $recaptchaResponse);
+    $responseKeys = json_decode($response, true);
 
-    $mail = new PHPMailer(true);
+    if ($responseKeys["success"]) {
+        // reCAPTCHA var succesfuld
+        $name = $_POST['name'];
+        $lastname = $_POST['lastname'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
 
-    try {
-        // PHPMailer SMTP-indstillinger
-        $mail->isSMTP();
-        $mail->Host = 'websmtp.simply.com';  // Simply's script SMTP-server
-        $mail->SMTPAuth = true;
-        $mail->Username = 'sigurddam@nordicwebworks.dk';  // Din Simply.com e-mailadresse
-        $mail->Password = 'nordic2001';  // Adgangskoden til din Simply.com e-mailadresse
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Brug STARTTLS
-        $mail->Port = 587;  // Port 587 til Simply's SMTP-server
+        $to = "nordic@nordicwebworks.dk";  // Modtagerens e-mailadresse
 
-        // Debugging (fjern eller indstil til 0 i produktion)
-        $mail->SMTPDebug = 2;  // Vis detaljeret debug-output for fejlsøgning
-        $mail->Debugoutput = 'html';  // Output i HTML-format
+        $mail = new PHPMailer(true);
 
-        // Afsender og modtager
-        $mail->setFrom('sigurddam@nordicwebworks.dk', 'Kontaktformular');  // Afsenderens e-mailadresse (din e-mail)
-        $mail->addAddress($to);  // Modtagerens e-mailadresse (kan være en anden e-mail)
+        try {
+            // PHPMailer SMTP-indstillinger
+            $mail->isSMTP();
+            $mail->Host = 'websmtp.simply.com';  // Simply's script SMTP-server
+            $mail->SMTPAuth = true;
+            $mail->Username = 'sigurddam@nordicwebworks.dk';  // Din Simply.com e-mailadresse
+            $mail->Password = 'nordic2001';  // Adgangskoden til din Simply.com e-mailadresse
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Brug STARTTLS
+            $mail->Port = 587;  // Port 587 til Simply's SMTP-server
 
-        // E-mailindhold
-        $mail->isHTML(true);
-        $mail->Subject = 'Ny besked fra NWW Page';
-        $mail->Body = "Navn: $name $lastname<br>E-mail: $email<br><br>Besked:<br>$message";
+            // Debugging (fjern eller indstil til 0 i produktion)
+            $mail->SMTPDebug = 2;  // Vis detaljeret debug-output for fejlsøgning
+            $mail->Debugoutput = 'html';  // Output i HTML-format
 
-        // Send e-mail
-        $mail->send();
+            // Afsender og modtager
+            $mail->setFrom('sigurddam@nordicwebworks.dk', 'Kontaktformular');  // Afsenderens e-mailadresse (din e-mail)
+            $mail->addAddress($to);  // Modtagerens e-mailadresse (kan være en anden e-mail)
 
-        // Gem successtatus i session og omdiriger
-        $_SESSION['modal'] = 'success';
-    } catch (Exception $e) {
-        // Hvis fejl, gem modal status som error og log fejlen
+            // E-mailindhold
+            $mail->isHTML(true);
+            $mail->Subject = 'Ny besked fra NWW Page';
+            $mail->Body = "Navn: $name $lastname<br>E-mail: $email<br><br>Besked:<br>$message";
+
+            // Send e-mail
+            $mail->send();
+
+            // Gem successtatus i session og omdiriger
+            $_SESSION['modal'] = 'success';
+        } catch (Exception $e) {
+            // Hvis fejl, gem modal status som error og log fejlen
+            $_SESSION['modal'] = 'error';
+            error_log("Mailer Error: " . $mail->ErrorInfo);  // Log eventuelle fejl til en serverlog
+        }
+
+        // Omdiriger for at undgå gentagelse af POST-forespørgsel
+        header("Location: " . htmlspecialchars($_SERVER['PHP_SELF']));
+        exit();
+    } else {
+        // reCAPTCHA fejlede
         $_SESSION['modal'] = 'error';
-        error_log("Mailer Error: " . $mail->ErrorInfo);  // Log eventuelle fejl til en serverlog
+        error_log("reCAPTCHA validation failed.");
     }
-
-    // Omdiriger for at undgå gentagelse af POST-forespørgsel
-    header("Location: " . htmlspecialchars($_SERVER['PHP_SELF']));
-    exit();
 }
 
 // Tjek sessionen og vis modal
@@ -101,6 +117,7 @@ ob_end_flush();
 
 
 
+
 <div class="container-fluid">
         <div class="row">
             <!-- Venstre kolonne med formen -->
@@ -133,6 +150,9 @@ ob_end_flush();
                             <textarea class="form__field" id="message" name="message" rows="5" placeholder="Skriv din besked her" required></textarea>
                             <label for="message" class="form__label">Besked</label>
                         </div>
+
+                        <div class="g-recaptcha mt-4" data-sitekey="6LfaxkEqAAAAAO3z_-XNbJH_M3hKLRxd1ApmlAcq"></div>
+
                         <button type="submit" class="btn-f mt-5 mb-5 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
                             <span class="small fw-bold">Send besked</span>
                         </button>

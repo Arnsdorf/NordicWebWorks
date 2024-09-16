@@ -711,9 +711,6 @@ html {
 
 /* Sigurd-styling her */
 
-
-/* Sigurd-styling her */
-
 .text-blue{
 	color: #2B589D;
 }
@@ -1062,15 +1059,13 @@ html {
 		left: 0;
 		width: 100vw;
 		height: 100vh;
-		background-color: #333; /* Baggrundsfarve */
-		background-image: url('/uploads/bg/flat-mountains.svg'); /* Tilføj SVG som baggrund */
-		background-repeat: no-repeat;
-		background-size: cover; /* Dækker hele baggrunden */
-		background-position: center center;
+		background-color: #1c1c1c; /* Baggrundsfarve */
 		z-index: 1000;
 		transform: translateY(-100%); /* Start udenfor skærmen, skjult */
 		overflow-y: auto;
-		padding-top: 1rem;
+		display: flex;
+		justify-content: center;
+		background-image: url("/uploads/bg/square-versatiles.svg");
 	}
 
 	.navbar-collapse.show {
@@ -1081,15 +1076,18 @@ html {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 100%;
+		width: 100%;
+		background-color: #131515;
 	}
 
 	.nav-link {
 		text-align: center;
 		width: 100%;
 		color: white;
-		margin-bottom: 3rem;
-		font-size: xx-large;
+		margin-top: 1rem;
+		margin-bottom: .5rem;
+		font-size: x-large;
+
 	}
 
 	.navbar-toggler {
@@ -1172,4 +1170,10 @@ html {
 
 .modal-footer .btn-secondary:hover {
 	background-color: #5A6268;
+}
+
+
+.team-description{
+	background-image: url("/uploads/bg/wavey-fingerprint.svg");
+	height: 100%;
 }
