@@ -26,6 +26,40 @@ body{
 
 }
 /* demo */
+.cut-box {
+	position: relative;
+	overflow: hidden; /* Ensures anything outside the box gets cut */
+	background-color: #f5f5f5; /* Background color to fill the skewed gaps */
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: grayscale(0);
+}
+
+.cut-box::before,
+.cut-box::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	background-color: #1c1c1c; /* Match the background color */
+	z-index: 2;
+}
+
+.cut-box::before {
+	top: -8rem;
+	left: 0;
+	transform: skewY(-50deg); /* Adjust the skew for the top cut */
+}
+
+.cut-box::after {
+	bottom: 0;
+	left: 7rem;
+	transform: skewY(-50deg); /* Adjust the skew for the bottom cut */
+}
 
 #frontpage-link, #service-link, #cases-link {
 	transition: color 0.3s ease;
@@ -182,6 +216,9 @@ html {
 .ms-15{
 	margin-left: 15%;
 }
+.ms-16{
+	margin-left: 16%;
+}
 .ms-20{
 	margin-left: 20%;
 }
@@ -203,8 +240,17 @@ html {
 .mt-20{
 	margin-top:20%;
 }
+.mt-25{
+	margin-top:25%;
+}
+.mt-28{
+	margin-top:28%;
+}
 .mt-30{
 	margin-top:30%;
+}
+.mt-35{
+	margin-top:35%;
 }
 .pt-6{
 	padding-top: 6%;
@@ -227,8 +273,29 @@ html {
 .pt-17{
 	padding-top: 17%;
 }
+.pt-20{
+	padding-top: 20%;
+}
 .pt-25{
 	padding-top: 25%;
+}
+.pe-6{
+	padding-right: 6%;
+}
+.pe-7{
+	padding-right: 7%;
+}
+.pe-8{
+	padding-right: 8%;
+}
+.pe-9{
+	padding-right: 9%;
+}
+.pe-10{
+	padding-right: 10%;
+}
+.pe-15{
+	padding-right: 15%;
 }
 .w-43{
 	width: 43%;
@@ -239,7 +306,7 @@ html {
 
 /* char-styling here */
 .bg-front{
-	background: #1C1C1C;
+	background: #d53030;
 	height: 93vh;
 }
 .bg-cases{
@@ -469,144 +536,6 @@ html {
 	}
 	100%{
 		width: 60%;
-	}
-}
-@keyframes short-circuit-p {
-	0%{
-		border: none;
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	10%{
-
-	}
-	14%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	15%{
-		bottom: 0;
-		top: 5rem;
-		left: 10rem;
-		right: 0;
-		background: #d1d3d6;
-	}
-	16%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	20%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	21%{
-		bottom: 0;
-		top: -5rem;
-		left: 0;
-		right: 15rem;
-		background: #d1d3d6;
-	}
-	22%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	50%{
-
-
-	}
-	55%{
-
-	}
-	60%{
-
-
-	}
-	100%{
-
-	}
-}
-@keyframes short-circuit-h {
-	0%{
-		border: none;
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	10%{
-
-	}
-	14%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	15%{
-		bottom: 0;
-		top: 5rem;
-		left: 10rem;
-		right: 0;
-		background: #d1d3d6;
-	}
-	16%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	20%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	21%{
-		bottom: 0;
-		top: -5rem;
-		left: 0;
-		right: 15rem;
-		background: #d1d3d6;
-	}
-	22%{
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-		background: #d1d3d6;
-	}
-	50%{
-
-
-	}
-	55%{
-
-	}
-	60%{
-
-
-	}
-	100%{
-
 	}
 }
 @keyframes short-circuit-font1 {
