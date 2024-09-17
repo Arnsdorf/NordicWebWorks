@@ -230,7 +230,7 @@
                 <h4 class="text-white mt-1 mb-4 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 2rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intresseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
             </div>
 
-          
+
                  <div class="col-7 m-0 p-0 scroll-animate" id="cases">
                      <!------------Cases-cards 1-------------->
                      <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh" >
@@ -271,7 +271,7 @@
                                  <p class="ps-5 text-white-50">BuildMate blev skabt for at forenkle computerbygning, så alle kan nyde den digitale verden uden bekymringer om deres udstyr.</p>
                              </div>
                              <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
-                                 <div onclick="window.location.href='caseinfo.php';" class="btn-f"><span class="">< / Næste ></span></div>
+                                 <a href="caseinfo.php?case=1"><div class="btn-f"><span class="">< / Næste ></span></div></a>
                              </div>
                          </div>
 
@@ -303,13 +303,13 @@
                              </div>
                              <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
                                  <!-- Button for navigation -->
-                                 <div onclick="navigateToCase(2);" class="btn-f"><span class="">< / Næste ></span></div>
+                                 <a href="caseinfo.php?case=2"><div class="btn-f"><span class="">< / Næste ></span></div></a>
                              </div>
                          </div>
 
                      </div>
-                     
-                     
+
+
                  </div>
                     <!------------Cases-cards 4-------------->
             <div class="col-md-2 col-11 case m-0 p-0 ms-md-2 mt-md-2">
@@ -318,12 +318,12 @@
                     <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
                 </div>
 
-                <div onclick="window.location.href='caseinfo.php';" class="caseinfo col-12 d-flex pt-3 pb-3">
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
                         <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
                         <div class="col-6 my-auto ms-3"><h6 class="text-white">BuildMate <br>
                             <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
                 </div>
-                <div onclick="navigateToCase(2);" class="caseinfo col-12 d-flex pt-3 pb-3">
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
                     <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
                     <div class="col-6 my-auto ms-3"><h6 class="text-white">Case-1<br>
                             <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
@@ -333,17 +333,6 @@
 
         </div>
     </section>
-
-
-<script>
-    // Function to handle navigation based on case index
-    function navigateToCase(caseIndex) {
-        // Redirects to caseinfo.php with the case parameter
-        const url = `caseinfo.php?case=${caseIndex}`;
-        window.location.href = url;
-    }
-</script>
-
 
 <script src="js/case.js"></script>
 <script src="js/down.js"></script>
