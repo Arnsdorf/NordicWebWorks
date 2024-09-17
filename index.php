@@ -268,9 +268,7 @@
                          <div class="col-12 p-0 m-0 d-flex">
                              <div class="col-md-8 pb-3">
                                  <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
-                                 <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
-                                 for at se om dette virker angående spacing på kortet. Nu begynder jeg at skrive ekstra tekst, for at
-                                 forlænge feltet jeg skriver i.</p>
+                                 <p class="ps-5 text-white-50">BuildMate blev skabt for at forenkle computerbygning, så alle kan nyde den digitale verden uden bekymringer om deres udstyr.</p>
                              </div>
                              <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
                                  <div onclick="window.location.href='caseinfo.php';" class="btn-f"><span class="">< / Næste ></span></div>
@@ -320,14 +318,14 @@
                     <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
                 </div>
 
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                <div onclick="window.location.href='caseinfo.php';" class="caseinfo col-12 d-flex pt-3 pb-3">
                         <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
                         <div class="col-6 my-auto ms-3"><h6 class="text-white">BuildMate <br>
                             <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
                 </div>
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                <div onclick="navigateToCase(2);" class="caseinfo col-12 d-flex pt-3 pb-3">
                     <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case 1<br>
+                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case-1<br>
                             <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
                 </div>
             </div>
