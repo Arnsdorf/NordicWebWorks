@@ -21,6 +21,8 @@
             <div id="scroll-down" class="arrow-box ms-4 mt-5 d-flex align-items-center justify-content-center">
                 <div class="arrow"></div>
             </div>
+
+
     </div>
 </div>
 <!-------Front-page-navbar-end--------------->
@@ -42,7 +44,7 @@
             <div class="mt-3 "><i class="bi bi-twitter social" style="font-size: 1.2rem"></i></div>
             <div class="mt-3 mb-3"><i class="bi bi-facebook social" style="font-size: 1.2rem"></i></div>
         </div>
-        
+
         <div class="position-absolute bottom-0 pb-3 ps-3">
             <div class="box-s position-absolute ms-5 mb-5" style="pointer-events: none;"></div>
             <div class="box-b " style="pointer-events: none;"></div>
@@ -67,7 +69,7 @@
         <!-------front-ipad-pc--------------->
         <div class="col-6 d-md-block d-none bg-custom-dark d-flex" style="height: 100vh">
             <div class="row justify-content-center m-0 p-0">
-                
+
                 <div class="col-8 pt-20 text-start">
                     <h6 class="scroll-animate" style="color: #636363;font-family: 'Source Code Pro'">━━  Velkommen til Nordic Webworks ━━━━━</h6>
                     <h1 class="text-white front-font-b font-type scroll-animate">Har <span class="font-drip">din</span>
@@ -82,14 +84,14 @@
                         <span>CASES</span>
                     </div>
                 </div>
-            
+
              </div>
         </div>
-        
+
         <div class="col-5 d-md-block d-none" style="height: 100vh">
             <div class="row m-0 p-0">
                 <div class="d-flex pt-7">
-                    
+
                     <div class="mt-4">
                         <div class="" style="height: 55vh;width: 11rem;background: #0a52bd"></div>
                     </div>
@@ -99,20 +101,20 @@
                     <div class="mt-35">
                         <div class="" style="height: 55vh;width: 12rem;background: #0a52bd"></div>
                     </div>
-                    
+
                 </div>
 
             </div>
         </div>
-        
-        
+
+
     </div>
 </div>
 
 
 
 <!-------services---------------------------------->
-<section class="pt-8 mt-5 bg-custom-dark" id="services">
+<section class="pt-8 mt-5 mb-5 bg-custom-dark" id="services">
     <div class="container">
         <div class="row d-flex justify-content-center ">
             <div class="col-md-10 col-lg-6 text-center scroll-animate">
@@ -127,112 +129,223 @@
     </div>
 </section>
 
-<div id="services" class="services-cards py-md-5 bg-custom-dark">
-    <div class="container">
-        <div class="row">
-            <!-- Card 1 -->
 
-            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
+<div class="container-fluid scroll-animate" id="services">
+    <div class="row m-0 p-0 d-flex justify-content-center">
 
-                <div class="card border-0 card-hover bg-cases h-100">
-                    <div class="card-body text-white d-flex flex-column">
+        <!-- Card 1 ---->
+        <div class="d-flex col-10 m-0 p-0 card-demo mt-5 flex-row-reverse" style="height: 25rem">
+            <div class="col-md-6 col-lg-5 d-flex justify-content-center">
+
+                <div class="ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
+                    <div class="card-body text-white d-flex flex-column" >
                         <div>
-                            <img style="width: 40px" class="shadow pt-3 mb-3" src="uploads/icons/coding.png" alt="coding">
-                            <h5 class="card-title fw-bold">Frontend Løsning</h5>
-                            <p class="card-text fw-bold small text-white-50">
-                                React.js • Angular • Vue.js
+                            <img style="width: 40px" class=" mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <p class="card-text fw-bold small text-dark">
+                                Design • Kodning • UX-UI
                             </p>
                         </div>
-                        <div class="mt-auto">
-                            <p class="card-text text-white-50 mt-2 small">
-                                Vi leverer responsiv og dynamisk frontend-udvikling, der sikrer en problemfri oplevelse på tværs af alle enheder.
+
+                        <div class="pt-3 pe-5 ">
+                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
+                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                der skiller sig ud.
                             </p>
 
-                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                            <button type="submit" class="mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
                                 <span class="small fw-bold">Læs mere</span>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="image-box col position-relative">
+                <img src="uploads/smoll-port.jpg" alt="#" class="image">
+            </div>
+        </div>
+        <!-- Card 2 ---->
+        <div class="d-flex col-10 m-0 p-0 card-demo mt-5" style="height: 25rem">
+            <div class="col-md-6 col-lg-5 d-flex justify-content-center">
 
-            <!-- Card 2 -->
-            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
-                <div class="card border-0 card-hover bg-cases h-100">
-                    <div class="card-body text-white d-flex flex-column">
+                <div class="ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
+                    <div class="card-body text-white d-flex flex-column" >
                         <div>
-                            <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/database.png" alt="coding">
-                            <h5 class="card-title fw-bold">Backend Udvikling</h5>
-                            <p class="card-text fw-bold small text-white-50">
-                                PHP • Databaser • API'er
+                            <img style="width: 40px" class=" mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <p class="card-text fw-bold small text-dark">
+                                Design • Kodning • UX-UI
                             </p>
                         </div>
-                        <div class="mt-auto">
-                            <p class="card-text small mt-2 text-white-50">
-                                Vores backend-løsninger sikrer, at din hjemmeside eller applikation fungerer effektivt og sikkert i baggrunden.
+
+                        <div class="pt-3 pe-5 ">
+                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
+                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                der skiller sig ud.
                             </p>
 
-                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                            <button type="submit" class="mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
                                 <span class="small fw-bold">Læs mere</span>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Card 3 -->
-
-            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
-
-                <div class="card border-0 card-hover bg-cases h-100">
-                    <div class="card-body text-white d-flex flex-column">
-                        <div>
-                            <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/interface.png" alt="coding">
-                            <h5 class="card-title fw-bold">Webdesign & UX/UI</h5>
-                            <p class="card-text fw-bold small text-white-50">
-                                Identitet • Prototyper • Testing
-                            </p>
-                        </div>
-                        <div class="mt-auto">
-                            <p class="card-text mt-2 text-white-50 small">
-                                Vi skaber moderne og intuitive webdesigns, der engagerer brugere og konverterer besøgende til kunder.
-                            </p>
-
-                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
-                                <span class="small fw-bold">Læs mere</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+            <div class="image-box col position-relative">
+                <img src="uploads/smoll-port.jpg" alt="#" class="image">
             </div>
+        </div>
+        <!-- Card 3 ---->
+        <div class="d-flex col-10 m-0 p-0 card-demo flex-row-reverse mt-5" style="height: 25rem">
+            <div class="col-md-6 col-lg-5 d-flex justify-content-center">
 
-            <!-- Card 4 ---->
-
-            <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
-
-                <div class="card border-0 card-hover bg-cases h-100">
+                <div class="ps-5 pt-5 border-0 bg-cases h-100">
                     <div class="card-body text-white d-flex flex-column">
                         <div>
                             <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
-                            <h5 class="card-title fw-bold">API Integration</h5>
+                            <h5 class="card-title fw-bold">Portfolio</h5>
                             <p class="card-text fw-bold small text-white-50">
-                                API Endpoint • RESTful • API Nøgle
+                                Design • Kodning • UX-UI
                             </p>
                         </div>
-                        <div class="mt-auto">
-                            <p class="card-text mt-2 text-white-50 small">
-                                Vi integrerer tredjeparts API'er for at forbedre funktionaliteten og effektiviteten af din applikation.
+
+                        <div class="pt-3 pe-5">
+                            <p class="card-text mt-2 text-white-50 small" style="line-height: 1.6rem">
+                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                der skiller sig ud.
                             </p>
 
-                            <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                            <button type="submit" class="mt-4 btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
                                 <span class="small fw-bold">Læs mere</span>
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box col position-relative">
+                <img src="uploads/coding.jpg" alt="#" class="image">
+            </div>
+        </div>
+
+
+
+        <!---more-section----->
+        <div id="dots" class="services-cards py-md-5 bg-custom-dark">
+            <div class="container">
+                <div class="row">
+                    <!-- Card 1 -->
+
+                    <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
+
+                        <div class="card border-0 card-hover bg-cases h-100">
+                            <div class="card-body text-white d-flex flex-column">
+                                <div>
+                                    <img style="width: 40px" class="shadow pt-3 mb-3" src="uploads/icons/coding.png" alt="coding">
+                                    <h5 class="card-title fw-bold">Frontend Løsning</h5>
+                                    <p class="card-text fw-bold small text-white-50">
+                                        React.js • Angular • Vue.js
+                                    </p>
+                                </div>
+                                <div class="mt-auto">
+                                    <p class="card-text text-white-50 mt-2 small">
+                                        Vi leverer responsiv og dynamisk frontend-udvikling, der sikrer en problemfri oplevelse på tværs af alle enheder.
+                                    </p>
+
+                                    <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                        <span class="small fw-bold">Læs mere</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
+                        <div class="card border-0 card-hover bg-cases h-100">
+                            <div class="card-body text-white d-flex flex-column">
+                                <div>
+                                    <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/database.png" alt="coding">
+                                    <h5 class="card-title fw-bold">Backend Udvikling</h5>
+                                    <p class="card-text fw-bold small text-white-50">
+                                        PHP • Databaser • API'er
+                                    </p>
+                                </div>
+                                <div class="mt-auto">
+                                    <p class="card-text small mt-2 text-white-50">
+                                        Vores backend-løsninger sikrer, at din hjemmeside eller applikation fungerer effektivt og sikkert i baggrunden.
+                                    </p>
+
+                                    <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                        <span class="small fw-bold">Læs mere</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+
+                    <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
+
+                        <div class="card border-0 card-hover bg-cases h-100">
+                            <div class="card-body text-white d-flex flex-column">
+                                <div>
+                                    <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/interface.png" alt="coding">
+                                    <h5 class="card-title fw-bold">Webdesign & UX/UI</h5>
+                                    <p class="card-text fw-bold small text-white-50">
+                                        Identitet • Prototyper • Testing
+                                    </p>
+                                </div>
+                                <div class="mt-auto">
+                                    <p class="card-text mt-2 text-white-50 small">
+                                        Vi skaber moderne og intuitive webdesigns, der engagerer brugere og konverterer besøgende til kunder.
+                                    </p>
+
+                                    <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                        <span class="small fw-bold">Læs mere</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 ---->
+
+                    <div class="col-md-6 col-lg-3 mb-4 d-flex justify-content-center scroll-animate">
+
+                        <div class="card border-0 card-hover bg-cases h-100">
+                            <div class="card-body text-white d-flex flex-column">
+                                <div>
+                                    <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
+                                    <h5 class="card-title fw-bold">API Integration</h5>
+                                    <p class="card-text fw-bold small text-white-50">
+                                        API Endpoint • RESTful • API Nøgle
+                                    </p>
+                                </div>
+                                <div class="mt-auto">
+                                    <p class="card-text mt-2 text-white-50 small">
+                                        Vi integrerer tredjeparts API'er for at forbedre funktionaliteten og effektiviteten af din applikation.
+                                    </p>
+
+                                    <button type="submit" class="btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                        <span class="small fw-bold">Læs mere</span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+         <div class="row d-flex justify-content-center mt-5">
+            <button onclick="myFunction()" id="myBtn" type="submit" class=" ju btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                <span class="small fw-bold">Læs mere</span>
+            </button>
+        </div>
 </div>
 
 
@@ -337,7 +450,7 @@
                         <div class="col my-auto ms-3"><h6 class="text-white">BuildMate <br>
                             <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
                 </div>
-                
+
                 <div class="caseinfo col-12 d-flex pt-3 pb-3">
                     <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
                     <div class="col-6 my-auto ms-3"><h6 class="text-white">Case 1<br>
@@ -363,7 +476,7 @@
 
 
 
-
+<script src="js/more.js"></script>
 <script src="js/down.js"></script>
 <script src="js/section.js"></script>
 <script src="js/scroll-in.js"></script>

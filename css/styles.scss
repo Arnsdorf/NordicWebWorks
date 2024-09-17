@@ -26,17 +26,20 @@ body{
 
 }
 /* demo */
+#dots {display: none;}
 .cut-box {
 	position: relative;
 	overflow: hidden; /* Ensures anything outside the box gets cut */
 	background-color: #f5f5f5; /* Background color to fill the skewed gaps */
 }
-
+.image-box{
+	opacity: 0.6;
+}
 .image {
+	position: absolute;
+	object-fit: cover;
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	filter: grayscale(0);
 }
 
 .cut-box::before,
@@ -319,7 +322,46 @@ html {
 .social:hover{
 	transition: 100ms;
 	color: #0d6efd;
+}//btn-dark//
+.btn-f-dark {
+	height: 2.1rem;
+	width: 9rem;
+	border: #1c1c1c solid 1px;
+	color: #1c1c1c;
+	background: #1c1c1c; /* Default dark background color */
+	position: relative;
+	overflow: hidden;
+	transition: color 200ms ease;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
 }
+.btn-f-dark::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1c1c1c; /* Hover background color */
+	z-index: 1; /* Place it over the button background but below the text */
+	transition: transform 200ms ease;
+	transform: translateX(-100%); /* Start off-screen to the left */
+}
+.btn-f-dark:hover::before {
+	transform: translateX(0); /* Slide in from the left on hover */
+}
+
+.btn-f-dark:hover {
+	color: #ffffff; /* Change the text color on hover */
+}
+.btn-f-dark > span {
+	position: relative;
+	z-index: 2; /* Keep text above the white background */
+}
+//btn-light//
 .btn-f {
 	height: 2.1rem;
 	width: 9rem;
@@ -823,11 +865,25 @@ html {
 	left: 0; /* Flyt overlayen ind for at dække hele boksen */
 	opacity: 1;
 }
+.card-demo {
+	border-radius: 0;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	position: relative; /* Tilføjet for at sikre, at pseudo-elementerne er relativt placeret */
+	overflow: hidden; /* Sikrer, at indholdet forbliver indenfor kortets grænser */
+}
+
+.card-demo:hover {
+	transform: translateY(-5px) scale(1.02); /* Hopper lidt op og udvider sig */
+	filter: drop-shadow(1px 10px 12px rgba(19, 19, 19, 0.78));
+	opacity: 1;
+	transition: 300ms ease-in-out;
+}
+
+
+
 
 .card {
 	border-radius: 0;
-	min-height: 320px;
-	max-width: 300px;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	position: relative; /* Tilføjet for at sikre, at pseudo-elementerne er relativt placeret */
 	overflow: hidden; /* Sikrer, at indholdet forbliver indenfor kortets grænser */
