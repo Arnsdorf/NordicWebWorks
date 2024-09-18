@@ -113,7 +113,7 @@
 
 
 
-<!-------services---------------------------------->
+<!-------services-intro--------------------------------->
 <section class="pt-8 mt-5 mb-5 bg-custom-dark" id="services">
     <div class="container">
         <div class="row d-flex justify-content-center ">
@@ -130,110 +130,126 @@
 </section>
 
 
-<div class="container-fluid scroll-animate" id="services">
-    <div class="row m-0 p-0 d-flex justify-content-center">
+<!-- services-pc-md ---->
+<div class="container-fluid scroll-animate d-none d-md-block" id="services">
+    <div class="row m-0 p-0 d-flex justify-content-center ">
 
         <!-- Card 1 ---->
-        <div class="d-flex col-10 m-0 p-0 card-demo mt-5 flex-row-reverse" style="height: 25rem">
-            <div class="col-md-6 col-lg-5 d-flex justify-content-center">
+            <div class="d-flex col-9 m-0 p-0 card-demo mt-5 flex-row-reverse " style="height: 29rem">
+                <div class="col-md-6 col-lg-5 d-flex justify-content-center ">
+    
+                    <div class="col ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
+                        <div class="text-white d-flex flex-column" >
+                            
+                            <div>
+                                <img style="width: 40px" class=" mb-3" src="uploads/icons/api.png" alt="coding">
+                                <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                                <p class="card-text fw-bold small text-dark">
+                                    Design • Kodning • UX-UI
+                                </p>
+                            </div>
+    
+                            <div class="pt-3 pe-5 ">
+                                <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
+                                    Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                    dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                    der skiller sig ud.
+                                </p>
 
-                <div class="ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
-                    <div class="card-body text-white d-flex flex-column" >
-                        <div>
-                            <img style="width: 40px" class=" mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
-                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
-                            <p class="card-text fw-bold small text-dark">
-                                Design • Kodning • UX-UI
-                            </p>
-                        </div>
-
-                        <div class="pt-3 pe-5 ">
-                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
-                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
-                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
-                                der skiller sig ud.
-                            </p>
-
-                            <button type="submit" class="mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
-                                <span class="small fw-bold">Læs mere</span>
-                            </button>
+                                <button type="submit" class=" mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                    <span class="small fw-bold">Læs mere</span>
+                                </button>
+                                  
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
+                
+                <div class="image-box col position-relative ">
+                    <img src="uploads/smoll-port.jpg" alt="#" class="image">
+                </div>
+                
             </div>
-            <div class="image-box col position-relative">
-                <img src="uploads/smoll-port.jpg" alt="#" class="image">
-            </div>
-        </div>
         <!-- Card 2 ---->
-        <div class="d-flex col-10 m-0 p-0 card-demo mt-5" style="height: 25rem">
-            <div class="col-md-6 col-lg-5 d-flex justify-content-center">
+        <div class="d-flex col-9 m-0 p-0 card-demo mt-5" style="height: 29rem">
+            <div class="col-md-6 col-lg-5 d-flex justify-content-center ">
 
-                <div class="ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
-                    <div class="card-body text-white d-flex flex-column" >
+                <div class="col ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
+                    <div class="text-white d-flex flex-column" >
+
                         <div>
-                            <img style="width: 40px" class=" mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
-                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <img style="width: 40px" class=" mb-3" src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Konceptudvikling</h5>
                             <p class="card-text fw-bold small text-dark">
-                                Design • Kodning • UX-UI
+                                Design • UX-UI • Idegenerering
                             </p>
                         </div>
 
                         <div class="pt-3 pe-5 ">
                             <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
-                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
-                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
-                                der skiller sig ud.
+                                Ønsker du at skabe noget nyt! eller har du en ide til din virksomhed? så tilbyder vi Konceptudvikling som skal hjælpe
+                                din virksomhed med at finde den rette digitale-løsning til din specifikke situation. Vi har en hold betående af 
+                                erfarne designers, som står klar til at etablere din ide.
                             </p>
 
-                            <button type="submit" class="mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                            <button type="submit" class=" mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
                                 <span class="small fw-bold">Læs mere</span>
                             </button>
+
                         </div>
+
                     </div>
                 </div>
             </div>
-            <div class="image-box col position-relative">
+
+            <div class="image-box col position-relative ">
                 <img src="uploads/smoll-port.jpg" alt="#" class="image">
             </div>
+
         </div>
         <!-- Card 3 ---->
-        <div class="d-flex col-10 m-0 p-0 card-demo flex-row-reverse mt-5" style="height: 25rem">
-            <div class="col-md-6 col-lg-5 d-flex justify-content-center">
+        <div class="d-flex col-9 m-0 p-0 card-demo mt-5 flex-row-reverse " style="height: 29rem">
+            <div class="col-md-6 col-lg-5 d-flex justify-content-center ">
 
-                <div class="ps-5 pt-5 border-0 bg-cases h-100">
-                    <div class="card-body text-white d-flex flex-column">
+                <div class="col ps-5 pt-5 border-0  h-100" style="background: #f1f8fa">
+                    <div class="text-white d-flex flex-column" >
+
                         <div>
-                            <img style="width: 40px" class="shadow mb-3 pt-3" src="uploads/icons/api.png" alt="coding">
-                            <h5 class="card-title fw-bold">Portfolio</h5>
-                            <p class="card-text fw-bold small text-white-50">
+                            <img style="width: 40px" class=" mb-3" src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <p class="card-text fw-bold small text-dark">
                                 Design • Kodning • UX-UI
                             </p>
                         </div>
 
-                        <div class="pt-3 pe-5">
-                            <p class="card-text mt-2 text-white-50 small" style="line-height: 1.6rem">
+                        <div class="pt-3 pe-5 ">
+                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
                                 Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
                                 dine kunder på det digitale marked med et unikt og imponerende portfolio,
                                 der skiller sig ud.
                             </p>
 
-                            <button type="submit" class="mt-4 btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                            <button type="submit" class=" mt-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
                                 <span class="small fw-bold">Læs mere</span>
                             </button>
+
                         </div>
+
                     </div>
                 </div>
             </div>
-            <div class="image-box col position-relative">
-                <img src="uploads/coding.jpg" alt="#" class="image">
+
+            <div class="image-box col position-relative ">
+                <img src="uploads/smoll-port.jpg" alt="#" class="image">
             </div>
+
         </div>
 
 
 
         <!---more-section----->
-        <div id="dots" class="services-cards py-md-5 bg-custom-dark">
+        <div class="services-cards py-md-5 bg-custom-dark">
             <div class="container">
                 <div class="row">
                     <!-- Card 1 -->
@@ -341,11 +357,117 @@
             </div>
         </div>
     </div>
-         <div class="row d-flex justify-content-center mt-5">
-            <button onclick="myFunction()" id="myBtn" type="submit" class=" ju btn-f z-3 border-1 bg-transparent d-inline-flex border-white fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
-                <span class="small fw-bold">Læs mere</span>
-            </button>
+</div>
+
+
+<!------------Services-phone-------------->
+<div class="container-fluid scroll-animate d-md-none" id="services">
+    <div class="row m-0 p-0 d-flex justify-content-center ">
+        <!------------cards-highlights------------->
+        <!------------card-1------------->
+        <div class="col-10 m-0 p-0">
+            <div class="col-12">
+                
+                <div class="ps-5 pt-5 border-0 h-100" style="background: #f1f8fa">
+                    <div class="card-body text-white d-flex flex-column" >
+                        <div>
+                            <img style="width: 40px" class="mb-3 " src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <p class="card-text fw-bold small text-dark">
+                                Design • Kodning • UX-UI
+                            </p>
+                        </div>
+
+                        <div class="pt-3 pe-5 ">
+                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
+                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                der skiller sig ud.
+                            </p>
+
+                            <button type="submit" class="mt-4 mb-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="image-box position-relative">
+                <img src="uploads/coding.jpg" alt="#" class="image">
+            </div>
         </div>
+        <!------------card-2------------->
+        <div class="col-10 m-0 p-0 mt-5">
+            <div class="col-12">
+
+                <div class="ps-5 pt-5 border-0 h-100" style="background: #f1f8fa">
+                    <div class="card-body text-white d-flex flex-column" >
+                        <div>
+                            <img style="width: 40px" class="mb-3 " src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <p class="card-text fw-bold small text-dark">
+                                Design • Kodning • UX-UI
+                            </p>
+                        </div>
+
+                        <div class="pt-3 pe-5 ">
+                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
+                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                der skiller sig ud.
+                            </p>
+
+                            <button type="submit" class="mt-4 mb-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="image-box position-relative">
+                <img src="uploads/coding.jpg" alt="#" class="image">
+            </div>
+        </div>
+        <!------------card-3------------->
+        <div class="col-10 m-0 p-0 mt-5">
+            <div class="col-12">
+
+                <div class="ps-5 pt-5 border-0 h-100" style="background: #f1f8fa">
+                    <div class="card-body text-white d-flex flex-column" >
+                        <div>
+                            <img style="width: 40px" class="mb-3 " src="uploads/icons/api.png" alt="coding">
+                            <h5 class="card-title fw-bold text-dark">Portfolio</h5>
+                            <p class="card-text fw-bold small text-dark">
+                                Design • Kodning • UX-UI
+                            </p>
+                        </div>
+
+                        <div class="pt-3 pe-5 ">
+                            <p class="card-text mt-2 text-dark small" style="line-height: 1.6rem">
+                                Vi skaber professionelle portfolier skræddersyet til dig! Lad os hjælpe dig med at fremhæve dine kompetencer og nå ud til
+                                dine kunder på det digitale marked med et unikt og imponerende portfolio,
+                                der skiller sig ud.
+                            </p>
+
+                            <button type="submit" class="mt-4 mb-4 btn-f-dark z-3 border-1 bg-transparent d-inline-flex fw-medium justify-content-center align-items-center text-center" style="padding: 0; background: none;">
+                                <span class="small fw-bold">Læs mere</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="image-box position-relative">
+                <img src="uploads/coding.jpg" alt="#" class="image">
+            </div>
+        </div>
+        <!------------cards-extra------------->
+    </div>
 </div>
 
 
