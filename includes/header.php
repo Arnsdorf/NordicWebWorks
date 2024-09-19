@@ -32,7 +32,7 @@ require "settings/init.php";
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md bg-nav border-bottom-gray navbar-blur">
+<nav class="navbar navbar-expand-md bg-nav navbar-blur">
     <div class="container-fluid">
         <img src="uploads/logo/nw_logo1.svg" class="ms-2 ms-md-4 d-flex mt-2 mb-2 align-items-center" alt="Nordic Web Works Logo" onclick="window.location.href='index.php';" style="max-width: 140px; cursor: pointer;">
         <button class="navbar-toggler p-0 mx-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
