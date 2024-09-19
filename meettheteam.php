@@ -14,13 +14,23 @@
     </div>
 </section>
 
-<section class="team-description py-4" style="background-color:#2c2c2c;">
+<section class="team-description py-4" style="background-color:#ededed;">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-8 col-md-10 px-4 p-md-4">
 
-                <p class="text-white">
-                    Nordic Web Works er et dedikeret team, der forener kreativitet og teknisk dygtighed for at udvikle brugervenlige, visuelt engagerende løsninger. Vi værdsætter samarbejde, kvalitet og skaber stærke brugeroplevelser, der inspirerer og leverer. Holdet er altid klar til nye udfordringer.
+                <p class="text-black fw-medium">
+                    Nordic Web Works er et dynamisk og dedikeret team,
+                    der kombinerer kreativitet med teknisk ekspertise for at udvikle
+                    innovative og brugervenlige løsninger. Vores kerneværdier – kreativitet,
+                    innovation, teknisk dygtighed, samarbejde, kvalitet, og fremtidsvision –
+                    definerer, hvem vi er, og hvordan vi arbejder.
+                </p>
+                <p class="text-black fw-medium">
+                    Vores team er altid på forkant med de nyeste teknologier og trends, hvilket
+                    gør os i stand til at tilbyde løsninger, der er fremtidssikrede og effektive.
+                    Med en professionel tilgang til enhver opgave kombinerer vi nytænkning og
+                    stærk teknisk viden for at sikre, at vi leverer resultater, der overgår forventningerne.
                 </p>
                 <p style="color: #0a53be" class="fw-bold">
                     Kreative, innovative, tekniske, samarbejdsvillige, kvalitetsbevidste.
@@ -88,7 +98,7 @@
 </div>
 
 
-<section class="pt-3 pb-4" style="background-color: #252525">
+<section class="pt-3 pb-5" style="background-color: #252525">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 text-center">
@@ -107,7 +117,7 @@
 
 
 
-<section id="vision" class="services-cards pt-5 pb-5 py-md-5" style="background-color: #252525">
+<section id="values" class="services-cards pt-5 pb-5 py-md-5" style="background-color: #252525">
     <div class="container">
         <div class="row flex-row-reverse g-4 pb-5 g-md-5">
             <!-- Card 1 -->
@@ -116,7 +126,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
                             <h4 class="card-title pb-3">Kreativitet</h4>
-                            <p class="card-text small fw-light">Vi omdanner idéer til virkelighed med innovative løsninger, der inspirerer og engagerer.</p>
+                            <p class="card-text small fw-light">Vi tror på, at kreativitet er nøglen til at skabe unikke og engagerende løsninger, der skiller sig ud i markedet.</p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +138,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
                             <h4 class="card-title pb-3">Innovation</h4>
-                            <p class="card-text small fw-light">Vi stræber efter konstant at innovere og udvikle nye løsninger, der baner vejen for fremtiden.</p>
+                            <p class="card-text small fw-light">Vi skubber konstant grænserne for, hvad der er muligt, og søger altid nye måder at innovere på.</p>
                         </div>
                     </div>
                 </div>
@@ -140,7 +150,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
                             <h4 class="card-title pb-3">Teknisk Ekspertise</h4>
-                            <p class="card-text small fw-light">Vi anvender vores dybe tekniske viden til at skabe robuste og effektive løsninger.</p>
+                            <p class="card-text small fw-light">Med dyb teknisk viden leverer vi pålidelige og skalerbare løsninger, der understøtter vores kunders vækst.</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +162,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
                             <h4 class="card-title pb-3">Samarbejde</h4>
-                            <p class="card-text small fw-light">Gennem tæt samarbejde med vores kunder sikrer vi skræddersyede løsninger, der opfylder deres behov.</p>
+                            <p class="card-text small fw-light">Vi skaber de bedste løsninger gennem tæt og åbent samarbejde med vores kunder og partnere.</p>
                         </div>
                     </div>
                 </div>
@@ -164,7 +174,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
                             <h4 class="card-title pb-3">Kvalitet</h4>
-                            <p class="card-text small fw-light">Vi leverer kun det bedste, med fokus på detaljerne, for at sikre høj kvalitet i alle vores projekter.</p>
+                            <p class="card-text small fw-light">Vores engagement i kvalitet sikrer, at vi leverer holdbare og præcise løsninger i hvert projekt.</p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +186,7 @@
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
                             <h4 class="card-title pb-3">Fremtidsvision</h4>
-                            <p class="card-text small fw-light">Vi tænker langsigtet og skaber løsninger, der sikrer bæredygtig vækst og innovation i mange år fremover.</p>
+                            <p class="card-text small fw-light">Vi har fokus på bæredygtighed og fremtidssikring af vores løsninger for langsigtet vækst og succes.</p>
                         </div>
                     </div>
                 </div>
@@ -184,6 +194,7 @@
         </div>
     </div>
 </section>
+
 
 
 

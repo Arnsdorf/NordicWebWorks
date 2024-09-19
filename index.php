@@ -499,7 +499,7 @@
                                      forlænge feltet jeg skriver i.</p>
                              </div>
                              <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
-                                 <div class="btn-f"><span class="">< / Næste ></span></div>
+                                 <div onclick="window.location.href='caseinfo.php';" class="btn-f"><span class="">< / Næste ></span></div>
                              </div>
                          </div>
 
@@ -531,7 +531,8 @@
                                  forlænge feltet jeg skriver i.</p>
                              </div>
                              <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
-                                 <div class="btn-f"><span class="">< / Næste ></span></div>
+                                 <!-- Button for navigation -->
+                                 <div onclick="navigateToCase(2);" class="btn-f"><span class="">< / Næste ></span></div>
                              </div>
                          </div>
 
@@ -588,8 +589,17 @@
     </section>
 
 
+<script>
+    // Function to handle navigation based on case index
+    function navigateToCase(caseIndex) {
+        // Redirects to caseinfo.php with the case parameter
+        const url = `caseinfo.php?case=${caseIndex}`;
+        window.location.href = url;
+    }
+</script>
 
-<script src="js/more.js"></script>
+<script src="js/case.js"></script>
+
 <script src="js/down.js"></script>
 <script src="js/section.js"></script>
 <script src="js/scroll-in.js"></script>
