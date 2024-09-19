@@ -39,17 +39,19 @@ require "settings/init.php";
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-center justify-content-md-end" id="navbarNav">
+
             <ul class="navbar-nav mx-md-4 mt-md-2 align-items-center">
                 <li class="nav-item px-2">
+
                     <a class="nav-link text-white" href="index.php">HJEM</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="index.php#services">SERVICES</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="meettheteam.php#meet">MØD HOLDET</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="contact.php">KONTAKT</a>
                 </li>
             </ul>
