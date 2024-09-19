@@ -770,7 +770,8 @@ html {
 
 .navbar {
 	transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
-	position: sticky;
+	position: fixed;
+	width: 100%;
 	top: 0;
 	opacity: 1;
 	font-family: "Montserrat", sans-serif;
@@ -1159,3 +1160,27 @@ html {
 	background-image: url("/uploads/bg/wavey-fingerprint.svg");
 	height: 100%;
 }
+
+
+.hero-services {
+	background-attachment: fixed;
+	background-image: url("/uploads/banner-services.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.w-md-75{
+	max-width: 900px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "/";
+	color: white; /* Gør skråstregen hvid, så den passer til teksten */
+}
+
+
+
+
+
+

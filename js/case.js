@@ -1,20 +1,11 @@
-// Function to update the image, tech tags, and URL dynamically
-function updateContent(container, imageElement, tagsElement, caseIndex) {
+// Function to update the image and tech tags dynamically
+function updateContent(container, imageElement, tagsElement) {
     const newImageSrc = container.querySelector('.case-image').src;
     imageElement.src = newImageSrc;
 
     // Update the tech tags
     const newTagsHtml = container.querySelector('.tech-tags').innerHTML;
     tagsElement.innerHTML = newTagsHtml;
-
-    // Update the URL dynamically
-    updateCaseURL(caseIndex);
-}
-
-// Function to update the URL based on the current case index
-function updateCaseURL(caseIndex) {
-    const newURL = `caseinfo${caseIndex + 1}.php`; // Generate caseinfo1.php, caseinfo2.php, etc.
-    window.history.pushState({}, '', newURL); // Update the URL without reloading the page
 }
 
 // For mobile version
@@ -27,14 +18,14 @@ document.getElementById('nextBtn').addEventListener('click', function() {
     cases[currentCaseIndex].classList.remove('active'); // Hide current case
     currentCaseIndex = (currentCaseIndex + 1) % cases.length; // Move to next case, loop back if at the end
     cases[currentCaseIndex].classList.add('active'); // Show next case
-    updateContent(cases[currentCaseIndex], mobileImg, mobileTags, currentCaseIndex); // Update the image, tags, and URL
+    updateContent(cases[currentCaseIndex], mobileImg, mobileTags); // Update the image and tags
 });
 
 document.getElementById('prevBtn').addEventListener('click', function() {
     cases[currentCaseIndex].classList.remove('active'); // Hide current case
     currentCaseIndex = (currentCaseIndex - 1 + cases.length) % cases.length; // Move to previous case, loop to end if at the beginning
     cases[currentCaseIndex].classList.add('active'); // Show previous case
-    updateContent(cases[currentCaseIndex], mobileImg, mobileTags, currentCaseIndex); // Update the image, tags, and URL
+    updateContent(cases[currentCaseIndex], mobileImg, mobileTags); // Update the image and tags
 });
 
 // For PC and Tablet version
@@ -47,14 +38,12 @@ document.getElementById('nextBtn-md').addEventListener('click', function() {
     casesMd[currentCaseIndexMd].classList.remove('active'); // Hide current case
     currentCaseIndexMd = (currentCaseIndexMd + 1) % casesMd.length; // Move to next case, loop back if at the end
     casesMd[currentCaseIndexMd].classList.add('active'); // Show next case
-    updateContent(casesMd[currentCaseIndexMd], desktopImg, desktopTags, currentCaseIndexMd); // Update the image, tags, and URL
+    updateContent(casesMd[currentCaseIndexMd], desktopImg, desktopTags); // Update the image and tags
 });
 
 document.getElementById('prevBtn-md').addEventListener('click', function() {
     casesMd[currentCaseIndexMd].classList.remove('active'); // Hide current case
     currentCaseIndexMd = (currentCaseIndexMd - 1 + casesMd.length) % casesMd.length; // Move to previous case, loop to end if at the beginning
     casesMd[currentCaseIndexMd].classList.add('active'); // Show previous case
-    updateContent(casesMd[currentCaseIndexMd], desktopImg, desktopTags, currentCaseIndexMd); // Update the image, tags, and URL
+    updateContent(casesMd[currentCaseIndexMd], desktopImg, desktopTags); // Update the image and tags
 });
-
-
