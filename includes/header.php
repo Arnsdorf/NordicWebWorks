@@ -31,7 +31,7 @@ require "settings/init.php";
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md bg-nav border-bottom-gray navbar-blur">
+<nav class="navbar navbar-expand-md bg-nav navbar-blur">
     <div class="container-fluid">
         <img src="uploads/logo/nw_logo1.svg" class="ms-2 ms-md-4 d-flex mt-2 mb-2 align-items-center" alt="Nordic Web Works Logo" onclick="window.location.href='index.php';" style="max-width: 140px; cursor: pointer;">
         <button class="navbar-toggler p-0 mx-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +39,16 @@ require "settings/init.php";
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-center justify-content-md-end" id="navbarNav">
             <ul class="navbar-nav mx-4 mt-2 align-items-center">
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="index.php">HJEM</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="index.php#services">SERVICES</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="meettheteam.php#meet">MØD HOLDET</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-5">
                     <a class="nav-link text-white" href="contact.php">KONTAKT</a>
                 </li>
             </ul>

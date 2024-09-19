@@ -26,7 +26,6 @@
     </div>
 </div>
 <!-------Front-page-navbar-end--------------->
-
 <div class="container-fluid m-0 p-0">
     <div class="row m-0 p-0">
 
@@ -38,12 +37,6 @@
             <div class="mt-2 mb-2 scroll-animate"><i class="bi bi-facebook text-white social" style="font-size: 1rem"></i></div>
         </div>
 
-        <div class="position-absolute bottom-0 ps-4 d-none d-md-block ">
-            <div class=""><i class="bi bi-instagram social " style="font-size: 1.2rem"></i></div>
-            <div class="mt-3 "><i class="bi bi-linkedin social" style="font-size: 1.2rem"></i></div>
-            <div class="mt-3 "><i class="bi bi-twitter social" style="font-size: 1.2rem"></i></div>
-            <div class="mt-3 mb-3"><i class="bi bi-facebook social" style="font-size: 1.2rem"></i></div>
-        </div>
 
         <div class="position-absolute bottom-0 pb-3 ps-3">
             <div class="box-s position-absolute ms-5 mb-5" style="pointer-events: none;"></div>
@@ -54,7 +47,7 @@
         <!-------front-phone--------------->
         <div class="col-12 d-md-none bg-custom-dark m-0 p-0" style="height: 100vh">
             <div class="col-12 text-center position-absolute top-30 ps-2 pe-2">
-                <h6 class="font-front-s d-md-none scroll-animate">━━ Velkommen til Nordic Webworks ━━</h6>
+                <h6 class="font-front-s d-md-none scroll-animate">Velkommen til Nordic Webworks</h6>
                 <h1 class="text-white fw-bold d-md-none font-type">Har <span class="font-drip">din
                         </span> virksomhed brug for en løsning<span class="font-drip">?</span></h1>
 
@@ -67,16 +60,16 @@
             </div>
         </div>
         <!-------front-ipad-pc--------------->
-        <div class="col-6 d-md-block d-none bg-custom-dark d-flex" style="height: 100vh">
+        <div class="col-5 d-md-block d-none d-flex" style="height: 100vh">
             <div class="row justify-content-center m-0 p-0">
 
-                <div class="col-8 pt-20 text-start">
-                    <h6 class="scroll-animate" style="color: #636363;font-family: 'Source Code Pro'">━━  Velkommen til Nordic Webworks ━━━━━</h6>
-                    <h1 class="text-white front-font-b font-type scroll-animate">Har <span class="font-drip">din</span>
-                        virksomhed brug for en løsning<span class="font-drip">?</span></h1>
+                <div class="col-9 pt-20 text-center">
+                    <h6 class="scroll-animate" style="color: #636363;letter-spacing: 0.3rem;line-height: 3rem">Velkommen til Nordic Webworks</h6>
+                    <h2 class="text-white front-font-b font-type scroll-animate">Har <span class="font-drip">din</span>
+                        virksomhed brug for en løsning<span class="font-drip">?</span></h2>
                 </div>
 
-                <div class="col-8 mt-4 scroll-animate">
+                <div class="col-12 mt-4 scroll-animate d-flex justify-content-center">
                     <div class="me-3 fw-bold small btn-f d-inline-flex justify-content-center align-items-center text-center m-0 drip ">
                         <span>KONTAKT</span>
                     </div>
@@ -85,26 +78,24 @@
                     </div>
                 </div>
 
+
+                <div class="position-absolute bottom-0 d-none d-md-block">
+                    <div class="justify-content-center d-flex">
+                        <i class="bi bi-instagram social ms-4 me-4" style="font-size: 1.2rem"></i>
+                        <i class="bi bi-linkedin social ms-4 me-4" style="font-size: 1.2rem"></i>
+                        <i class="bi bi-twitter social ms-4 me-4" style="font-size: 1.2rem"></i>
+                        <i class="bi bi-facebook social ms-4 me-4" style="font-size: 1.2rem"></i>
+                    </div>
+                </div>
+
+
              </div>
         </div>
 
-        <div class="col-5 d-md-block d-none" style="height: 100vh">
-            <div class="row m-0 p-0">
-                <div class="d-flex pt-7">
-
-                    <div class="mt-4">
-                        <div class="" style="height: 55vh;width: 11rem;background: #0a52bd"></div>
-                    </div>
-                    <div class="ms-3 me-3 mt-10">
-                        <div class="" style="height: 70vh;width: 14rem;background: #0a52bd"></div>
-                    </div>
-                    <div class="mt-35">
-                        <div class="" style="height: 55vh;width: 12rem;background: #0a52bd"></div>
-                    </div>
-
+        <div class="col d-md-block bg-light d-none p-0" style="height: 100vh">
+                <div class="image-box position-relative m-0">
+                    <img class="image" src="uploads/front-page-img.jpg" alt="billede af folk der arbejder med webdesign">
                 </div>
-
-            </div>
         </div>
 
 
