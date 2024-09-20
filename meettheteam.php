@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
 
-<section class="pt-5 mt-2">
+<section class="pt-5 mt-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-10 col-lg-8 mb-4 px-4">
