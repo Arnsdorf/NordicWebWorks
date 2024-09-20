@@ -1,6 +1,7 @@
+<?php include "includes/header.php" ?>
 <?php
 global $cases;
-require "settings/init.php"; // Indlæs nødvendige opsætninger
+
 require "casedata.php"; // Hent case data
 
 // Hent 'case' parameteren fra URL'en

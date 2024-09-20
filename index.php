@@ -102,7 +102,7 @@
     <div class="container">
         <div class="row d-flex justify-content-center ">
             <div class="col-md-10 col-lg-6 text-center scroll-animate">
-                <h1 class="text-white display-6 fw-bold"><span class="" style="color: #0a53be">Services</span> & Ydelser</h1>
+                <h2 class="text-white display-6 fw-bold"><span class="" style="color: #0a53be">Services</span> & Ydelser</h2>
                 <p class="text-white-50 small mt-3">
                     Vi tilbyder en bred vifte af ydelser, der er skræddersyet
                     til at imødekomme dine behov. Fra webudvikling til digital strategi,
@@ -222,117 +222,124 @@
 </div>
 
 
-    <!------------Cases-------------->
-    <section class="container-fluid m-0 p-0 mt-1 pt-5 mb-5 pb-5 scroll-animate">
-        <div class="row p-0 m-0 justify-content-center">
-            <div class="mt-5 mb-2 d-flex">
-                <h4 class="text-white mt-5 mb-4 ms-12 font-case col-4 d-none d-md-block scroll-animate" style="font-size: 2.4rem"> <span class="fw-light text-white-50" style="font-size: 1.2rem;font-family: 'Source Code Pro'">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
-                <h4 class="text-white mt-1 mb-4 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 2rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intresseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
-            </div>
-
-
-                 <div class="col-7 m-0 p-0 scroll-animate" id="cases">
-                     <!------------Cases-cards 1-------------->
-                     <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh" >
-                         <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
-                             <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
-                             <div class="col-6 me-1 case-extra justify-content-start" style="height: 1.2rem;width: 1.2rem"></div>
-                         </div>
-                         <div class="text-white justify-content-center d-flex font-glitch">
-                             <h3 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h3>
-                         </div>
-                         <div class="text-white justify-content-center d-flex">
-                             <h2 class="" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'; font-weight: lighter">Loading</h2>
-                         </div>
-                         <div class="ms-5 me-5 " style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
-                     </div>
-                     <!------------Cases-cards 2-------------->
-                     <div class="col-12 case mt-2 d-none d-md-block" style="" >
-                         <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
-                             <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
-                             <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
-                         </div>
-
-                         <div class="col-12 d-flex m-0 p-0">
-                             <div class="col-5 pt-4 d-flex">
-                                <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                                <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
-                             </div>
-
-                             <div class="d-flex col justify-content-end">
-                                 <h6 class="my-auto text-white pe-3" style="letter-spacing: 0.1rem;font-family: 'Source Code Pro'; font-weight: lighter">Dato: 09-09-2024</h6>
-                             </div>
-
-                         </div>
-
-                         <div class="col-12 p-0 m-0 d-flex">
-                             <div class="col-md-8 pb-3">
-                                 <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
-                                 <p class="ps-5 text-white-50">BuildMate blev skabt for at forenkle computerbygning, så alle kan nyde den digitale verden uden bekymringer om deres udstyr.</p>
-                             </div>
-                             <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
-                                 <a href="caseinfo.php?case=1"><div class="btn-f"><span class="">< / Næste ></span></div></a>
-                             </div>
-                         </div>
-
-                     </div>
-                     <!------------Cases-cards 3-------------->
-                     <div class="col-12 case mt-2 d-none d-md-block">
-                         <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
-                             <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
-                             <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
-                         </div>
-
-                         <div class="col-12 d-flex m-0 p-0">
-                             <div class="col-5 pt-4 d-flex">
-                                 <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                                 <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">Case-1</h3>
-                             </div>
-
-                             <div class="d-flex col justify-content-end">
-                                 <h6 class="my-auto text-white pe-3" style="letter-spacing: 0.1rem;font-family: 'Source Code Pro'; font-weight: lighter">Dato: 09-09-2024</h6>
-                             </div>
-
-                         </div>
-
-                         <div class="col-12 p-0 m-0 d-flex">
-                             <div class="col-md-8 pb-3">
-                                 <h5 class="ps-5 pt-3 " style="color: #195fc5">Projekt-info</h5>
-                                 <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
-                                     for at se om dette virker angående spacing på kortet.</p>
-                             </div>
-                             <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
-                                 <!-- Button for navigation -->
-                                 <a href="caseinfo.php?case=2"><div class="btn-f"><span class="">< / Næste ></span></div></a>
-                             </div>
-                         </div>
-
-                     </div>
-
-
-                 </div>
-                    <!------------Cases-cards 4-------------->
-            <div class="col-md-2 col-11 case m-0 p-0 ms-md-2 mt-md-2">
-                <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
-                    <div class="mt-3 ps-5 col-12"><p class="">Info.exe</p></div>
-                    <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
-                </div>
-
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
-                        <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                        <div class="col-6 my-auto ms-3"><h6 class="text-white">BuildMate <br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
-                </div>
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
-                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case-1<br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
-                </div>
-            </div>
-
+<!------------Cases-------------->
+<section class="container-fluid m-0 p-0 mt-1 pt-5 mb-5 pb-5 scroll-animate">
+    <div class="row p-0 m-0 justify-content-center">
+        <div class="mt-5 mb-5 d-flex flex-column align-items-center text-center">
+            <span class="text-white-50 mt-5 fs-5 fw-light">Er du nysgerrig på vores kunnen?</span>
+            <h3 class="text-white mt-3 fw-bold display-6 mb-4 font-case col-12 scroll-animate" style="font-family: 'Source Code Pro'; font-size: 2rem">
+                Udforsk vores <span style="color: #0a53be; font-weight: bold; text-decoration: underline;">projekter</span> og bliv inspireret!
+            </h3>
 
         </div>
-    </section>
+
+
+
+        <div class="col-7 m-0 p-0 scroll-animate" id="cases">
+            <!------------Cases-cards 1-------------->
+            <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh">
+                <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
+                    <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
+                    <div class="col-6 me-1 case-extra justify-content-start" style="height: 1.2rem;width: 1.2rem"></div>
+                </div>
+                <div class="text-white justify-content-center d-flex font-glitch">
+                    <h3 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h3>
+                </div>
+                <div class="text-white justify-content-center d-flex">
+                    <h2 class="" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'; font-weight: lighter">Loading</h2>
+                </div>
+                <div class="ms-5 me-5" style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
+            </div>
+
+            <!------------Cases-cards 2-------------->
+            <a href="caseinfo.php?case=1" class="text-decoration-none"> <!-- Link to individual case page -->
+                <div class="col-12 case mt-2 d-none d-md-block" style="">
+                    <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
+                        <div class="mt-3 ps-5 col-12 text-black"><p class="">BuildMate.exe</p></div>
+                        <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
+                    </div>
+
+                    <div class="col-12 d-flex m-0 p-0">
+                        <div class="col-5 pt-4 d-flex">
+                            <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style="width: 3.2rem;"></div>
+                            <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+                        </div>
+
+                        <div class="d-flex col justify-content-end">
+                            <h6 class="my-auto text-white pe-3" style="letter-spacing: 0.1rem;font-family: 'Source Code Pro'; font-weight: lighter">Dato: 09-09-2024</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-12 p-0 m-0 d-flex">
+                        <div class="col-md-8 pb-3">
+                            <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
+                            <p class="ps-5 text-white-50">BuildMate blev skabt for at forenkle computerbygning, så alle kan nyde den digitale verden uden bekymringer om deres udstyr.</p>
+                        </div>
+                        <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
+                            <div class="btn-f"><span class="">< / Næste ></span></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!------------Cases-cards 3-------------->
+            <a href="caseinfo.php?case=2" class="text-decoration-none"> <!-- Link to individual case page -->
+                <div class="col-12 case mt-2 d-none d-md-block">
+                    <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
+                        <div class="mt-3 ps-5 col-12 text-black"><p class="">BuildMate.exe</p></div>
+                        <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
+                    </div>
+
+                    <div class="col-12 d-flex m-0 p-0">
+                        <div class="col-5 pt-4 d-flex">
+                            <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style="width: 3.2rem;"></div>
+                            <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">Case-1</h3>
+                        </div>
+
+                        <div class="d-flex col justify-content-end">
+                            <h6 class="my-auto text-white pe-3" style="letter-spacing: 0.1rem;font-family: 'Source Code Pro'; font-weight: lighter">Dato: 09-09-2024</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-12 p-0 m-0 d-flex">
+                        <div class="col-md-8 pb-3">
+                            <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
+                            <p class="ps-5 text-white-50">Hej med dig, dette er en beskrivelse som ultimativt bare er en test for at se om dette virker angående spacing på kortet.</p>
+                        </div>
+                        <div class="d-flex justify-content-end my-auto pe-3 col-md-4">
+                            <div class="btn-f"><span class="">< / Næste ></span></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+        <!------------Cases-cards 4-------------->
+        <div class="col-md-2 col-11 case m-0 p-0 ms-md-2 mt-md-2">
+            <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
+                <div class="mt-3 ps-5 col-12"><p class="">Info.exe</p></div>
+                <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
+            </div>
+            <a href="caseinfo.php?case=1" class="text-decoration-none">
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style="width: 3.2rem;"></div>
+                    <div class="col-6 my-auto ms-3"><h6 class="text-white">BuildMate <br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6>
+                    </div>
+                </div>
+            </a>
+            <a href="caseinfo.php?case=2" class="text-decoration-none">
+                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style="width: 3.2rem;"></div>
+                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case-1<br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
 
 <script src="js/case.js"></script>
 <script src="js/down.js"></script>
