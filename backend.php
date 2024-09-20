@@ -2,7 +2,7 @@
 <!-- Hero Section -->
 <div class="bg-dark text-white py-5 hero-services">
     <div class="container mt-8 mt-md-0 d-flex flex-column h-100 justify-content-end">
-        <img style="width: 40px" class="shadow mb-3" src="uploads/icons/database.png" alt="coding">
+        <img style="width: 40px" class="shadow mt-8  mb-3" src="uploads/icons/database.png" alt="coding">
         <!-- Breadcrumb -->
         <nav aria-label="breadcrumb" class="mt-2">
             <ol class="breadcrumb">
@@ -37,7 +37,9 @@
                     <li class="mt-5"><strong>Datahåndtering:</strong> Organiser dine data effektivt og sikkert.</li>
                 </ul>
             </div>
-
+            <div class="col-md-4">
+                <img class="shadow mt-8  mb-3" src="uploads/database.webp" alt="coding">
+            </div>
         </div>
     </div>
 </section>
