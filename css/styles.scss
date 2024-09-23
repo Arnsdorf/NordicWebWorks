@@ -886,6 +886,7 @@ html {
 
 .card:hover {
 	transform: translateY(-10px) scale(1.05); /* Hopper lidt op og udvider sig */
+	z-index: 1000;
 }
 
 .card::before,
@@ -1161,26 +1162,26 @@ html {
 	height: 100%;
 }
 
-
-.hero-services {
-	background-attachment: fixed;
-	background-image: url("/uploads/banner-services.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-.w-md-75{
-	max-width: 900px;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-	content: "/";
-	color: white; /* Gør skråstregen hvid, så den passer til teksten */
+.accordion-button{
+	background-color: #1c1c1c !important;
+	box-shadow: none !important;
 }
 
 
 
+.accordion-item{
+	border: none !important;
+}
+
+.accordion-body{
+	background-color: #272727 !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.accordion-button::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+}
 
 
 

@@ -465,14 +465,33 @@
     <!------------Cases-------------->
     <section class="container-fluid m-0 p-0 mt-1 pt-5 mb-5 pb-5 scroll-animate">
         <div class="row p-0 m-0 justify-content-center">
-            <div class="mt-5 mb-2 d-flex">
-                <h4 class="text-white mt-5 mb-4 ms-16 font-case col-md-6 col-lg-6 d-none d-md-block scroll-animate" style="font-size: 2.4rem"> <span class="fw-light text-white-50" style="font-size: 1.2rem;font-family: 'Source Code Pro'">Intreasseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h4>
-                <h5 class="text-white mt-1 mb-4 font-case col-12 d-md-none scroll-animate ps-3" style="font-size: 1.6rem"> <span class="fw-light text-white-50" style="font-size: 1rem">Intresseret i vores erfaringer?</span> <br> Tjek vores <span class="" style="color: #0a53be">tidligere projekter</span> ud!</h5>
+            <div class="mt-5 mb-2 d-flex flex-column align-items-center text-center">
+                <p class="text-white-50 fs-5 mt-5 scroll-animate fw-light">Er du nysgerrig på vores kunnen?</p>
+                <h4 class="text-white mb-5 font-case col-12 scroll-animate" style="font-size: 2.8rem; font-weight: bold; font-family: 'Source Code Pro';">
+                    Udforsk vores <span style="color: #0a53be; font-weight: bold; text-decoration: underline;">projekter</span> og bliv inspireret!
+                </h4>
+
             </div>
 
 
 
-                 <div class="col-7 m-0 p-0 scroll-animate" id="cases">
+
+            <div class="col-7 m-0 p-0 scroll-animate" id="cases">
+
+                     <!------------Cases-cards 3-------------->
+                     <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh" >
+                         <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
+                             <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
+                             <div class="col-6 me-1 case-extra justify-content-start" style="height: 1.2rem;width: 1.2rem"></div>
+                         </div>
+                         <div class="text-white justify-content-center d-flex font-glitch">
+                             <h3 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h3>
+                         </div>
+                         <div class="text-white justify-content-center d-flex">
+                             <h2 class="" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'; font-weight: lighter">Loading</h2>
+                         </div>
+                         <div class="ms-5 me-5 " style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
+                     </div>
 
                      <!------------Cases-cards 1-------------->
                      <div class="col-12 case mt-2 d-none d-md-block" style="" >
@@ -509,14 +528,14 @@
                      <!------------Cases-cards 2-------------->
                      <div class="col-12 case mt-2 d-none d-md-block" style="" >
                          <div class="col-12 case-header justify-content-end d-flex align-items-center" style="height: 4vh">
-                             <div class="mt-3 ps-5 col-12"><p class="">BuildMate.exe</p></div>
+                             <div class="mt-3 ps-5 col-12"><p class="">CodeLearner.exe</p></div>
                              <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
                          </div>
 
                          <div class="col-12 d-flex m-0 p-0">
                              <div class="col-5 pt-4 d-flex">
                                 <div class="pt-2 pb-2 ps-2 pe-2 ms-5" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                                <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">BuildMate</h3>
+                                <h3 class="ms-4 text-white my-auto" style="font-family: 'Source Code Pro'">CodeLearner</h3>
                              </div>
 
                              <div class="d-flex col justify-content-end">
@@ -528,7 +547,7 @@
                          <div class="col-12 p-0 m-0 d-flex">
                              <div class="col-md-8 pb-3">
                                  <h5 class="ps-5 pt-3" style="color: #195fc5">Projekt-info</h5>
-                                 <p class="ps-5 text-white">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
+                                 <p class="ps-5 text-white-50">Hej med dig, dette er en beskrivelse som ultimativt bare er en test
                                  for at se om dette virker angående spacing på kortet. Nu begynder jeg at skrive ekstra tekst, for at
                                  forlænge feltet jeg skriver i.</p>
                              </div>
@@ -538,21 +557,6 @@
                              </div>
                          </div>
 
-                     </div>
-
-                     <!------------Cases-cards 3-------------->
-                     <div class="col-12 case-g mt-2 d-none d-md-block" style="height: 25vh" >
-                         <div class="col-12 case-header-g justify-content-end d-flex align-items-center" style="height: 4vh">
-                             <div class="mt-3 ps-5 col-12"><p class="">Kommer Snart.exe</p></div>
-                             <div class="col-6 me-1 case-extra justify-content-start" style="height: 1.2rem;width: 1.2rem"></div>
-                         </div>
-                         <div class="text-white justify-content-center d-flex font-glitch">
-                             <h3 class="mt-3" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'">Kommer-snart</h3>
-                         </div>
-                         <div class="text-white justify-content-center d-flex">
-                             <h2 class="" style="letter-spacing: 0.2rem;font-family: 'Source Code Pro'; font-weight: lighter">Loading</h2>
-                         </div>
-                         <div class="ms-5 me-5 " style="background: #8a8a8a"><div class="loading font-glitch"></div></div>
                      </div>
 
                  </div>
@@ -571,21 +575,10 @@
 
                 <div class="caseinfo col-12 d-flex pt-3 pb-3">
                     <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case 1<br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
+                    <div class="col-6 my-auto ms-3"><h6 class="text-white">CodeLearner<br>
+                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Simpel web shop med PHP</span></h6></div>
                 </div>
 
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
-                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case 1<br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
-                </div>
-
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
-                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                    <div class="col-6 my-auto ms-3"><h6 class="text-white">Case-1<br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
-                </div>
             </div>
 
 
