@@ -1184,4 +1184,50 @@ html {
 }
 
 
+#desktop-img-container {
+	position: relative;
+	overflow: hidden; /* Sikrer, at alt indhold forbliver inden for containeren */
+}
+
+#desktop-img-container img {
+	transition: all 0.3s ease;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#desktop-img-container .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0); /* Start med gennemsigtig baggrund */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.3s ease;
+}
+
+#desktop-img-container:hover img {
+	filter: brightness(70%); /* Mørkner billedet ved hover */
+}
+
+#desktop-img-container:hover .overlay {
+	background-color: rgba(0, 0, 0, 0.5); /* Mørkt overlay ved hover */
+}
+
+#desktop-img-container .btn {
+	opacity: 0; /* Knappen er usynlig som standard */
+	transition: opacity 0.3s ease;
+	z-index: 10; /* Sørger for, at knappen er ovenpå alt andet */
+	background-color: #007bff; /* Primær baggrundsfarve */
+	color: white; /* Hvid tekstfarve */
+	border: none; /* Fjern eventuelle kanter */
+	padding: 10px 20px; /* Tilføj lidt polstring for at gøre knappen større */
+}
+
+#desktop-img-container:hover .btn {
+	opacity: 1; /* Gør knappen synlig ved hover */
+}
 
