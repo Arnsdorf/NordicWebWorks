@@ -567,21 +567,21 @@
                     <div class="mt-3 ps-5 col-12"><p class="">Info.exe</p></div>
                     <div class="col-6 me-1 case-extra" style="height: 1.2rem;width: 1.2rem"></div>
                 </div>
-
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
-                        <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                        <div class="col my-auto ms-3"><h6 class="text-white">BuildMate <br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
-                </div>
-
+                <a href="caseinfo.php?case=1">
+                    <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                            <div class="my-auto p-2 ms-3" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
+                            <div class="col my-auto ms-3"><h6 class="text-white">BuildMate <br>
+                                <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Computer-Bygning</span></h6></div>
+                    </div>
+                </a>
                 <a href="caseinfo.php?case=2">
-                <div class="caseinfo col-12 d-flex pt-3 pb-3">
+                    <div class="caseinfo col-12 d-flex pt-3 pb-3">
 
-                    <div class="my-auto p-2 ms-4" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
-                    <div class="col-6 my-auto ms-3"><h6 class="text-white">CodeLearner<br>
-                            <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Simpel web shop med PHP</span></h6></div>
+                        <div class="my-auto p-2 ms-3" style="border: #ffffff solid 1px"><img class="text-white" src="uploads/folder2.svg" alt="" style=";width: 3.2rem;"></div>
+                        <div class="col-6 my-auto ms-3"><h6 class="text-white">CodeLearner<br>
+                                <span class="" style="font-family: 'Source Code Pro'; font-weight: lighter;font-size: 0.8rem">Simpel web shop med PHP</span></h6></div>
 
-                </div>
+                    </div>
                 </a>
             </div>
 

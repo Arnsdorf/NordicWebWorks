@@ -4,7 +4,7 @@ $cases = [
     1 => [
         "title" => "BuildMate",
         "description" => "BuildMate opstod, da en gruppe mennesker besluttede, at computerbygning var for kompliceret. De skabte en digital løsning med håbet om, at alle en dag vil kunne nyde den digitale verden uden bekymringer om, hvorvidt deres udstyr holder dem tilbage.",
-        "image" => "uploads/chr/case1.webp",
+        "image" => "uploads/BuildMate.PNG",
         "techTags" => [".PHP", ".MySQL", ".JavaScript"]
     ],
     2 => [
@@ -13,7 +13,7 @@ $cases = [
         forskellige programmeringssprog og teknologier, lige fra grundlæggende HTML og CSS 
         til avanceret Python og databasedesign. Brugerne kan nemt navigere gennem kursuskataloget, læse 
         detaljerede beskrivelser, og tilgå viden.",
-        "image" => "uploads/phpshop.PNG",
+        "image" => "uploads/WebshopPHP.webp",
         "features" => [
             "Responsivt design" => "Butikken er fuldt optimeret til både desktop, tablet og mobil, hvilket sikrer en gnidningsfri oplevelse uanset enhed.",
             "Sikker betaling" => "Integrerede betalingsløsninger, der giver brugerne mulighed for at betale med forskellige betalingsmetoder i et sikkert miljø.",

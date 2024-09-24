@@ -76,12 +76,20 @@ $nextCase = $caseIndex < count($cases) ? $caseIndex + 1 : 1;  // Gå til første
         <div class="d-none d-md-block">
             <div class="row">
 
-                <div id="desktop-img-container" class="col-4 m-0 p-0 position-relative" style="height: 100vh;">
+                <div id="desktop-img-container" class="col-4 m-0 p-0 position-relative">
                     <img id="desktop-case-img" class="case-info-img col-12" src="<?php echo $caseData['image']; ?>" alt="Case Image" style="object-fit: cover; position: absolute; top: 0;">
+                    <!-- Overlay med knap -->
+                    <div class="overlay position-absolute w-100 h-100 d-flex justify-content-center align-items-center" style="top: 0; left: 0;">
+                        <a href="#" class="btn btn-primary">Klik her</a>
+                    </div>
                 </div>
+
+
+
+
                 <div class="col-6 bg-custom-dark m-0 p-0">
                     <div id="desktop-tech-tags" class="col bg-custom-dark p-0 m-0 d-flex mt-3">
-                        <div class="ms-5 text-white d-flex align-items-end">
+                        <div class="ms-5 mt-8 text-white d-flex align-items-end">
                             <div class="row justify-content-between pt-5" style="color: #7c7c7c">
                                 <?php foreach($caseData['techTags'] as $tag): ?>
                                     <h6 class="fw-medium col"><?php echo $tag; ?></h6>
@@ -90,9 +98,9 @@ $nextCase = $caseIndex < count($cases) ? $caseIndex + 1 : 1;  // Gå til første
                         </div>
                     </div>
 
-                    <div id="case-container-md" class="pt-17 ms-5 text-white mt-1">
+                    <div id="case-container-md" class="pt-9 justify-content-center ms-5 text-white mt-1">
                         <h1 class="fw-bold" style="font-size: 4rem"><?php echo $caseData['title']; ?></h1>
-                        <h6 class="fw-light pt-3 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem"><?php echo $caseData['description']; ?></h6>
+                        <p class="fw-light pt-3 fs-6 text-white-50 col-8" style="letter-spacing: 0.1rem;line-height: 1.5rem"><?php echo $caseData['description']; ?></p>
                         <div class="container p-0 mb-5 border-0 bg-cases mt-5">
                             <div class="accordion accordion-flush w-75" id="desktopAccordion">
                                 <?php $i = 0; ?>
@@ -104,7 +112,7 @@ $nextCase = $caseIndex < count($cases) ? $caseIndex + 1 : 1;  // Gå til første
                                             </button>
                                         </h2>
                                         <div id="collapse<?php echo $i; ?>" class="accordion-collapse collapse" aria-labelledby="heading<?php echo $i; ?>" data-bs-parent="#desktopAccordion">
-                                            <div class="accordion-body text-white">
+                                            <div class="accordion-body fs-6 text-white">
                                                 <p><?php echo $featureDesc; ?></p>
                                             </div>
                                         </div>
@@ -116,14 +124,14 @@ $nextCase = $caseIndex < count($cases) ? $caseIndex + 1 : 1;  // Gå til første
                     </div>
 
                     <!-- Forrige og Næste knapper -->
-                    <div class="d-flex ms-5 mt-4">
+                    <div class="d-flex ms-5 mb-5 mt-4">
                         <a href="caseinfo.php?case=<?php echo $prevCase; ?>" class="btn-f small"> < FORRIGE /></a>
                         <a href="caseinfo.php?case=<?php echo $nextCase; ?>" class="btn-f small ms-5">< NÆSTE /></a>
                     </div>
                 </div>
 
-                <div class="col bg-custom-dark m-0 p-0 mt-5">
-                    <h1 class="fw-bold" style="writing-mode: vertical-rl; font-size: 3.3rem; letter-spacing: 0.4rem; color: #343434">Case-Information</h1>
+                <div class="col bg-custom-dark d-flex justify-content-center align-items-center pt-5 m-0 p-0 mt-5">
+                    <p class="fw-bold fs-1" style="writing-mode: vertical-rl; letter-spacing: 0.4rem; color: #343434">Case-Information</p>
                 </div>
 
             </div>
